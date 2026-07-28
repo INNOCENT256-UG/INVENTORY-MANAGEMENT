@@ -1,0 +1,251 @@
+Customer ID,Customer Name,Industry,Location,Customer Segment,Registration Date,Customer Status
+CUST-0001,Customer 1,Healthcare,New York,Startup,2023-08-02,Inactive
+CUST-0002,Customer 2,Finance,Jacksonville,Enterprise,2021-04-02,Active
+CUST-0003,Customer 3,Energy,New York,Enterprise,2023-04-24,Active
+CUST-0004,Customer 4,Retail,Dallas,Non-Profit,2021-03-23,Active
+CUST-0005,Customer 5,Retail,Jacksonville,Non-Profit,2023-02-23,Churned
+CUST-0006,Customer 6,Transportation,San Jose,Startup,2021-03-27,Active
+CUST-0007,Customer 7,Energy,Philadelphia,Startup,2020-11-22,Inactive
+CUST-0008,Customer 8,Education,Los Angeles,Enterprise,2021-03-16,Churned
+CUST-0009,Customer 9,Education,Columbus,Startup,2020-07-17,Pending
+CUST-0010,Customer 10,Transportation,Dallas,Enterprise,2020-03-29,Churned
+CUST-0011,Customer 11,Real Estate,Phoenix,Non-Profit,2020-06-10,Pending
+CUST-0012,Customer 12,Retail,Jacksonville,Enterprise,2023-03-28,Active
+CUST-0013,Customer 13,Retail,Fort Worth,Startup,2023-09-16,Active
+CUST-0014,Customer 14,Healthcare,San Antonio,Startup,2021-04-21,Churned
+CUST-0015,Customer 15,Education,Chicago,Startup,2023-07-25,Pending
+CUST-0016,Customer 16,Manufacturing,Jacksonville,Enterprise,2021-03-05,Inactive
+CUST-0017,Customer 17,Retail,Chicago,Government,2022-12-29,Churned
+CUST-0018,Customer 18,Real Estate,Houston,Startup,2021-07-06,Active
+CUST-0019,Customer 19,Technology,Fort Worth,Startup,2021-04-14,Churned
+CUST-0020,Customer 20,Healthcare,Houston,Non-Profit,2021-07-02,Pending
+CUST-0021,Customer 21,Transportation,San Antonio,Government,2021-03-11,Inactive
+CUST-0022,Customer 22,Finance,Houston,Non-Profit,2021-06-26,Pending
+CUST-0023,Customer 23,Energy,Charlotte,Non-Profit,2023-04-12,Churned
+CUST-0024,Customer 24,Retail,Chicago,Non-Profit,2022-01-11,Churned
+CUST-0025,Customer 25,Technology,Columbus,Enterprise,2020-07-05,Inactive
+CUST-0026,Customer 26,Finance,Fort Worth,Government,2023-07-09,Active
+CUST-0027,Customer 27,Energy,San Jose,Government,2022-02-27,Pending
+CUST-0028,Customer 28,Technology,Austin,Enterprise,2023-02-07,Pending
+CUST-0029,Customer 29,Education,Los Angeles,Startup,2023-08-05,Churned
+CUST-0030,Customer 30,Transportation,New York,Startup,2020-11-19,Inactive
+CUST-0031,Customer 31,Healthcare,Columbus,Startup,2022-11-05,Inactive
+CUST-0032,Customer 32,Education,Fort Worth,SMB,2020-11-09,Active
+CUST-0033,Customer 33,Education,San Diego,Enterprise,2023-05-11,Active
+CUST-0034,Customer 34,Manufacturing,Houston,Enterprise,2022-01-13,Inactive
+CUST-0035,Customer 35,Healthcare,Los Angeles,Government,2023-03-07,Active
+CUST-0036,Customer 36,Finance,Chicago,Government,2022-12-26,Inactive
+CUST-0037,Customer 37,Real Estate,Columbus,Non-Profit,2021-06-26,Churned
+CUST-0038,Customer 38,Real Estate,Fort Worth,SMB,2021-03-09,Pending
+CUST-0039,Customer 39,Education,San Diego,Non-Profit,2022-03-28,Churned
+CUST-0040,Customer 40,Retail,Houston,Enterprise,2020-09-04,Pending
+CUST-0041,Customer 41,Consulting,Dallas,SMB,2020-02-13,Inactive
+CUST-0042,Customer 42,Healthcare,Jacksonville,Enterprise,2020-01-15,Inactive
+CUST-0043,Customer 43,Technology,Columbus,Startup,2020-05-18,Active
+CUST-0044,Customer 44,Retail,Phoenix,Government,2022-11-18,Inactive
+CUST-0045,Customer 45,Finance,Jacksonville,Non-Profit,2023-01-09,Churned
+CUST-0046,Customer 46,Transportation,Fort Worth,Government,2021-05-12,Inactive
+CUST-0047,Customer 47,Healthcare,Austin,Government,2020-07-12,Pending
+CUST-0048,Customer 48,Energy,San Diego,Enterprise,2022-05-17,Active
+CUST-0049,Customer 49,Energy,Jacksonville,Startup,2020-05-04,Active
+CUST-0050,Customer 50,Retail,Houston,Non-Profit,2021-05-24,Churned
+CUST-0051,Customer 51,Energy,Chicago,Startup,2020-10-14,Churned
+CUST-0052,Customer 52,Healthcare,San Diego,Non-Profit,2021-05-26,Active
+CUST-0053,Customer 53,Real Estate,Columbus,Enterprise,2020-04-13,Active
+CUST-0054,Customer 54,Finance,San Antonio,Government,2021-04-29,Churned
+CUST-0055,Customer 55,Energy,Charlotte,Enterprise,2021-03-13,Inactive
+CUST-0056,Customer 56,Technology,San Antonio,Startup,2022-02-15,Churned
+CUST-0057,Customer 57,Energy,Jacksonville,Non-Profit,2021-08-07,Churned
+CUST-0058,Customer 58,Retail,Phoenix,SMB,2020-11-13,Active
+CUST-0059,Customer 59,Real Estate,New York,Startup,2023-04-01,Active
+CUST-0060,Customer 60,Consulting,San Diego,Non-Profit,2020-04-12,Inactive
+CUST-0061,Customer 61,Real Estate,Los Angeles,SMB,2020-04-26,Active
+CUST-0062,Customer 62,Healthcare,Austin,SMB,2023-05-03,Churned
+CUST-0063,Customer 63,Consulting,Houston,Non-Profit,2020-09-02,Active
+CUST-0064,Customer 64,Healthcare,San Antonio,Non-Profit,2023-06-22,Pending
+CUST-0065,Customer 65,Retail,Austin,Startup,2021-06-18,Inactive
+CUST-0066,Customer 66,Energy,Chicago,Startup,2021-06-27,Churned
+CUST-0067,Customer 67,Healthcare,New York,Government,2021-10-09,Active
+CUST-0068,Customer 68,Real Estate,Houston,Non-Profit,2020-05-30,Pending
+CUST-0069,Customer 69,Education,Charlotte,Enterprise,2020-09-28,Inactive
+CUST-0070,Customer 70,Manufacturing,Chicago,Government,2022-01-26,Pending
+CUST-0071,Customer 71,Real Estate,New York,Non-Profit,2023-06-06,Pending
+CUST-0072,Customer 72,Healthcare,Charlotte,SMB,2023-09-20,Pending
+CUST-0073,Customer 73,Healthcare,Jacksonville,Non-Profit,2020-08-24,Inactive
+CUST-0074,Customer 74,Manufacturing,San Jose,SMB,2021-07-11,Pending
+CUST-0075,Customer 75,Manufacturing,Dallas,Government,2021-02-20,Pending
+CUST-0076,Customer 76,Healthcare,Austin,Government,2020-04-14,Pending
+CUST-0077,Customer 77,Technology,Philadelphia,SMB,2020-03-31,Pending
+CUST-0078,Customer 78,Transportation,Dallas,Government,2020-11-26,Active
+CUST-0079,Customer 79,Healthcare,Charlotte,SMB,2020-08-17,Active
+CUST-0080,Customer 80,Consulting,Dallas,SMB,2022-01-26,Churned
+CUST-0081,Customer 81,Technology,Phoenix,Startup,2020-09-18,Active
+CUST-0082,Customer 82,Retail,Austin,SMB,2022-01-02,Active
+CUST-0083,Customer 83,Real Estate,Charlotte,Government,2021-12-25,Inactive
+CUST-0084,Customer 84,Finance,Fort Worth,SMB,2021-04-29,Churned
+CUST-0085,Customer 85,Finance,Jacksonville,Startup,2020-02-20,Churned
+CUST-0086,Customer 86,Retail,Phoenix,SMB,2023-10-03,Active
+CUST-0087,Customer 87,Technology,Columbus,Government,2022-02-22,Inactive
+CUST-0088,Customer 88,Transportation,Philadelphia,Startup,2021-02-12,Inactive
+CUST-0089,Customer 89,Technology,Austin,SMB,2021-04-01,Churned
+CUST-0090,Customer 90,Manufacturing,Columbus,Enterprise,2021-11-03,Pending
+CUST-0091,Customer 91,Real Estate,San Antonio,Non-Profit,2021-12-20,Pending
+CUST-0092,Customer 92,Healthcare,Charlotte,Startup,2020-02-26,Inactive
+CUST-0093,Customer 93,Manufacturing,New York,Enterprise,2023-04-04,Churned
+CUST-0094,Customer 94,Education,San Antonio,Non-Profit,2021-12-08,Active
+CUST-0095,Customer 95,Consulting,Houston,Startup,2022-02-27,Active
+CUST-0096,Customer 96,Energy,New York,Non-Profit,2023-12-22,Inactive
+CUST-0097,Customer 97,Energy,Los Angeles,Startup,2022-01-15,Pending
+CUST-0098,Customer 98,Healthcare,Jacksonville,Startup,2023-09-20,Pending
+CUST-0099,Customer 99,Energy,Philadelphia,Government,2023-09-27,Pending
+CUST-0100,Customer 100,Finance,Houston,Government,2023-02-09,Churned
+CUST-0101,Customer 101,Finance,San Jose,Non-Profit,2023-10-19,Pending
+CUST-0102,Customer 102,Real Estate,Columbus,Enterprise,2022-04-11,Pending
+CUST-0103,Customer 103,Retail,San Antonio,Non-Profit,2021-08-10,Pending
+CUST-0104,Customer 104,Transportation,San Diego,SMB,2022-08-10,Churned
+CUST-0105,Customer 105,Healthcare,Phoenix,Non-Profit,2020-12-13,Pending
+CUST-0106,Customer 106,Retail,Austin,Startup,2020-07-10,Inactive
+CUST-0107,Customer 107,Finance,New York,Enterprise,2021-02-11,Inactive
+CUST-0108,Customer 108,Consulting,Columbus,Enterprise,2022-08-31,Churned
+CUST-0109,Customer 109,Consulting,Houston,Government,2022-04-28,Churned
+CUST-0110,Customer 110,Retail,Chicago,Enterprise,2022-03-29,Active
+CUST-0111,Customer 111,Retail,Chicago,Non-Profit,2022-05-20,Churned
+CUST-0112,Customer 112,Real Estate,Houston,Enterprise,2020-04-12,Churned
+CUST-0113,Customer 113,Transportation,Austin,Non-Profit,2020-09-30,Pending
+CUST-0114,Customer 114,Consulting,Columbus,Non-Profit,2022-06-25,Churned
+CUST-0115,Customer 115,Transportation,Charlotte,SMB,2023-01-27,Churned
+CUST-0116,Customer 116,Manufacturing,Fort Worth,SMB,2022-07-10,Pending
+CUST-0117,Customer 117,Transportation,Austin,SMB,2022-12-03,Pending
+CUST-0118,Customer 118,Healthcare,Jacksonville,Startup,2022-06-19,Inactive
+CUST-0119,Customer 119,Education,Philadelphia,Non-Profit,2021-07-10,Active
+CUST-0120,Customer 120,Finance,Houston,Government,2020-10-10,Inactive
+CUST-0121,Customer 121,Retail,Los Angeles,Government,2023-12-17,Churned
+CUST-0122,Customer 122,Real Estate,San Diego,Government,2021-11-08,Active
+CUST-0123,Customer 123,Energy,San Antonio,Non-Profit,2021-02-27,Active
+CUST-0124,Customer 124,Energy,San Diego,Enterprise,2023-03-25,Pending
+CUST-0125,Customer 125,Energy,Columbus,Government,2021-09-03,Inactive
+CUST-0126,Customer 126,Retail,Phoenix,Government,2022-09-26,Churned
+CUST-0127,Customer 127,Energy,Philadelphia,Government,2020-02-29,Inactive
+CUST-0128,Customer 128,Finance,San Jose,Non-Profit,2022-08-15,Active
+CUST-0129,Customer 129,Consulting,San Jose,Enterprise,2022-03-17,Active
+CUST-0130,Customer 130,Energy,Chicago,Government,2023-08-09,Inactive
+CUST-0131,Customer 131,Manufacturing,San Antonio,Startup,2020-04-12,Inactive
+CUST-0132,Customer 132,Education,Philadelphia,Government,2022-07-20,Pending
+CUST-0133,Customer 133,Manufacturing,Columbus,Enterprise,2022-05-13,Churned
+CUST-0134,Customer 134,Real Estate,New York,Startup,2020-02-09,Inactive
+CUST-0135,Customer 135,Healthcare,Fort Worth,Enterprise,2023-08-24,Active
+CUST-0136,Customer 136,Retail,Columbus,Enterprise,2021-05-21,Inactive
+CUST-0137,Customer 137,Finance,San Diego,Enterprise,2021-05-03,Inactive
+CUST-0138,Customer 138,Manufacturing,Fort Worth,Startup,2022-08-10,Inactive
+CUST-0139,Customer 139,Consulting,Jacksonville,Enterprise,2023-05-25,Inactive
+CUST-0140,Customer 140,Healthcare,San Jose,Enterprise,2021-09-29,Pending
+CUST-0141,Customer 141,Energy,San Antonio,SMB,2023-03-25,Active
+CUST-0142,Customer 142,Retail,Los Angeles,Startup,2023-04-27,Active
+CUST-0143,Customer 143,Technology,Philadelphia,Non-Profit,2023-03-05,Churned
+CUST-0144,Customer 144,Education,Los Angeles,Non-Profit,2023-09-16,Pending
+CUST-0145,Customer 145,Energy,Columbus,Government,2020-01-26,Active
+CUST-0146,Customer 146,Education,Austin,Government,2022-06-06,Inactive
+CUST-0147,Customer 147,Finance,Jacksonville,Non-Profit,2022-06-10,Pending
+CUST-0148,Customer 148,Real Estate,Fort Worth,Government,2023-06-15,Churned
+CUST-0149,Customer 149,Consulting,Phoenix,Startup,2022-06-11,Inactive
+CUST-0150,Customer 150,Manufacturing,Charlotte,Government,2020-06-26,Inactive
+CUST-0151,Customer 151,Consulting,San Jose,Government,2022-08-09,Pending
+CUST-0152,Customer 152,Transportation,Columbus,Startup,2020-02-28,Inactive
+CUST-0153,Customer 153,Retail,Philadelphia,Startup,2022-09-25,Pending
+CUST-0154,Customer 154,Consulting,Jacksonville,Startup,2021-07-26,Active
+CUST-0155,Customer 155,Retail,Los Angeles,SMB,2022-11-24,Churned
+CUST-0156,Customer 156,Real Estate,Fort Worth,SMB,2022-09-27,Churned
+CUST-0157,Customer 157,Transportation,San Diego,Enterprise,2023-08-15,Active
+CUST-0158,Customer 158,Retail,San Antonio,SMB,2021-08-25,Pending
+CUST-0159,Customer 159,Consulting,Philadelphia,Government,2023-09-21,Pending
+CUST-0160,Customer 160,Real Estate,Philadelphia,Startup,2022-05-21,Churned
+CUST-0161,Customer 161,Manufacturing,Phoenix,SMB,2021-07-08,Active
+CUST-0162,Customer 162,Retail,Philadelphia,Enterprise,2024-01-17,Inactive
+CUST-0163,Customer 163,Retail,Jacksonville,Government,2021-01-27,Pending
+CUST-0164,Customer 164,Consulting,Fort Worth,Non-Profit,2024-01-23,Pending
+CUST-0165,Customer 165,Retail,Phoenix,SMB,2020-07-24,Pending
+CUST-0166,Customer 166,Manufacturing,New York,Non-Profit,2021-01-02,Inactive
+CUST-0167,Customer 167,Technology,New York,Non-Profit,2021-07-15,Pending
+CUST-0168,Customer 168,Finance,Austin,Government,2023-11-29,Active
+CUST-0169,Customer 169,Consulting,Phoenix,Government,2020-01-26,Churned
+CUST-0170,Customer 170,Education,Chicago,Enterprise,2022-06-21,Pending
+CUST-0171,Customer 171,Healthcare,Columbus,Enterprise,2022-09-05,Churned
+CUST-0172,Customer 172,Healthcare,San Jose,Enterprise,2022-10-04,Inactive
+CUST-0173,Customer 173,Consulting,Phoenix,Enterprise,2020-11-01,Inactive
+CUST-0174,Customer 174,Real Estate,Fort Worth,Government,2020-08-30,Inactive
+CUST-0175,Customer 175,Energy,San Diego,Government,2022-12-06,Pending
+CUST-0176,Customer 176,Energy,Phoenix,Non-Profit,2023-04-20,Active
+CUST-0177,Customer 177,Healthcare,Fort Worth,SMB,2023-06-02,Inactive
+CUST-0178,Customer 178,Healthcare,Chicago,SMB,2021-06-25,Inactive
+CUST-0179,Customer 179,Healthcare,Chicago,Enterprise,2023-02-04,Churned
+CUST-0180,Customer 180,Consulting,San Diego,Startup,2022-07-11,Active
+CUST-0181,Customer 181,Manufacturing,Jacksonville,Startup,2021-04-19,Churned
+CUST-0182,Customer 182,Retail,Charlotte,Startup,2020-05-25,Inactive
+CUST-0183,Customer 183,Healthcare,Dallas,SMB,2022-05-20,Inactive
+CUST-0184,Customer 184,Finance,Los Angeles,Enterprise,2021-06-28,Inactive
+CUST-0185,Customer 185,Consulting,Jacksonville,Non-Profit,2021-09-21,Pending
+CUST-0186,Customer 186,Healthcare,San Diego,Startup,2022-06-18,Churned
+CUST-0187,Customer 187,Real Estate,Dallas,Government,2021-07-11,Churned
+CUST-0188,Customer 188,Consulting,New York,Government,2020-06-13,Pending
+CUST-0189,Customer 189,Manufacturing,New York,Enterprise,2023-05-21,Inactive
+CUST-0190,Customer 190,Consulting,San Jose,Enterprise,2023-10-12,Pending
+CUST-0191,Customer 191,Technology,Fort Worth,SMB,2023-03-26,Churned
+CUST-0192,Customer 192,Transportation,Charlotte,Startup,2022-11-28,Inactive
+CUST-0193,Customer 193,Energy,Austin,Government,2023-04-13,Active
+CUST-0194,Customer 194,Education,San Antonio,Startup,2022-08-20,Pending
+CUST-0195,Customer 195,Healthcare,Columbus,SMB,2023-10-04,Pending
+CUST-0196,Customer 196,Transportation,Phoenix,Government,2022-04-23,Active
+CUST-0197,Customer 197,Healthcare,Philadelphia,Startup,2022-07-20,Pending
+CUST-0198,Customer 198,Energy,Columbus,Non-Profit,2020-08-25,Active
+CUST-0199,Customer 199,Real Estate,San Diego,Government,2023-09-08,Active
+CUST-0200,Customer 200,Real Estate,Philadelphia,Non-Profit,2021-01-19,Churned
+CUST-0201,Customer 201,Transportation,Fort Worth,Enterprise,2023-07-04,Inactive
+CUST-0202,Customer 202,Real Estate,Chicago,Startup,2021-06-30,Churned
+CUST-0203,Customer 203,Transportation,Los Angeles,Enterprise,2023-12-01,Inactive
+CUST-0204,Customer 204,Finance,Phoenix,Non-Profit,2023-12-24,Active
+CUST-0205,Customer 205,Energy,Los Angeles,SMB,2023-02-05,Active
+CUST-0206,Customer 206,Healthcare,Austin,SMB,2022-08-03,Churned
+CUST-0207,Customer 207,Manufacturing,Dallas,Startup,2024-01-07,Churned
+CUST-0208,Customer 208,Transportation,Houston,Government,2022-09-15,Inactive
+CUST-0209,Customer 209,Retail,Charlotte,Non-Profit,2022-02-24,Inactive
+CUST-0210,Customer 210,Manufacturing,Fort Worth,Government,2020-05-22,Pending
+CUST-0211,Customer 211,Manufacturing,Columbus,Enterprise,2022-11-05,Pending
+CUST-0212,Customer 212,Manufacturing,Columbus,Non-Profit,2024-01-26,Churned
+CUST-0213,Customer 213,Transportation,Dallas,Government,2020-10-31,Pending
+CUST-0214,Customer 214,Real Estate,Fort Worth,Non-Profit,2021-11-11,Churned
+CUST-0215,Customer 215,Education,Columbus,SMB,2022-07-21,Inactive
+CUST-0216,Customer 216,Energy,Houston,Government,2023-03-17,Active
+CUST-0217,Customer 217,Transportation,Jacksonville,Government,2021-10-13,Churned
+CUST-0218,Customer 218,Finance,San Diego,Enterprise,2023-09-21,Inactive
+CUST-0219,Customer 219,Consulting,Philadelphia,Enterprise,2022-10-25,Churned
+CUST-0220,Customer 220,Real Estate,Charlotte,Government,2020-07-23,Active
+CUST-0221,Customer 221,Finance,San Antonio,SMB,2024-01-19,Active
+CUST-0222,Customer 222,Manufacturing,Philadelphia,Non-Profit,2022-08-19,Churned
+CUST-0223,Customer 223,Healthcare,Columbus,Startup,2023-08-23,Churned
+CUST-0224,Customer 224,Transportation,Columbus,Non-Profit,2021-10-10,Active
+CUST-0225,Customer 225,Healthcare,Houston,Startup,2023-06-18,Inactive
+CUST-0226,Customer 226,Energy,Los Angeles,Enterprise,2020-07-04,Churned
+CUST-0227,Customer 227,Manufacturing,Charlotte,Enterprise,2020-12-06,Active
+CUST-0228,Customer 228,Technology,Phoenix,Startup,2021-10-26,Pending
+CUST-0229,Customer 229,Finance,Houston,Non-Profit,2022-06-01,Churned
+CUST-0230,Customer 230,Finance,Chicago,SMB,2023-03-05,Active
+CUST-0231,Customer 231,Energy,San Jose,SMB,2023-06-02,Churned
+CUST-0232,Customer 232,Finance,Houston,Government,2023-04-09,Pending
+CUST-0233,Customer 233,Manufacturing,Austin,Enterprise,2022-07-30,Churned
+CUST-0234,Customer 234,Real Estate,Chicago,Enterprise,2021-08-12,Churned
+CUST-0235,Customer 235,Consulting,Phoenix,Government,2021-12-08,Pending
+CUST-0236,Customer 236,Manufacturing,Houston,Government,2022-07-24,Churned
+CUST-0237,Customer 237,Retail,San Antonio,Non-Profit,2020-08-06,Pending
+CUST-0238,Customer 238,Manufacturing,Jacksonville,Startup,2023-03-23,Active
+CUST-0239,Customer 239,Energy,Phoenix,Enterprise,2023-09-10,Active
+CUST-0240,Customer 240,Transportation,Columbus,Startup,2023-05-26,Inactive
+CUST-0241,Customer 241,Education,Houston,SMB,2023-05-28,Pending
+CUST-0242,Customer 242,Finance,Austin,Enterprise,2023-10-20,Active
+CUST-0243,Customer 243,Transportation,New York,Non-Profit,2021-09-24,Pending
+CUST-0244,Customer 244,Finance,Los Angeles,Startup,2024-02-08,Pending
+CUST-0245,Customer 245,Finance,Houston,SMB,2022-04-30,Pending
+CUST-0246,Customer 246,Real Estate,Charlotte,Startup,2022-12-23,Inactive
+CUST-0247,Customer 247,Transportation,Fort Worth,Startup,2021-06-10,Pending
+CUST-0248,Customer 248,Transportation,Los Angeles,SMB,2020-08-23,Inactive
+CUST-0249,Customer 249,Energy,Columbus,Non-Profit,2023-10-17,Pending
+CUST-0250,Customer 250,Energy,New York,Startup,2020-07-03,Active

@@ -1,0 +1,151 @@
+Lead ID,Customer Name,Sales Stage,Opportunity Value,Probability %,Expected Revenue,Sales Owner,Closing Date
+LEAD-0001,Customer 241,Closed Lost,60364.08,0.0,0.0,Sarah Johnson,2024-01-05
+LEAD-0002,Customer 139,Closed Lost,82007.28,0.0,0.0,Sarah Johnson,2024-12-28
+LEAD-0003,Customer 52,Qualification,48562.12,0.25,12140.53,Ashley Taylor,2024-10-15
+LEAD-0004,Customer 209,Qualification,31431.11,0.25,7857.78,Michael Brown,2024-09-02
+LEAD-0005,Customer 63,Prospecting,54809.12,0.1,5480.91,Sarah Johnson,2024-05-16
+LEAD-0006,Customer 6,Prospecting,11178.72,0.1,1117.87,Sarah Johnson,2024-05-31
+LEAD-0007,Customer 131,Negotiation,15041.67,0.75,11281.25,John Smith,2024-04-24
+LEAD-0008,Customer 59,Negotiation,39152.92,0.75,29364.69,David Wilson,2024-06-29
+LEAD-0009,Customer 58,Closed Lost,39089.64,0.0,0.0,Ashley Taylor,2024-02-27
+LEAD-0010,Customer 44,Prospecting,23227.72,0.1,2322.77,Jessica Martinez,2024-05-24
+LEAD-0011,Customer 20,Closed Won,34038.75,1.0,34038.75,Sarah Johnson,2024-07-03
+LEAD-0012,Customer 230,Prospecting,60846.13,0.1,6084.61,James Anderson,2024-04-01
+LEAD-0013,Customer 136,Proposal,60361.54,0.5,30180.77,James Anderson,2024-12-13
+LEAD-0014,Customer 39,Closed Lost,69028.91,0.0,0.0,David Wilson,2024-11-15
+LEAD-0015,Customer 90,Prospecting,27838.23,0.1,2783.82,Jessica Martinez,2024-09-12
+LEAD-0016,Customer 239,Proposal,81261.22,0.5,40630.61,Sarah Johnson,2024-12-30
+LEAD-0017,Customer 202,Prospecting,86309.68,0.1,8630.97,Michael Brown,2024-03-17
+LEAD-0018,Customer 82,Qualification,39669.36,0.25,9917.34,Sarah Johnson,2024-09-01
+LEAD-0019,Customer 29,Closed Won,43317.86,1.0,43317.86,Michael Brown,2024-05-22
+LEAD-0020,Customer 24,Proposal,99482.4,0.5,49741.2,James Anderson,2024-04-03
+LEAD-0021,Customer 91,Proposal,49926.44,0.5,24963.22,James Anderson,2024-09-03
+LEAD-0022,Customer 155,Closed Lost,34013.05,0.0,0.0,Emily Davis,2024-11-30
+LEAD-0023,Customer 99,Negotiation,55384.59,0.75,41538.44,Ashley Taylor,2024-10-02
+LEAD-0024,Customer 137,Closed Won,82319.02,1.0,82319.02,Sarah Johnson,2024-07-15
+LEAD-0025,Customer 149,Closed Lost,42762.24,0.0,0.0,Emily Davis,2024-10-22
+LEAD-0026,Customer 180,Prospecting,24284.11,0.1,2428.41,Emily Davis,2024-01-02
+LEAD-0027,Customer 218,Prospecting,36877.45,0.1,3687.74,Michael Brown,2024-08-30
+LEAD-0028,Customer 236,Prospecting,6898.16,0.1,689.82,Jessica Martinez,2024-06-27
+LEAD-0029,Customer 218,Qualification,30175.03,0.25,7543.76,James Anderson,2024-03-14
+LEAD-0030,Customer 63,Qualification,82954.36,0.25,20738.59,Michael Brown,2024-01-29
+LEAD-0031,Customer 31,Closed Lost,70692.32,0.0,0.0,John Smith,2024-07-12
+LEAD-0032,Customer 179,Negotiation,37796.74,0.75,28347.56,Sarah Johnson,2024-12-25
+LEAD-0033,Customer 170,Closed Won,8303.26,1.0,8303.26,Michael Brown,2024-10-31
+LEAD-0034,Customer 8,Qualification,37159.18,0.25,9289.8,Emily Davis,2024-02-10
+LEAD-0035,Customer 20,Prospecting,57349.13,0.1,5734.91,Michael Brown,2024-08-01
+LEAD-0036,Customer 196,Qualification,47506.71,0.25,11876.68,David Wilson,2024-03-12
+LEAD-0037,Customer 121,Negotiation,72533.18,0.75,54399.88,John Smith,2024-08-15
+LEAD-0038,Customer 74,Prospecting,16432.85,0.1,1643.28,John Smith,2024-11-24
+LEAD-0039,Customer 155,Qualification,50826.25,0.25,12706.56,James Anderson,2024-01-06
+LEAD-0040,Customer 214,Negotiation,68310.45,0.75,51232.84,David Wilson,2024-08-20
+LEAD-0041,Customer 236,Closed Won,50685.37,1.0,50685.37,Emily Davis,2024-12-29
+LEAD-0042,Customer 109,Qualification,27910.93,0.25,6977.73,James Anderson,2024-02-17
+LEAD-0043,Customer 244,Qualification,74570.34,0.25,18642.58,John Smith,2024-07-24
+LEAD-0044,Customer 57,Negotiation,19185.68,0.75,14389.26,Sarah Johnson,2024-10-13
+LEAD-0045,Customer 210,Closed Lost,47375.17,0.0,0.0,James Anderson,2024-06-09
+LEAD-0046,Customer 212,Negotiation,17317.61,0.75,12988.21,James Anderson,2024-07-09
+LEAD-0047,Customer 50,Proposal,11731.69,0.5,5865.85,Jessica Martinez,2024-02-09
+LEAD-0048,Customer 155,Proposal,3776.84,0.5,1888.42,Michael Brown,2024-05-24
+LEAD-0049,Customer 139,Prospecting,7466.6,0.1,746.66,John Smith,2024-11-01
+LEAD-0050,Customer 194,Proposal,19586.64,0.5,9793.32,John Smith,2024-04-13
+LEAD-0051,Customer 62,Proposal,9418.9,0.5,4709.45,John Smith,2024-10-18
+LEAD-0052,Customer 145,Negotiation,5522.38,0.75,4141.78,Sarah Johnson,2024-06-10
+LEAD-0053,Customer 242,Proposal,1839.39,0.5,919.7,David Wilson,2024-07-01
+LEAD-0054,Customer 246,Negotiation,50521.39,0.75,37891.04,James Anderson,2024-06-10
+LEAD-0055,Customer 186,Proposal,97411.22,0.5,48705.61,Sarah Johnson,2024-12-25
+LEAD-0056,Customer 85,Negotiation,89754.61,0.75,67315.96,Sarah Johnson,2024-09-14
+LEAD-0057,Customer 129,Qualification,3344.85,0.25,836.21,Ashley Taylor,2024-07-14
+LEAD-0058,Customer 151,Prospecting,29721.82,0.1,2972.18,Ashley Taylor,2024-03-18
+LEAD-0059,Customer 21,Closed Lost,10235.8,0.0,0.0,Emily Davis,2024-04-28
+LEAD-0060,Customer 207,Closed Lost,65767.79,0.0,0.0,Jessica Martinez,2024-03-23
+LEAD-0061,Customer 115,Qualification,34563.05,0.25,8640.76,James Anderson,2024-07-03
+LEAD-0062,Customer 11,Closed Lost,77643.33,0.0,0.0,Emily Davis,2024-07-17
+LEAD-0063,Customer 54,Closed Won,61080.83,1.0,61080.83,Ashley Taylor,2024-03-19
+LEAD-0064,Customer 25,Prospecting,15119.63,0.1,1511.96,Sarah Johnson,2024-06-07
+LEAD-0065,Customer 128,Prospecting,46025.98,0.1,4602.6,David Wilson,2024-03-27
+LEAD-0066,Customer 42,Prospecting,28731.61,0.1,2873.16,Jessica Martinez,2024-07-05
+LEAD-0067,Customer 23,Prospecting,18739.44,0.1,1873.94,David Wilson,2024-08-23
+LEAD-0068,Customer 122,Proposal,76551.49,0.5,38275.75,Michael Brown,2024-08-14
+LEAD-0069,Customer 241,Prospecting,97196.38,0.1,9719.64,John Smith,2024-09-06
+LEAD-0070,Customer 94,Proposal,40692.98,0.5,20346.49,Michael Brown,2024-11-13
+LEAD-0071,Customer 113,Proposal,51735.45,0.5,25867.72,Jessica Martinez,2024-11-15
+LEAD-0072,Customer 96,Prospecting,68537.89,0.1,6853.79,Ashley Taylor,2024-09-16
+LEAD-0073,Customer 68,Closed Lost,5224.88,0.0,0.0,John Smith,2024-11-25
+LEAD-0074,Customer 190,Qualification,70274.78,0.25,17568.69,John Smith,2024-10-14
+LEAD-0075,Customer 40,Prospecting,29775.4,0.1,2977.54,James Anderson,2024-03-22
+LEAD-0076,Customer 219,Prospecting,23082.08,0.1,2308.21,Sarah Johnson,2024-08-24
+LEAD-0077,Customer 90,Negotiation,47380.38,0.75,35535.28,Ashley Taylor,2024-09-30
+LEAD-0078,Customer 28,Prospecting,18847.06,0.1,1884.71,James Anderson,2024-02-25
+LEAD-0079,Customer 197,Negotiation,20747.63,0.75,15560.72,Sarah Johnson,2024-06-17
+LEAD-0080,Customer 82,Proposal,99647.38,0.5,49823.69,Emily Davis,2024-09-05
+LEAD-0081,Customer 180,Closed Lost,48145.73,0.0,0.0,Ashley Taylor,2024-05-22
+LEAD-0082,Customer 10,Closed Won,16418.37,1.0,16418.37,Michael Brown,2024-08-28
+LEAD-0083,Customer 164,Qualification,32698.48,0.25,8174.62,James Anderson,2024-01-17
+LEAD-0084,Customer 16,Proposal,79166.35,0.5,39583.18,Emily Davis,2024-08-30
+LEAD-0085,Customer 14,Qualification,86934.04,0.25,21733.51,James Anderson,2024-12-16
+LEAD-0086,Customer 70,Proposal,63933.04,0.5,31966.52,Michael Brown,2024-02-12
+LEAD-0087,Customer 18,Proposal,41101.78,0.5,20550.89,Ashley Taylor,2024-06-01
+LEAD-0088,Customer 224,Negotiation,52953.02,0.75,39714.76,David Wilson,2024-12-08
+LEAD-0089,Customer 48,Prospecting,10151.68,0.1,1015.17,Jessica Martinez,2024-08-07
+LEAD-0090,Customer 247,Proposal,17288.79,0.5,8644.4,James Anderson,2024-06-27
+LEAD-0091,Customer 124,Negotiation,54015.12,0.75,40511.34,James Anderson,2024-03-23
+LEAD-0092,Customer 91,Closed Lost,57461.37,0.0,0.0,Emily Davis,2024-01-06
+LEAD-0093,Customer 20,Closed Lost,67128.29,0.0,0.0,Michael Brown,2024-11-11
+LEAD-0094,Customer 83,Closed Lost,98650.43,0.0,0.0,John Smith,2024-06-11
+LEAD-0095,Customer 39,Negotiation,93448.12,0.75,70086.09,Jessica Martinez,2024-09-12
+LEAD-0096,Customer 30,Closed Lost,41232.28,0.0,0.0,John Smith,2024-09-23
+LEAD-0097,Customer 116,Qualification,63795.01,0.25,15948.75,Sarah Johnson,2024-11-23
+LEAD-0098,Customer 10,Qualification,74825.05,0.25,18706.26,James Anderson,2024-04-06
+LEAD-0099,Customer 179,Closed Won,77664.06,1.0,77664.06,James Anderson,2024-11-03
+LEAD-0100,Customer 56,Proposal,21766.54,0.5,10883.27,John Smith,2024-04-07
+LEAD-0101,Customer 95,Proposal,2602.94,0.5,1301.47,Sarah Johnson,2024-06-06
+LEAD-0102,Customer 180,Negotiation,65242.26,0.75,48931.69,James Anderson,2024-08-21
+LEAD-0103,Customer 106,Proposal,35868.91,0.5,17934.46,James Anderson,2024-10-04
+LEAD-0104,Customer 134,Proposal,12224.62,0.5,6112.31,Ashley Taylor,2024-03-31
+LEAD-0105,Customer 110,Proposal,18512.62,0.5,9256.31,Michael Brown,2024-10-31
+LEAD-0106,Customer 139,Negotiation,38774.77,0.75,29081.08,James Anderson,2024-12-03
+LEAD-0107,Customer 163,Proposal,70507.17,0.5,35253.58,Sarah Johnson,2024-02-20
+LEAD-0108,Customer 207,Prospecting,9874.16,0.1,987.42,James Anderson,2024-01-09
+LEAD-0109,Customer 27,Negotiation,75244.42,0.75,56433.32,Sarah Johnson,2024-11-15
+LEAD-0110,Customer 163,Negotiation,50832.79,0.75,38124.59,David Wilson,2024-01-17
+LEAD-0111,Customer 219,Negotiation,21975.24,0.75,16481.43,James Anderson,2024-08-20
+LEAD-0112,Customer 30,Qualification,85777.92,0.25,21444.48,Jessica Martinez,2024-03-04
+LEAD-0113,Customer 248,Negotiation,41880.54,0.75,31410.4,James Anderson,2024-11-26
+LEAD-0114,Customer 2,Proposal,78437.41,0.5,39218.71,David Wilson,2024-09-16
+LEAD-0115,Customer 69,Closed Lost,27185.41,0.0,0.0,Emily Davis,2024-07-31
+LEAD-0116,Customer 2,Negotiation,4234.79,0.75,3176.09,Michael Brown,2024-01-14
+LEAD-0117,Customer 203,Proposal,84236.19,0.5,42118.1,Jessica Martinez,2024-09-22
+LEAD-0118,Customer 86,Qualification,95956.9,0.25,23989.22,Emily Davis,2024-08-08
+LEAD-0119,Customer 143,Negotiation,20073.38,0.75,15055.03,James Anderson,2024-11-25
+LEAD-0120,Customer 213,Prospecting,80331.83,0.1,8033.18,James Anderson,2024-10-22
+LEAD-0121,Customer 33,Closed Lost,39650.76,0.0,0.0,James Anderson,2024-03-29
+LEAD-0122,Customer 232,Proposal,52210.43,0.5,26105.22,Emily Davis,2024-08-11
+LEAD-0123,Customer 26,Closed Lost,80316.03,0.0,0.0,Sarah Johnson,2024-09-15
+LEAD-0124,Customer 162,Closed Won,78643.85,1.0,78643.85,David Wilson,2024-11-17
+LEAD-0125,Customer 215,Closed Won,16746.26,1.0,16746.26,Emily Davis,2024-06-14
+LEAD-0126,Customer 24,Prospecting,3538.38,0.1,353.84,Michael Brown,2024-01-06
+LEAD-0127,Customer 8,Closed Won,71050.02,1.0,71050.02,James Anderson,2024-02-10
+LEAD-0128,Customer 7,Closed Lost,73682.75,0.0,0.0,Jessica Martinez,2024-08-20
+LEAD-0129,Customer 48,Qualification,65599.75,0.25,16399.94,David Wilson,2024-04-23
+LEAD-0130,Customer 50,Closed Won,84205.22,1.0,84205.22,David Wilson,2024-07-12
+LEAD-0131,Customer 169,Prospecting,28221.52,0.1,2822.15,John Smith,2024-03-14
+LEAD-0132,Customer 164,Closed Won,86826.97,1.0,86826.97,Ashley Taylor,2024-02-26
+LEAD-0133,Customer 238,Closed Won,13145.75,1.0,13145.75,David Wilson,2024-03-13
+LEAD-0134,Customer 68,Qualification,10184.94,0.25,2546.24,Jessica Martinez,2024-09-10
+LEAD-0135,Customer 234,Qualification,39689.22,0.25,9922.31,John Smith,2024-09-08
+LEAD-0136,Customer 106,Prospecting,49165.21,0.1,4916.52,Sarah Johnson,2024-11-16
+LEAD-0137,Customer 54,Closed Lost,42570.8,0.0,0.0,Ashley Taylor,2024-06-09
+LEAD-0138,Customer 207,Qualification,18800.84,0.25,4700.21,Michael Brown,2024-01-06
+LEAD-0139,Customer 169,Closed Won,63490.13,1.0,63490.13,Sarah Johnson,2024-01-17
+LEAD-0140,Customer 250,Proposal,99380.22,0.5,49690.11,John Smith,2024-09-04
+LEAD-0141,Customer 41,Closed Won,74427.99,1.0,74427.99,Emily Davis,2024-03-03
+LEAD-0142,Customer 156,Prospecting,54059.46,0.1,5405.95,Michael Brown,2024-09-22
+LEAD-0143,Customer 56,Proposal,12364.06,0.5,6182.03,John Smith,2024-04-21
+LEAD-0144,Customer 84,Qualification,22756.35,0.25,5689.09,Michael Brown,2024-12-20
+LEAD-0145,Customer 69,Proposal,48675.91,0.5,24337.96,Jessica Martinez,2024-02-17
+LEAD-0146,Customer 182,Closed Won,65540.53,1.0,65540.53,Ashley Taylor,2024-08-27
+LEAD-0147,Customer 112,Closed Won,94688.22,1.0,94688.22,David Wilson,2024-04-08
+LEAD-0148,Customer 45,Qualification,69018.69,0.25,17254.67,James Anderson,2024-05-23
+LEAD-0149,Customer 27,Closed Won,79522.17,1.0,79522.17,David Wilson,2024-10-27
+LEAD-0150,Customer 43,Qualification,95422.45,0.25,23855.61,James Anderson,2024-09-06

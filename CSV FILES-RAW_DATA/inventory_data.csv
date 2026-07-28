@@ -1,0 +1,1189 @@
+Product ID,Product Name,Category,Supplier,Purchase Date,Unit Cost,Selling Price,Quantity In Stock,Reorder Level,Warehouse Location,Sales Quantity,Revenue,Profit
+PRD-1320,Green Tea - Premium,Food & Beverage,Quality Goods Ltd.,2026-01-26,14.69,24.46,218,79,WH-C1,207,5063.22,2022.39
+PRD-2157,Deodorant - Standard,Health & Beauty,Premium Suppliers,2024-07-27,11.14,19.46,20,37,WH-D1,169,3288.74,1406.08
+PRD-1908,Building Blocks - Ultra,Toys,Quality Goods Ltd.,2024-08-20,37.11,90.2,269,100,WH-C2,42,3788.4,2229.78
+PRD-1087,Power Bank - Plus,Electronics,Quality Goods Ltd.,2025-12-03,81.76,135.94,362,88,WH-B1,23,3126.62,1246.14
+PRD-1937,Puzzle Set - Standard,Toys,Prime Distributors,2025-01-27,23.98,41.44,410,74,WH-D1,209,8660.96,3649.14
+PRD-1459,Spices - Elite,Food & Beverage,Quality Goods Ltd.,2025-12-31,19.89,41.08,498,45,WH-C1,209,8585.72,4428.71
+PRD-2051,Face Cream - Ultra,Health & Beauty,FastTrack Logistics,2025-04-28,16.89,30.09,17,88,WH-A2,24,722.16,316.8
+PRD-1679,Hiking Boots - Elite,Sports & Outdoors,TechSupply Co.,2025-07-30,60.44,130.85,5,45,WH-B1,130,17010.5,9153.3
+PRD-1324,Green Tea - Pro,Food & Beverage,Value Wholesalers,2025-06-17,15.5,26.01,432,78,WH-C1,152,3953.52,1597.52
+PRD-1362,Olive Oil - Plus,Food & Beverage,TechSupply Co.,2025-03-02,23.92,43.5,400,53,WH-A2,64,2784.0,1253.12
+PRD-1221,Sneakers - Premium,Clothing,Elite Imports,2024-08-21,37.24,81.19,352,27,WH-A2,212,17212.28,9317.4
+PRD-1683,Bike Helmet - Premium,Sports & Outdoors,Premium Suppliers,2025-05-26,93.5,137.19,266,58,WH-B2,161,22087.59,7034.09
+PRD-1957,Remote Control Car - Lite,Toys,Premium Suppliers,2025-09-25,26.87,61.56,72,95,WH-B1,156,9603.36,5411.64
+PRD-1715,Tennis Racket - Lite,Sports & Outdoors,Value Wholesalers,2025-07-20,85.6,135.69,446,36,WH-D1,36,4884.84,1803.24
+PRD-1244,Hoodie - Standard,Clothing,Premium Suppliers,2024-09-20,26.46,58.7,103,88,WH-B2,287,16846.9,9252.88
+PRD-1171,Denim Jeans - Ultra,Clothing,Quality Goods Ltd.,2024-11-11,42.25,72.94,31,77,WH-B1,175,12764.5,5370.75
+PRD-1275,Polo Shirt - Lite,Clothing,Prime Distributors,2025-04-05,73.86,173.1,495,73,WH-D1,68,11770.8,6748.32
+PRD-1676,Hiking Boots - Pro,Sports & Outdoors,FastTrack Logistics,2024-12-12,99.55,181.64,66,98,WH-C1,266,48316.24,21835.94
+PRD-1860,Poetry Collection - Standard,Books,FastTrack Logistics,2026-02-09,9.92,24.22,207,50,WH-C2,98,2373.56,1401.4
+PRD-1667,Camping Tent - Classic,Sports & Outdoors,TechSupply Co.,2025-03-01,86.99,178.52,2,97,WH-B2,121,21600.92,11075.13
+PRD-1998,Science Kit - Elite,Toys,Value Wholesalers,2026-04-16,32.78,62.65,442,96,WH-B2,5,313.25,149.35
+PRD-1266,Polo Shirt - Standard,Clothing,Global Traders Inc.,2025-01-19,36.3,61.38,114,20,WH-A2,152,9329.76,3812.16
+PRD-1851,Art Book - Basic,Books,Global Traders Inc.,2025-03-10,5.7,14.51,172,83,WH-D1,173,2510.23,1524.13
+PRD-1200,Casual Shirt - Standard,Clothing,Premium Suppliers,2025-02-07,27.2,44.17,217,30,WH-D1,92,4063.64,1561.24
+PRD-1931,Action Figure - Classic,Toys,Premium Suppliers,2026-06-06,39.65,81.56,458,39,WH-D1,263,21450.28,11022.33
+PRD-1297,Athletic Socks - Lite,Clothing,Global Traders Inc.,2025-08-03,11.87,25.59,429,29,WH-C1,203,5194.77,2785.16
+PRD-1368,Pasta Sauce - Pro,Food & Beverage,Premium Suppliers,2025-02-24,17.49,25.22,114,86,WH-A1,205,5170.1,1584.65
+PRD-1668,Camping Tent - Elite,Sports & Outdoors,Quality Goods Ltd.,2024-09-16,52.81,99.93,40,96,WH-C1,125,12491.25,5890.0
+PRD-1169,Denim Jeans - Basic,Clothing,Global Traders Inc.,2025-04-07,40.54,64.27,425,56,WH-B1,0,0.0,0.0
+PRD-1345,Mixed Nuts - Basic,Food & Beverage,Global Traders Inc.,2025-07-19,7.76,13.17,462,41,WH-C2,0,0.0,0.0
+PRD-1448,Rice Crackers - Elite,Food & Beverage,FastTrack Logistics,2026-02-01,15.25,23.28,402,31,WH-A2,222,5168.16,1782.66
+PRD-1059,Laptop Stand - Basic,Electronics,Elite Imports,2025-11-16,42.3,89.89,457,33,WH-B2,112,10067.68,5330.08
+PRD-1672,Hiking Boots - Premium,Sports & Outdoors,Prime Distributors,2024-12-08,42.42,61.21,393,58,WH-B2,194,11874.74,3645.26
+PRD-1332,Protein Bars - Standard,Food & Beverage,TechSupply Co.,2025-04-28,14.57,31.93,52,51,WH-D1,16,510.88,277.76
+PRD-1619,Yoga Mat - Deluxe,Sports & Outdoors,Premium Suppliers,2025-11-19,60.68,100.53,392,90,WH-C1,130,13068.9,5180.5
+PRD-1024,Bluetooth Speaker - Standard,Electronics,Quality Goods Ltd.,2026-03-10,148.82,351.05,295,80,WH-C1,242,84954.1,48939.66
+PRD-1812,History Book - Max,Books,Value Wholesalers,2025-03-07,27.48,68.77,14,35,WH-A2,252,17330.04,10405.08
+PRD-1478,Garden Hose - Pro,Home & Garden,Premium Suppliers,2024-10-27,38.0,92.4,186,77,WH-C1,113,10441.2,6147.2
+PRD-1291,Athletic Socks - Pro,Clothing,Premium Suppliers,2025-04-09,48.68,145.33,115,58,WH-B2,41,5958.53,3962.65
+PRD-1426,Energy Drink - Elite,Food & Beverage,FastTrack Logistics,2025-10-09,21.39,44.63,350,32,WH-B1,116,5177.08,2695.84
+PRD-1853,Art Book - Ultra,Books,Quality Goods Ltd.,2025-10-25,4.28,12.82,205,48,WH-B1,47,602.54,401.38
+PRD-1848,Art Book - Premium,Books,Quality Goods Ltd.,2025-11-25,20.5,49.81,466,28,WH-A2,58,2888.98,1699.98
+PRD-1651,Water Bottle - Standard,Sports & Outdoors,Global Traders Inc.,2026-01-15,12.36,31.93,315,54,WH-A2,118,3767.74,2309.26
+PRD-1919,Board Game - Ultra,Toys,Elite Imports,2025-03-25,23.98,38.76,462,39,WH-A2,227,8798.52,3355.06
+PRD-1724,Basketball - Max,Sports & Outdoors,FastTrack Logistics,2024-12-23,33.44,72.07,296,41,WH-C2,149,10738.43,5755.87
+PRD-1050,Phone Case - Ultra,Electronics,FastTrack Logistics,2024-12-06,193.07,312.5,55,96,WH-A2,160,50000.0,19108.8
+PRD-2033,Play Dough - Plus,Toys,TechSupply Co.,2026-06-21,46.5,76.9,487,62,WH-C1,293,22531.7,8907.2
+PRD-2093,Vitamins - Basic,Health & Beauty,Value Wholesalers,2026-03-03,4.92,8.17,271,55,WH-C2,127,1037.59,412.75
+PRD-1071,Webcam HD - Pro,Electronics,Elite Imports,2025-01-17,24.64,60.18,114,28,WH-A1,20,1203.6,710.8
+PRD-1590,Rug - Classic,Home & Garden,Value Wholesalers,2025-11-20,33.41,84.86,313,54,WH-C2,272,23081.92,13994.4
+PRD-1129,HDMI Cable - Elite,Electronics,Global Traders Inc.,2025-12-04,174.13,377.7,203,91,WH-A2,202,76295.4,41121.14
+PRD-1876,Technical Manual - Classic,Books,TechSupply Co.,2026-05-31,20.32,37.74,227,37,WH-D1,0,0.0,0.0
+PRD-1261,Cargo Shorts - Elite,Clothing,Elite Imports,2025-02-16,40.07,63.45,67,85,WH-A1,288,18273.6,6733.44
+PRD-1159,Cotton T-Shirt - Pro,Clothing,TechSupply Co.,2025-09-18,76.06,201.64,391,52,WH-A2,61,12300.04,7660.38
+PRD-1209,Casual Shirt - Lite,Clothing,Global Traders Inc.,2024-08-24,77.66,231.42,341,64,WH-D1,281,65029.02,43206.56
+PRD-1114,Monitor Stand - Basic,Electronics,Elite Imports,2026-02-26,90.85,189.49,79,29,WH-A1,135,25581.15,13316.4
+PRD-1905,Building Blocks - Deluxe,Toys,Value Wholesalers,2025-09-09,45.67,96.07,183,32,WH-C2,262,25170.34,13204.8
+PRD-1491,Plant Pot - Classic,Home & Garden,Prime Distributors,2026-05-21,42.98,80.96,385,89,WH-D1,0,0.0,0.0
+PRD-1055,Phone Case - Lite,Electronics,FastTrack Logistics,2025-01-08,169.24,281.73,107,75,WH-B2,164,46203.72,18448.36
+PRD-1571,Candle Set - Plus,Home & Garden,Quality Goods Ltd.,2026-02-20,31.01,46.91,215,83,WH-A2,264,12384.24,4197.6
+PRD-1561,Picture Frame - Lite,Home & Garden,FastTrack Logistics,2024-08-23,56.16,98.12,377,45,WH-A2,123,12068.76,5161.08
+PRD-1057,Laptop Stand - Standard,Electronics,Premium Suppliers,2025-11-25,139.47,218.91,101,38,WH-A1,0,0.0,0.0
+PRD-1621,Yoga Mat - Pro,Sports & Outdoors,Prime Distributors,2026-07-17,37.03,61.7,438,60,WH-B1,0,0.0,0.0
+PRD-1524,Curtain Rod - Classic,Home & Garden,Elite Imports,2026-02-21,25.12,44.97,395,95,WH-C2,148,6655.56,2937.8
+PRD-1399,Dark Chocolate - Deluxe,Food & Beverage,Value Wholesalers,2024-10-07,24.1,46.26,89,91,WH-D1,182,8419.32,4033.12
+PRD-2153,Hand Sanitizer - Max,Health & Beauty,Premium Suppliers,2026-07-18,16.59,40.47,205,65,WH-A1,0,0.0,0.0
+PRD-2122,Body Lotion - Lite,Health & Beauty,Elite Imports,2024-08-12,30.83,78.08,92,69,WH-B1,222,17333.76,10489.5
+PRD-1550,Wall Clock - Lite,Home & Garden,Global Traders Inc.,2026-06-15,44.85,121.54,205,98,WH-C1,146,17744.84,11196.74
+PRD-1719,Basketball - Basic,Sports & Outdoors,FastTrack Logistics,2025-01-10,61.87,89.1,19,92,WH-B2,188,16750.8,5119.24
+PRD-1433,Coconut Water - Basic,Food & Beverage,FastTrack Logistics,2025-06-23,3.14,6.54,399,47,WH-A1,115,752.1,391.0
+PRD-2081,Sunscreen - Deluxe,Health & Beauty,Value Wholesalers,2025-05-12,13.1,24.8,495,88,WH-A2,195,4836.0,2281.5
+PRD-1157,Cotton T-Shirt - Deluxe,Clothing,Elite Imports,2025-04-27,37.82,68.96,262,34,WH-C1,56,3861.76,1743.84
+PRD-1110,Keyboard - Lite,Electronics,Elite Imports,2026-02-21,97.61,183.62,170,90,WH-D1,193,35438.66,16599.93
+PRD-2174,Eye Cream - Elite,Health & Beauty,Quality Goods Ltd.,2025-01-06,29.62,78.76,388,91,WH-B2,187,14728.12,9189.18
+PRD-1495,Plant Pot - Lite,Home & Garden,Quality Goods Ltd.,2024-08-01,44.02,87.07,301,89,WH-C2,100,8707.0,4305.0
+PRD-1381,Granola - Classic,Food & Beverage,FastTrack Logistics,2026-01-26,2.71,4.67,231,91,WH-B1,127,593.09,248.92
+PRD-1949,Remote Control Car - Deluxe,Toys,Premium Suppliers,2025-10-05,35.01,81.05,293,37,WH-B1,266,21559.3,12246.64
+PRD-1383,Granola - Max,Food & Beverage,Prime Distributors,2025-06-08,10.56,20.11,330,30,WH-A2,132,2654.52,1260.6
+PRD-1661,Camping Tent - Premium,Sports & Outdoors,Premium Suppliers,2026-06-28,26.1,55.03,364,45,WH-B2,46,2531.38,1330.78
+PRD-1108,Keyboard - Max,Electronics,Elite Imports,2026-02-25,85.96,206.84,260,37,WH-C1,141,29164.44,17044.08
+PRD-2010,Card Game - Max,Toys,Global Traders Inc.,2025-09-29,24.82,52.9,467,66,WH-A2,0,0.0,0.0
+PRD-1689,Bike Helmet - Classic,Sports & Outdoors,Elite Imports,2026-02-16,27.12,68.03,375,87,WH-C1,167,11361.01,6831.97
+PRD-1757,Binoculars - Max,Sports & Outdoors,Global Traders Inc.,2025-12-28,48.36,114.8,377,71,WH-D1,294,33751.2,19533.36
+PRD-1082,Power Bank - Pro,Electronics,TechSupply Co.,2026-01-09,30.84,66.74,250,91,WH-C1,243,16217.82,8723.7
+PRD-1278,Windbreaker - Deluxe,Clothing,Quality Goods Ltd.,2025-12-22,70.6,141.16,489,21,WH-B2,97,13692.52,6844.32
+PRD-2019,Toy Train - Classic,Toys,Elite Imports,2025-08-28,37.06,75.06,247,83,WH-A2,297,22292.82,11286.0
+PRD-1363,Olive Oil - Lite,Food & Beverage,FastTrack Logistics,2026-03-25,19.74,28.1,413,74,WH-C2,32,899.2,267.52
+PRD-1992,Science Kit - Standard,Toys,TechSupply Co.,2025-12-04,49.01,94.29,38,51,WH-C2,168,15840.72,7607.04
+PRD-2056,Face Cream - Lite,Health & Beauty,Value Wholesalers,2025-11-28,11.7,22.97,88,21,WH-A1,161,3698.17,1814.47
+PRD-1562,Candle Set - Premium,Home & Garden,FastTrack Logistics,2025-12-01,16.15,29.47,316,65,WH-A2,54,1591.38,719.28
+PRD-1156,Cotton T-Shirt - Standard,Clothing,Global Traders Inc.,2026-02-14,19.33,46.91,345,30,WH-A1,217,10179.47,5984.86
+PRD-1978,Stuffed Animal - Plus,Toys,Prime Distributors,2024-12-31,49.95,118.8,107,98,WH-C2,162,19245.6,11153.7
+PRD-1334,Protein Bars - Basic,Food & Beverage,Quality Goods Ltd.,2024-11-28,17.85,37.29,312,100,WH-D1,71,2647.59,1380.24
+PRD-1466,LED Bulb - Basic,Home & Garden,FastTrack Logistics,2025-06-24,42.94,91.11,215,41,WH-D1,30,2733.3,1445.1
+PRD-1175,Denim Jeans - Plus,Clothing,Premium Suppliers,2024-12-04,55.78,160.37,158,70,WH-A1,43,6895.91,4497.37
+PRD-1886,Comic Book - Ultra,Books,Quality Goods Ltd.,2024-12-04,21.48,48.15,5,80,WH-B1,165,7944.75,4400.55
+PRD-1635,Dumbbells - Elite,Sports & Outdoors,Prime Distributors,2026-06-08,93.18,156.56,350,67,WH-B2,43,6732.08,2725.34
+PRD-1999,Science Kit - Max,Toys,Elite Imports,2025-04-04,40.78,97.05,317,32,WH-B2,13,1261.65,731.51
+PRD-1637,Dumbbells - Plus,Sports & Outdoors,Global Traders Inc.,2025-04-19,52.41,94.25,378,88,WH-B1,279,26295.75,11673.36
+PRD-2125,Hair Oil - Deluxe,Health & Beauty,Global Traders Inc.,2025-12-23,38.76,103.37,92,96,WH-D1,2,206.74,129.22
+PRD-1102,Keyboard - Deluxe,Electronics,Prime Distributors,2025-05-28,143.33,235.9,483,71,WH-B1,281,66287.9,26012.17
+PRD-2055,Face Cream - Plus,Health & Beauty,Global Traders Inc.,2025-08-23,15.62,36.16,319,46,WH-D1,202,7304.32,4149.08
+PRD-1927,Action Figure - Deluxe,Toys,Quality Goods Ltd.,2024-08-15,38.72,83.91,66,42,WH-B1,251,21061.41,11342.69
+PRD-1918,Board Game - Pro,Toys,Elite Imports,2026-02-25,34.24,66.28,320,88,WH-C2,154,10207.12,4934.16
+PRD-1971,Stuffed Animal - Deluxe,Toys,Value Wholesalers,2025-10-21,7.73,15.19,208,28,WH-A1,208,3159.52,1551.68
+PRD-1045,Phone Case - Premium,Electronics,Value Wholesalers,2026-02-15,186.27,295.07,83,42,WH-C1,12,3540.84,1305.6
+PRD-1430,Coconut Water - Premium,Food & Beverage,Prime Distributors,2025-12-30,21.25,33.99,233,26,WH-A2,101,3432.99,1286.74
+PRD-1732,Fishing Rod - Ultra,Sports & Outdoors,Value Wholesalers,2025-10-01,93.45,181.16,347,60,WH-A1,21,3804.36,1841.91
+PRD-1802,Science Fiction - Plus,Books,FastTrack Logistics,2025-06-07,19.67,37.54,182,31,WH-A1,99,3716.46,1769.13
+PRD-1234,Dress Shirt - Deluxe,Clothing,Elite Imports,2024-12-24,29.58,80.56,188,62,WH-C2,213,17159.28,10858.74
+PRD-1854,Art Book - Classic,Books,Global Traders Inc.,2025-08-13,10.38,24.84,271,80,WH-C1,177,4396.68,2559.42
+PRD-2141,Face Mask - Elite,Health & Beauty,Value Wholesalers,2025-10-23,5.9,14.41,498,67,WH-C1,127,1830.07,1080.77
+PRD-1606,Mirror - Premium,Home & Garden,Premium Suppliers,2025-03-31,20.14,51.98,468,90,WH-B1,271,14086.58,8628.64
+PRD-1717,Basketball - Standard,Sports & Outdoors,Elite Imports,2024-08-10,64.4,123.06,92,78,WH-D1,282,34702.92,16542.12
+PRD-1333,Protein Bars - Deluxe,Food & Beverage,Elite Imports,2025-08-01,21.83,32.08,443,35,WH-B1,121,3881.68,1240.25
+PRD-1052,Phone Case - Elite,Electronics,Value Wholesalers,2025-02-06,186.23,362.43,368,45,WH-A1,35,12685.05,6167.0
+PRD-2180,Serum - Deluxe,Health & Beauty,FastTrack Logistics,2025-10-22,23.88,41.13,23,88,WH-C2,20,822.6,345.0
+PRD-2121,Body Lotion - Plus,Health & Beauty,Global Traders Inc.,2026-03-21,21.61,51.2,260,48,WH-A1,0,0.0,0.0
+PRD-1728,Fishing Rod - Standard,Sports & Outdoors,Premium Suppliers,2026-02-25,63.6,151.75,428,83,WH-A1,211,32019.25,18599.65
+PRD-1232,Dress Shirt - Premium,Clothing,Prime Distributors,2025-08-16,65.89,150.16,76,97,WH-C2,71,10661.36,5983.17
+PRD-1452,Spices - Premium,Food & Beverage,FastTrack Logistics,2025-02-06,15.72,26.26,454,37,WH-B2,250,6565.0,2635.0
+PRD-1211,Yoga Pants - Standard,Clothing,Quality Goods Ltd.,2025-12-30,65.03,120.64,252,23,WH-A1,293,35347.52,16293.73
+PRD-1141,Charger Adapter - Max,Electronics,Premium Suppliers,2026-01-26,64.09,93.07,215,87,WH-A1,32,2978.24,927.36
+PRD-1395,Honey - Plus,Food & Beverage,Elite Imports,2026-04-22,3.29,6.19,10,87,WH-A1,169,1046.11,490.1
+PRD-1781,Cookbook - Lite,Books,Value Wholesalers,2025-07-09,19.92,51.5,0,100,WH-A2,0,0.0,0.0
+PRD-1797,Science Fiction - Pro,Books,TechSupply Co.,2024-12-12,6.41,12.59,94,46,WH-B1,17,214.03,105.06
+PRD-2102,Lip Balm - Standard,Health & Beauty,Global Traders Inc.,2024-08-14,15.98,28.62,294,96,WH-D1,0,0.0,0.0
+PRD-1210,Yoga Pants - Premium,Clothing,FastTrack Logistics,2026-02-12,59.25,171.29,326,42,WH-B1,260,44535.4,29130.4
+PRD-1924,Board Game - Lite,Toys,Value Wholesalers,2026-03-26,27.27,66.51,177,77,WH-B2,10,665.1,392.4
+PRD-1744,Backpack - Classic,Sports & Outdoors,Global Traders Inc.,2025-11-09,79.95,113.73,254,39,WH-C1,0,0.0,0.0
+PRD-1307,Beanie - Plus,Clothing,Value Wholesalers,2025-08-20,39.7,85.19,421,96,WH-D1,164,13971.16,7460.36
+PRD-1515,Storage Box - Max,Home & Garden,Quality Goods Ltd.,2025-11-07,15.69,27.23,409,92,WH-C1,281,7651.63,3242.74
+PRD-1790,Self-Help Guide - Max,Books,Global Traders Inc.,2026-02-22,16.4,46.33,266,100,WH-C2,0,0.0,0.0
+PRD-1199,Casual Shirt - Premium,Clothing,Value Wholesalers,2025-04-29,72.41,150.61,498,43,WH-B2,254,38254.94,19862.8
+PRD-1912,Building Blocks - Plus,Toys,Global Traders Inc.,2025-02-23,5.73,12.84,236,42,WH-D1,201,2580.84,1429.11
+PRD-1290,Athletic Socks - Basic,Clothing,Prime Distributors,2026-01-08,52.62,98.85,181,54,WH-A2,40,3954.0,1849.2
+PRD-2037,Kite - Deluxe,Toys,Global Traders Inc.,2026-05-26,21.59,32.62,167,72,WH-B2,56,1826.72,617.68
+PRD-1377,Granola - Deluxe,Food & Beverage,Premium Suppliers,2025-04-16,8.25,12.04,103,37,WH-B1,299,3599.96,1133.21
+PRD-1951,Remote Control Car - Pro,Toys,Value Wholesalers,2025-05-28,8.69,13.58,454,36,WH-D1,228,3096.24,1114.92
+PRD-1980,Art Kit - Premium,Toys,Premium Suppliers,2025-04-09,48.15,88.04,467,37,WH-A2,1,88.04,39.89
+PRD-1219,Yoga Pants - Plus,Clothing,TechSupply Co.,2026-06-24,13.85,40.48,394,93,WH-D1,107,4331.36,2849.41
+PRD-1454,Spices - Deluxe,Food & Beverage,Quality Goods Ltd.,2026-03-11,6.86,9.72,258,41,WH-C2,19,184.68,54.34
+PRD-1631,Dumbbells - Basic,Sports & Outdoors,Value Wholesalers,2024-08-08,21.73,33.94,286,45,WH-D1,292,9910.48,3565.32
+PRD-1164,Cotton T-Shirt - Plus,Clothing,FastTrack Logistics,2025-08-10,23.95,63.91,39,85,WH-C2,271,17319.61,10829.16
+PRD-1817,Biography - Deluxe,Books,Global Traders Inc.,2026-02-02,17.68,49.88,423,58,WH-C1,185,9227.8,5957.0
+PRD-2184,Serum - Classic,Health & Beauty,Premium Suppliers,2025-10-10,10.36,28.63,275,94,WH-A2,195,5582.85,3562.65
+PRD-1529,Throw Pillow - Premium,Home & Garden,FastTrack Logistics,2025-10-27,36.82,82.52,192,68,WH-D1,39,3218.28,1782.3
+PRD-2137,Face Mask - Basic,Health & Beauty,Quality Goods Ltd.,2026-04-07,32.18,53.44,269,59,WH-B2,250,13360.0,5315.0
+PRD-2110,Lip Balm - Plus,Health & Beauty,TechSupply Co.,2025-08-16,9.5,23.1,434,48,WH-D1,26,600.6,353.6
+PRD-1097,Mouse Pad - Max,Electronics,Prime Distributors,2025-09-12,125.08,286.32,471,56,WH-D1,239,68430.48,38536.36
+PRD-1804,History Book - Premium,Books,Value Wholesalers,2025-03-08,11.58,28.34,483,27,WH-A2,184,5214.56,3083.84
+PRD-1032,Bluetooth Speaker - Plus,Electronics,Premium Suppliers,2026-06-02,123.07,234.25,436,87,WH-A1,260,60905.0,28906.8
+PRD-1245,Hoodie - Deluxe,Clothing,FastTrack Logistics,2026-04-03,52.33,124.56,124,26,WH-A2,271,33755.76,19574.33
+PRD-2024,Play Dough - Premium,Toys,TechSupply Co.,2025-04-27,15.52,33.3,183,30,WH-A2,256,8524.8,4551.68
+PRD-1310,Organic Coffee - Standard,Food & Beverage,Prime Distributors,2025-01-06,2.62,5.19,482,46,WH-C2,149,773.31,382.93
+PRD-1833,Children Story - Elite,Books,Quality Goods Ltd.,2025-06-01,10.85,30.35,96,28,WH-C1,243,7375.05,4738.5
+PRD-1589,Rug - Ultra,Home & Garden,Value Wholesalers,2026-02-06,44.32,103.7,424,68,WH-A2,40,4148.0,2375.2
+PRD-1295,Athletic Socks - Max,Clothing,TechSupply Co.,2025-09-04,9.13,16.53,73,70,WH-A2,153,2529.09,1132.2
+PRD-1440,Coconut Water - Lite,Food & Beverage,Prime Distributors,2026-06-27,17.07,37.52,132,73,WH-C2,18,675.36,368.1
+PRD-1424,Energy Drink - Ultra,Food & Beverage,Elite Imports,2026-01-28,8.33,12.62,311,71,WH-A1,0,0.0,0.0
+PRD-1089,Mouse Pad - Premium,Electronics,FastTrack Logistics,2025-03-20,96.49,146.78,26,52,WH-B2,244,35814.32,12270.76
+PRD-1594,Rug - Lite,Home & Garden,TechSupply Co.,2025-12-13,23.81,45.36,409,83,WH-B2,237,10750.32,5107.35
+PRD-1193,Winter Jacket - Ultra,Clothing,TechSupply Co.,2025-03-29,11.13,23.15,191,52,WH-B2,182,4213.3,2187.64
+PRD-1241,Dress Shirt - Plus,Clothing,Quality Goods Ltd.,2024-12-29,29.49,85.88,152,56,WH-B1,250,21470.0,14097.5
+PRD-1573,Vase - Premium,Home & Garden,TechSupply Co.,2025-11-05,31.21,72.37,230,62,WH-A2,184,13316.08,7573.44
+PRD-2080,Sunscreen - Standard,Health & Beauty,Global Traders Inc.,2024-07-25,37.01,74.65,300,30,WH-C2,96,7166.4,3613.44
+PRD-1287,Athletic Socks - Premium,Clothing,Quality Goods Ltd.,2025-04-13,34.87,84.62,341,98,WH-C1,249,21070.38,12387.75
+PRD-1328,Green Tea - Max,Food & Beverage,Premium Suppliers,2025-03-14,5.14,10.55,493,91,WH-A1,253,2669.15,1368.73
+PRD-1483,Garden Hose - Plus,Home & Garden,Prime Distributors,2026-07-19,34.17,53.41,478,75,WH-B2,247,13192.27,4752.28
+PRD-1644,Jump Rope - Ultra,Sports & Outdoors,Quality Goods Ltd.,2025-10-14,83.07,178.68,449,69,WH-C1,15,2680.2,1434.15
+PRD-1586,Rug - Deluxe,Home & Garden,Elite Imports,2025-07-14,27.67,47.11,5,20,WH-B1,69,3250.59,1341.36
+PRD-1834,Children Story - Max,Books,Premium Suppliers,2026-07-10,29.97,68.58,53,70,WH-A2,43,2948.94,1660.23
+PRD-1765,Mystery Novel - Ultra,Books,Quality Goods Ltd.,2024-10-20,20.8,41.33,99,34,WH-B2,242,10001.86,4968.26
+PRD-1599,Lamp - Pro,Home & Garden,Global Traders Inc.,2025-03-18,40.12,70.54,454,26,WH-B1,111,7829.94,3376.62
+PRD-1011,Wireless Headphones - Lite,Electronics,Premium Suppliers,2024-09-20,107.36,253.54,329,78,WH-A2,71,18001.34,10378.78
+PRD-1462,Spices - Lite,Food & Beverage,Global Traders Inc.,2026-04-11,22.81,43.69,233,57,WH-C2,25,1092.25,522.0
+PRD-1378,Granola - Basic,Food & Beverage,Global Traders Inc.,2026-04-06,5.78,10.25,208,35,WH-A2,106,1086.5,473.82
+PRD-1997,Science Kit - Classic,Toys,Elite Imports,2025-09-18,32.48,62.75,52,27,WH-A1,150,9412.5,4540.5
+PRD-1060,Laptop Stand - Pro,Electronics,Prime Distributors,2024-08-10,110.82,150.74,127,35,WH-D1,237,35725.38,9461.04
+PRD-2007,Card Game - Ultra,Toys,Premium Suppliers,2025-09-20,23.84,39.63,232,25,WH-C1,1,39.63,15.79
+PRD-1293,Athletic Socks - Classic,Clothing,Elite Imports,2025-05-05,54.43,108.69,500,32,WH-D1,21,2282.49,1139.46
+PRD-1827,Children Story - Standard,Books,Premium Suppliers,2025-02-26,24.08,59.19,258,92,WH-A2,0,0.0,0.0
+PRD-1421,Energy Drink - Deluxe,Food & Beverage,Elite Imports,2026-07-11,20.09,38.14,267,73,WH-D1,76,2898.64,1371.8
+PRD-1911,Building Blocks - Max,Toys,Value Wholesalers,2026-04-18,25.91,57.53,416,52,WH-B2,299,17201.47,9454.38
+PRD-2154,Hand Sanitizer - Plus,Health & Beauty,Value Wholesalers,2026-01-02,7.05,15.29,78,72,WH-B2,249,3807.21,2051.76
+PRD-1889,Comic Book - Max,Books,TechSupply Co.,2025-02-22,19.73,39.92,202,67,WH-B1,286,11417.12,5774.34
+PRD-1271,Polo Shirt - Classic,Clothing,Quality Goods Ltd.,2024-12-11,30.96,74.21,344,61,WH-D1,73,5417.33,3157.25
+PRD-1838,Travel Guide - Standard,Books,Elite Imports,2025-10-11,6.98,15.61,62,52,WH-C1,118,1841.98,1018.34
+PRD-1567,Candle Set - Ultra,Home & Garden,Elite Imports,2024-08-17,5.46,12.97,194,94,WH-B1,185,2399.45,1389.35
+PRD-1329,Green Tea - Plus,Food & Beverage,Value Wholesalers,2025-03-07,11.56,23.95,250,41,WH-C2,0,0.0,0.0
+PRD-1755,Binoculars - Classic,Sports & Outdoors,Elite Imports,2026-06-07,31.84,69.36,7,42,WH-C1,157,10889.52,5890.64
+PRD-2113,Body Lotion - Standard,Health & Beauty,FastTrack Logistics,2024-08-09,37.23,89.78,280,70,WH-B1,0,0.0,0.0
+PRD-1425,Energy Drink - Classic,Food & Beverage,Premium Suppliers,2025-11-22,3.13,5.57,137,67,WH-C2,0,0.0,0.0
+PRD-2003,Card Game - Standard,Toys,FastTrack Logistics,2025-01-15,39.9,65.73,158,97,WH-C1,188,12357.24,4856.04
+PRD-1972,Stuffed Animal - Basic,Toys,Quality Goods Ltd.,2025-10-21,29.93,62.44,51,51,WH-A1,64,3996.16,2080.64
+PRD-1309,Organic Coffee - Premium,Food & Beverage,Quality Goods Ltd.,2025-07-03,8.45,17.14,186,34,WH-B1,102,1748.28,886.38
+PRD-1486,Plant Pot - Standard,Home & Garden,Elite Imports,2026-03-09,12.6,28.77,453,85,WH-D1,280,8055.6,4527.6
+PRD-1622,Yoga Mat - Ultra,Sports & Outdoors,FastTrack Logistics,2025-02-15,60.07,150.84,79,32,WH-C1,0,0.0,0.0
+PRD-1534,Throw Pillow - Ultra,Home & Garden,TechSupply Co.,2024-12-13,37.58,62.95,262,25,WH-A2,75,4721.25,1902.75
+PRD-1753,Binoculars - Pro,Sports & Outdoors,TechSupply Co.,2026-06-10,46.5,76.91,334,86,WH-B1,274,21073.34,8332.34
+PRD-1549,Wall Clock - Plus,Home & Garden,Global Traders Inc.,2026-02-25,30.94,70.55,45,28,WH-D1,189,13333.95,7486.29
+PRD-1618,Yoga Mat - Standard,Sports & Outdoors,Premium Suppliers,2025-01-06,99.23,177.58,190,72,WH-B1,220,39067.6,17237.0
+PRD-1890,Comic Book - Plus,Books,TechSupply Co.,2026-01-21,10.03,23.12,476,63,WH-C1,67,1549.04,877.03
+PRD-1356,Olive Oil - Basic,Food & Beverage,Value Wholesalers,2024-12-18,11.68,21.46,88,80,WH-D1,37,794.02,361.86
+PRD-1411,Dried Fruits - Basic,Food & Beverage,Prime Distributors,2025-07-19,2.09,3.07,421,100,WH-A1,102,313.14,99.96
+PRD-2140,Face Mask - Classic,Health & Beauty,Elite Imports,2026-03-15,13.33,31.89,365,39,WH-C1,73,2327.97,1354.88
+PRD-1893,Textbook - Standard,Books,Premium Suppliers,2026-02-05,11.52,34.47,391,39,WH-B2,225,7755.75,5163.75
+PRD-1084,Power Bank - Classic,Electronics,Premium Suppliers,2025-01-03,113.22,205.0,381,90,WH-B2,232,47560.0,21292.96
+PRD-1754,Binoculars - Ultra,Sports & Outdoors,Prime Distributors,2024-12-07,30.97,46.04,376,38,WH-C2,9,414.36,135.63
+PRD-1979,Stuffed Animal - Lite,Toys,Premium Suppliers,2025-10-29,49.08,108.36,139,51,WH-C2,164,17771.04,9721.92
+PRD-1761,Mystery Novel - Standard,Books,TechSupply Co.,2026-04-23,22.08,53.68,145,73,WH-A2,243,13044.24,7678.8
+PRD-1130,HDMI Cable - Max,Electronics,TechSupply Co.,2025-01-20,37.86,65.96,383,53,WH-B1,190,12532.4,5339.0
+PRD-1933,Action Figure - Max,Toys,TechSupply Co.,2026-04-07,12.52,20.26,105,66,WH-C1,149,3018.74,1153.26
+PRD-1568,Candle Set - Classic,Home & Garden,FastTrack Logistics,2025-01-08,19.46,36.01,490,98,WH-A2,94,3384.94,1555.7
+PRD-1391,Honey - Ultra,Food & Beverage,Elite Imports,2025-07-22,19.64,43.2,498,40,WH-C1,123,5313.6,2897.88
+PRD-1372,Pasta Sauce - Max,Food & Beverage,Premium Suppliers,2024-08-12,22.18,47.93,0,68,WH-C2,157,7525.01,4042.75
+PRD-1523,Curtain Rod - Ultra,Home & Garden,Value Wholesalers,2024-11-26,16.7,25.85,133,89,WH-D1,276,7134.6,2525.4
+PRD-1533,Throw Pillow - Pro,Home & Garden,Elite Imports,2025-03-20,31.35,71.1,331,72,WH-C2,0,0.0,0.0
+PRD-1645,Jump Rope - Classic,Sports & Outdoors,FastTrack Logistics,2026-02-18,40.76,76.28,70,31,WH-A2,266,20290.48,9448.32
+PRD-2166,Deodorant - Lite,Health & Beauty,FastTrack Logistics,2024-10-13,39.28,70.24,218,81,WH-C2,0,0.0,0.0
+PRD-1322,Green Tea - Deluxe,Food & Beverage,Value Wholesalers,2026-07-19,18.21,28.49,385,28,WH-B2,274,7806.26,2816.72
+PRD-1077,Webcam HD - Lite,Electronics,Value Wholesalers,2025-03-09,34.52,84.68,325,78,WH-D1,222,18798.96,11135.52
+PRD-1723,Basketball - Elite,Sports & Outdoors,Premium Suppliers,2025-07-27,96.45,227.42,148,41,WH-B2,0,0.0,0.0
+PRD-1139,Charger Adapter - Classic,Electronics,Premium Suppliers,2026-02-22,160.9,324.24,141,38,WH-D1,276,89490.24,45081.84
+PRD-2186,Serum - Max,Health & Beauty,Quality Goods Ltd.,2024-10-17,33.08,82.0,79,77,WH-C1,222,18204.0,10860.24
+PRD-1808,History Book - Pro,Books,Premium Suppliers,2024-11-26,23.42,40.37,209,54,WH-A1,284,11465.08,4813.8
+PRD-1903,Building Blocks - Premium,Toys,FastTrack Logistics,2025-11-20,48.43,114.56,45,22,WH-A2,83,9508.48,5488.79
+PRD-1064,Laptop Stand - Max,Electronics,Global Traders Inc.,2026-02-19,57.78,123.23,361,47,WH-A2,0,0.0,0.0
+PRD-1142,Charger Adapter - Plus,Electronics,Elite Imports,2025-07-18,109.95,157.32,257,48,WH-B2,22,3461.04,1042.14
+PRD-1535,Throw Pillow - Classic,Home & Garden,TechSupply Co.,2025-11-01,55.73,121.03,207,96,WH-A2,9,1089.27,587.7
+PRD-2048,Face Cream - Deluxe,Health & Beauty,Global Traders Inc.,2026-03-06,15.78,39.03,248,79,WH-C2,0,0.0,0.0
+PRD-1353,Olive Oil - Premium,Food & Beverage,TechSupply Co.,2024-09-17,22.14,34.63,310,85,WH-D1,200,6926.0,2498.0
+PRD-1140,Charger Adapter - Elite,Electronics,FastTrack Logistics,2026-01-26,35.34,82.69,67,21,WH-D1,121,10005.49,5729.35
+PRD-1603,Lamp - Max,Home & Garden,Premium Suppliers,2026-02-16,43.57,110.18,64,82,WH-C2,285,31401.3,18983.85
+PRD-1821,Biography - Classic,Books,Premium Suppliers,2025-04-27,27.02,65.84,390,63,WH-A2,155,10205.2,6017.1
+PRD-1225,Sneakers - Pro,Clothing,Premium Suppliers,2025-09-06,21.67,37.68,263,79,WH-C1,157,5915.76,2513.57
+PRD-2084,Sunscreen - Ultra,Health & Beauty,Prime Distributors,2025-03-07,4.06,6.46,356,73,WH-D1,147,949.62,352.8
+PRD-1653,Water Bottle - Basic,Sports & Outdoors,Premium Suppliers,2025-06-22,54.23,84.87,98,48,WH-A2,0,0.0,0.0
+PRD-1299,Beanie - Standard,Clothing,Value Wholesalers,2024-08-26,50.18,103.88,395,99,WH-A2,126,13088.88,6766.2
+PRD-1713,Tennis Racket - Max,Sports & Outdoors,Global Traders Inc.,2025-10-08,87.91,147.89,359,95,WH-D1,162,23958.18,9716.76
+PRD-1597,Lamp - Deluxe,Home & Garden,Value Wholesalers,2025-04-26,18.59,51.92,101,78,WH-D1,48,2492.16,1599.84
+PRD-1276,Windbreaker - Premium,Clothing,Value Wholesalers,2025-11-04,22.64,55.92,472,77,WH-A2,47,2628.24,1564.16
+PRD-1756,Binoculars - Elite,Sports & Outdoors,Global Traders Inc.,2024-11-05,25.36,53.49,418,33,WH-B2,112,5990.88,3150.56
+PRD-1044,USB-C Cable - Lite,Electronics,Premium Suppliers,2026-06-13,181.3,281.39,127,33,WH-D1,286,80477.54,28625.74
+PRD-1472,LED Bulb - Plus,Home & Garden,TechSupply Co.,2026-02-13,32.81,69.23,253,41,WH-C2,0,0.0,0.0
+PRD-1810,History Book - Classic,Books,TechSupply Co.,2025-09-17,25.53,51.71,286,79,WH-D1,1,51.71,26.18
+PRD-1343,Mixed Nuts - Standard,Food & Beverage,TechSupply Co.,2024-10-20,20.03,35.41,63,40,WH-A1,0,0.0,0.0
+PRD-1136,Charger Adapter - Basic,Electronics,Premium Suppliers,2024-10-01,81.35,144.62,97,35,WH-C1,232,33551.84,14678.64
+PRD-1559,Picture Frame - Max,Home & Garden,Premium Suppliers,2025-07-27,33.41,50.54,426,53,WH-B2,47,2375.38,805.11
+PRD-1079,Power Bank - Standard,Electronics,Value Wholesalers,2024-11-24,64.65,150.12,425,31,WH-D1,230,34527.6,19658.1
+PRD-1718,Basketball - Deluxe,Sports & Outdoors,Elite Imports,2025-07-25,30.32,57.9,3,93,WH-B2,121,7005.9,3337.18
+PRD-1185,Running Shoes - Max,Clothing,Prime Distributors,2025-05-02,14.6,41.84,418,77,WH-D1,13,543.92,354.12
+PRD-1775,Cookbook - Pro,Books,Value Wholesalers,2025-02-04,16.21,48.53,302,80,WH-D1,142,6891.26,4589.44
+PRD-1179,Running Shoes - Deluxe,Clothing,TechSupply Co.,2025-08-13,71.1,172.56,305,68,WH-C2,92,15875.52,9334.32
+PRD-1614,Mirror - Max,Home & Garden,FastTrack Logistics,2026-06-12,45.39,117.32,39,47,WH-C1,49,5748.68,3524.57
+PRD-1248,Hoodie - Ultra,Clothing,FastTrack Logistics,2025-10-04,54.5,155.97,45,93,WH-B1,19,2963.43,1927.93
+PRD-1737,Fishing Rod - Lite,Sports & Outdoors,TechSupply Co.,2026-04-20,15.12,31.95,457,47,WH-C1,62,1980.9,1043.46
+PRD-2059,Shampoo - Deluxe,Health & Beauty,Prime Distributors,2026-04-17,25.6,71.06,356,69,WH-B1,68,4832.08,3091.28
+PRD-1850,Art Book - Deluxe,Books,FastTrack Logistics,2024-08-10,15.68,25.58,162,68,WH-A1,165,4220.7,1633.5
+PRD-2046,Face Cream - Premium,Health & Beauty,Value Wholesalers,2026-02-05,13.1,28.27,236,23,WH-B2,0,0.0,0.0
+PRD-1434,Coconut Water - Pro,Food & Beverage,Quality Goods Ltd.,2024-09-24,11.42,16.17,399,21,WH-B1,67,1083.39,318.25
+PRD-2063,Shampoo - Classic,Health & Beauty,TechSupply Co.,2025-07-05,21.95,38.69,192,46,WH-A2,121,4681.49,2025.54
+PRD-1891,Comic Book - Lite,Books,Global Traders Inc.,2024-07-26,17.32,31.15,59,60,WH-B1,0,0.0,0.0
+PRD-1974,Stuffed Animal - Ultra,Toys,Premium Suppliers,2026-02-01,40.19,81.89,216,91,WH-C1,0,0.0,0.0
+PRD-1823,Biography - Max,Books,Prime Distributors,2025-05-14,21.65,58.4,39,22,WH-A1,220,12848.0,8085.0
+PRD-1868,Poetry Collection - Plus,Books,Elite Imports,2025-07-05,21.89,38.49,279,74,WH-C1,126,4849.74,2091.6
+PRD-1040,USB-C Cable - Classic,Electronics,FastTrack Logistics,2024-11-11,53.97,92.37,351,53,WH-B1,128,11823.36,4915.2
+PRD-1031,Bluetooth Speaker - Max,Electronics,Prime Distributors,2025-09-23,55.27,75.73,376,89,WH-A2,0,0.0,0.0
+PRD-1243,Hoodie - Premium,Clothing,Value Wholesalers,2025-08-04,76.73,207.7,148,25,WH-B2,40,8308.0,5238.8
+PRD-1416,Dried Fruits - Max,Food & Beverage,TechSupply Co.,2025-06-22,20.82,36.12,274,80,WH-D1,120,4334.4,1836.0
+PRD-1137,Charger Adapter - Pro,Electronics,Global Traders Inc.,2025-12-18,133.72,269.66,10,26,WH-C2,124,33437.84,16856.56
+PRD-2005,Card Game - Basic,Toys,TechSupply Co.,2025-08-05,13.79,23.45,465,45,WH-B2,174,4080.3,1680.84
+PRD-1410,Dried Fruits - Deluxe,Food & Beverage,FastTrack Logistics,2025-10-08,8.84,13.05,201,93,WH-C2,251,3275.55,1056.71
+PRD-1004,Wireless Headphones - Basic,Electronics,FastTrack Logistics,2025-12-15,192.08,327.29,47,68,WH-A2,0,0.0,0.0
+PRD-1443,Rice Crackers - Deluxe,Food & Beverage,Premium Suppliers,2026-04-23,7.11,11.22,446,59,WH-C2,169,1896.18,694.59
+PRD-2104,Lip Balm - Basic,Health & Beauty,FastTrack Logistics,2025-09-29,7.16,11.57,379,95,WH-A1,59,682.63,260.19
+PRD-2067,Shampoo - Lite,Health & Beauty,Elite Imports,2026-07-17,6.33,13.54,488,44,WH-C2,0,0.0,0.0
+PRD-1539,Throw Pillow - Lite,Home & Garden,Value Wholesalers,2026-02-20,38.3,66.28,461,98,WH-D1,272,18028.16,7610.56
+PRD-1803,Science Fiction - Lite,Books,Quality Goods Ltd.,2025-10-12,8.28,14.22,434,77,WH-D1,44,625.68,261.36
+PRD-1678,Hiking Boots - Classic,Sports & Outdoors,TechSupply Co.,2024-10-21,81.71,186.7,106,98,WH-B2,211,39393.7,22152.89
+PRD-1429,Energy Drink - Lite,Food & Beverage,Prime Distributors,2025-09-08,18.32,31.56,399,87,WH-A1,14,441.84,185.36
+PRD-1355,Olive Oil - Deluxe,Food & Beverage,Elite Imports,2024-11-22,3.63,7.66,6,66,WH-C2,67,513.22,270.01
+PRD-2175,Eye Cream - Max,Health & Beauty,Elite Imports,2026-03-25,36.79,58.42,214,87,WH-C2,257,15013.94,5558.91
+PRD-1494,Plant Pot - Plus,Home & Garden,Value Wholesalers,2024-08-21,22.2,49.23,6,52,WH-D1,226,11125.98,6108.78
+PRD-1101,Keyboard - Standard,Electronics,Value Wholesalers,2025-03-07,194.28,362.14,209,62,WH-C2,53,19193.42,8896.58
+PRD-1627,Yoga Mat - Lite,Sports & Outdoors,Quality Goods Ltd.,2024-09-23,86.45,217.37,324,100,WH-C2,156,33909.72,20423.52
+PRD-1480,Garden Hose - Classic,Home & Garden,TechSupply Co.,2025-03-06,12.72,30.93,369,72,WH-A2,100,3093.0,1821.0
+PRD-1583,Vase - Lite,Home & Garden,Premium Suppliers,2025-08-24,52.53,110.7,445,89,WH-D1,280,30996.0,16287.6
+PRD-1846,Travel Guide - Plus,Books,Premium Suppliers,2025-10-05,11.65,19.1,23,36,WH-D1,178,3399.8,1326.1
+PRD-1507,Storage Box - Premium,Home & Garden,Global Traders Inc.,2024-08-20,13.46,28.23,169,24,WH-C2,0,0.0,0.0
+PRD-1498,Door Mat - Deluxe,Home & Garden,Premium Suppliers,2024-07-27,56.56,87.78,475,61,WH-B2,154,13518.12,4807.88
+PRD-2182,Serum - Pro,Health & Beauty,Global Traders Inc.,2024-09-27,16.51,37.75,188,61,WH-A1,0,0.0,0.0
+PRD-1228,Sneakers - Elite,Clothing,Global Traders Inc.,2026-03-08,71.54,185.38,391,71,WH-B2,205,38002.9,23337.2
+PRD-1995,Science Kit - Pro,Toys,Quality Goods Ltd.,2024-11-16,32.88,74.44,320,77,WH-A1,43,3200.92,1787.08
+PRD-1716,Basketball - Premium,Sports & Outdoors,TechSupply Co.,2025-03-12,69.21,177.87,69,30,WH-A2,212,37708.44,23035.92
+PRD-1950,Remote Control Car - Basic,Toys,Quality Goods Ltd.,2025-08-22,28.24,47.8,398,66,WH-A1,75,3585.0,1467.0
+PRD-1364,Pasta Sauce - Premium,Food & Beverage,FastTrack Logistics,2024-12-10,16.43,29.52,261,66,WH-C2,0,0.0,0.0
+PRD-1067,Webcam HD - Premium,Electronics,Quality Goods Ltd.,2025-12-11,65.49,123.3,199,63,WH-B2,207,25523.1,11966.67
+PRD-1068,Webcam HD - Standard,Electronics,Prime Distributors,2025-04-01,185.12,458.52,273,23,WH-D1,288,132053.76,78739.2
+PRD-1969,Stuffed Animal - Premium,Toys,Premium Suppliers,2026-06-26,37.1,66.71,50,60,WH-A2,165,11007.15,4885.65
+PRD-1212,Yoga Pants - Deluxe,Clothing,Premium Suppliers,2025-01-05,17.34,49.01,33,59,WH-B2,245,12007.45,7759.15
+PRD-1013,Smart Watch - Standard,Electronics,Prime Distributors,2025-03-05,31.82,43.17,56,39,WH-C1,216,9324.72,2451.6
+PRD-1479,Garden Hose - Ultra,Home & Garden,TechSupply Co.,2025-07-25,50.64,139.45,149,90,WH-B1,54,7530.3,4795.74
+PRD-1986,Art Kit - Classic,Toys,Value Wholesalers,2025-10-12,30.61,61.04,282,44,WH-A1,289,17640.56,8794.27
+PRD-1300,Beanie - Deluxe,Clothing,Global Traders Inc.,2025-10-22,19.1,49.04,324,39,WH-A1,162,7944.48,4850.28
+PRD-1436,Coconut Water - Classic,Food & Beverage,Value Wholesalers,2025-07-31,12.56,19.78,154,86,WH-B2,203,4015.34,1465.66
+PRD-2069,Toothpaste - Standard,Health & Beauty,Value Wholesalers,2025-04-01,15.21,37.08,125,74,WH-C2,127,4709.16,2777.49
+PRD-2064,Shampoo - Elite,Health & Beauty,Elite Imports,2025-08-21,8.83,16.89,402,25,WH-C2,212,3580.68,1708.72
+PRD-1712,Tennis Racket - Elite,Sports & Outdoors,FastTrack Logistics,2025-07-10,91.1,233.35,0,91,WH-A1,183,42703.05,26031.75
+PRD-2079,Sunscreen - Premium,Health & Beauty,Prime Distributors,2025-11-12,25.68,70.29,430,40,WH-B1,0,0.0,0.0
+PRD-1482,Garden Hose - Max,Home & Garden,TechSupply Co.,2024-09-03,37.38,93.59,230,78,WH-C2,258,24146.22,14502.18
+PRD-1406,Dark Chocolate - Plus,Food & Beverage,Prime Distributors,2026-05-09,20.38,29.08,10,60,WH-B2,53,1541.24,461.1
+PRD-1702,Swim Goggles - Max,Sports & Outdoors,Global Traders Inc.,2026-03-30,41.63,81.32,87,56,WH-B2,294,23908.08,11668.86
+PRD-1431,Coconut Water - Standard,Food & Beverage,FastTrack Logistics,2025-04-04,13.62,25.99,63,23,WH-B1,250,6497.5,3092.5
+PRD-2109,Lip Balm - Max,Health & Beauty,Global Traders Inc.,2024-07-30,24.66,57.22,110,83,WH-B1,192,10986.24,6251.52
+PRD-2091,Vitamins - Standard,Health & Beauty,Value Wholesalers,2025-07-09,28.55,55.56,161,50,WH-B1,204,11334.24,5510.04
+PRD-1428,Energy Drink - Plus,Food & Beverage,Quality Goods Ltd.,2025-12-19,23.01,39.71,248,86,WH-B2,28,1111.88,467.6
+PRD-1274,Polo Shirt - Plus,Clothing,Value Wholesalers,2025-09-19,35.11,92.4,242,50,WH-A2,153,14137.2,8765.37
+PRD-1784,Self-Help Guide - Deluxe,Books,Value Wholesalers,2025-04-03,19.72,41.64,89,91,WH-B1,287,11950.68,6291.04
+PRD-1238,Dress Shirt - Classic,Clothing,Value Wholesalers,2024-11-04,74.28,208.67,376,27,WH-C1,265,55297.55,35613.35
+PRD-2071,Toothpaste - Basic,Health & Beauty,Premium Suppliers,2025-07-02,10.04,20.82,258,98,WH-B2,79,1644.78,851.62
+PRD-1003,Wireless Headphones - Deluxe,Electronics,Value Wholesalers,2025-04-20,124.01,281.67,3,40,WH-A2,174,49010.58,27432.84
+PRD-1007,Wireless Headphones - Classic,Electronics,TechSupply Co.,2025-12-02,158.02,392.25,437,49,WH-C2,194,76096.5,45440.62
+PRD-1312,Organic Coffee - Basic,Food & Beverage,Value Wholesalers,2025-07-02,3.7,8.11,245,94,WH-D1,259,2100.49,1142.19
+PRD-2012,Card Game - Lite,Toys,Quality Goods Ltd.,2026-01-04,5.97,13.99,466,32,WH-A2,0,0.0,0.0
+PRD-2181,Serum - Basic,Health & Beauty,Prime Distributors,2026-03-09,13.74,34.73,328,51,WH-B1,107,3716.11,2245.93
+PRD-1910,Building Blocks - Elite,Toys,Quality Goods Ltd.,2025-05-12,18.3,28.32,39,25,WH-C1,261,7391.52,2615.22
+PRD-1216,Yoga Pants - Classic,Clothing,Prime Distributors,2024-07-27,24.23,70.78,265,56,WH-B1,128,9059.84,5958.4
+PRD-1359,Olive Oil - Classic,Food & Beverage,Prime Distributors,2026-04-29,9.13,16.52,104,39,WH-B1,200,3304.0,1478.0
+PRD-1028,Bluetooth Speaker - Ultra,Electronics,Global Traders Inc.,2024-09-24,199.87,460.35,496,31,WH-A1,121,55702.35,31518.08
+PRD-2147,Hand Sanitizer - Deluxe,Health & Beauty,TechSupply Co.,2025-05-14,29.29,72.48,125,87,WH-C2,21,1522.08,906.99
+PRD-1840,Travel Guide - Basic,Books,Premium Suppliers,2025-09-16,19.79,34.33,39,86,WH-A2,238,8170.54,3460.52
+PRD-1867,Poetry Collection - Max,Books,Value Wholesalers,2026-02-26,5.88,11.17,140,76,WH-A2,28,312.76,148.12
+PRD-2027,Play Dough - Basic,Toys,FastTrack Logistics,2025-09-20,17.68,32.65,206,71,WH-A1,6,195.9,89.82
+PRD-1555,Picture Frame - Pro,Home & Garden,Quality Goods Ltd.,2026-01-05,30.01,60.77,2,53,WH-C1,259,15739.43,7966.84
+PRD-1439,Coconut Water - Plus,Food & Beverage,FastTrack Logistics,2026-02-20,13.9,22.13,29,96,WH-A2,163,3607.19,1341.49
+PRD-1722,Basketball - Classic,Sports & Outdoors,FastTrack Logistics,2026-05-30,91.32,186.48,5,80,WH-C1,240,44755.2,22838.4
+PRD-1527,Curtain Rod - Plus,Home & Garden,Premium Suppliers,2025-12-11,46.88,84.44,135,67,WH-A1,105,8866.2,3943.8
+PRD-2090,Vitamins - Premium,Health & Beauty,TechSupply Co.,2024-11-13,22.72,62.5,136,82,WH-B2,172,10750.0,6842.16
+PRD-1839,Travel Guide - Deluxe,Books,Prime Distributors,2026-04-13,22.92,63.32,255,23,WH-A1,195,12347.4,7878.0
+PRD-1257,Cargo Shorts - Basic,Clothing,Premium Suppliers,2025-12-09,23.78,40.43,78,78,WH-C1,191,7722.13,3180.15
+PRD-1292,Athletic Socks - Ultra,Clothing,TechSupply Co.,2025-06-03,35.31,82.24,28,21,WH-A1,42,3454.08,1971.06
+PRD-1026,Bluetooth Speaker - Basic,Electronics,Global Traders Inc.,2025-06-06,149.72,338.47,55,51,WH-A1,274,92740.78,51717.5
+PRD-1337,Protein Bars - Classic,Food & Beverage,Prime Distributors,2025-05-28,23.13,50.75,443,36,WH-D1,67,3400.25,1850.54
+PRD-1707,Tennis Racket - Deluxe,Sports & Outdoors,Elite Imports,2025-01-01,18.79,36.34,157,71,WH-B1,0,0.0,0.0
+PRD-1048,Phone Case - Basic,Electronics,Quality Goods Ltd.,2024-09-16,50.73,85.93,442,28,WH-A1,142,12202.06,4998.4
+PRD-1319,Organic Coffee - Lite,Food & Beverage,Premium Suppliers,2025-09-19,3.03,5.96,11,63,WH-A1,84,500.64,246.12
+PRD-1107,Keyboard - Elite,Electronics,Prime Distributors,2025-09-28,109.14,177.69,427,81,WH-B2,124,22033.56,8500.2
+PRD-1056,Laptop Stand - Premium,Electronics,Elite Imports,2025-04-27,139.99,267.86,406,41,WH-B2,145,38839.7,18541.15
+PRD-1514,Storage Box - Elite,Home & Garden,Quality Goods Ltd.,2025-08-05,16.65,44.58,435,85,WH-C2,94,4190.52,2625.42
+PRD-1214,Yoga Pants - Pro,Clothing,Elite Imports,2025-02-09,32.81,92.42,399,90,WH-C2,93,8595.06,5543.73
+PRD-1121,Monitor Stand - Lite,Electronics,FastTrack Logistics,2025-01-10,44.23,80.94,176,95,WH-C2,217,17563.98,7966.07
+PRD-1553,Picture Frame - Deluxe,Home & Garden,FastTrack Logistics,2025-06-09,24.42,49.17,300,45,WH-D1,35,1720.95,866.25
+PRD-1917,Board Game - Basic,Toys,Prime Distributors,2026-07-09,13.59,31.47,356,44,WH-A2,107,3367.29,1913.16
+PRD-1940,Puzzle Set - Pro,Toys,TechSupply Co.,2024-10-05,11.79,24.46,500,100,WH-C2,266,6506.36,3370.22
+PRD-1073,Webcam HD - Classic,Electronics,Quality Goods Ltd.,2024-08-06,62.41,108.76,310,97,WH-B2,58,6308.08,2688.3
+PRD-1595,Lamp - Premium,Home & Garden,TechSupply Co.,2026-05-02,51.4,140.69,28,54,WH-B1,36,5064.84,3214.44
+PRD-1734,Fishing Rod - Elite,Sports & Outdoors,Global Traders Inc.,2024-09-21,62.58,122.24,345,50,WH-B1,99,12101.76,5906.34
+PRD-1831,Children Story - Ultra,Books,Global Traders Inc.,2026-04-02,17.03,39.07,184,56,WH-B2,20,781.4,440.8
+PRD-1554,Picture Frame - Basic,Home & Garden,Global Traders Inc.,2025-10-05,44.94,100.07,298,64,WH-C1,141,14109.87,7773.33
+PRD-1874,Technical Manual - Pro,Books,Global Traders Inc.,2025-03-07,15.72,34.24,430,62,WH-D1,51,1746.24,944.52
+PRD-2008,Card Game - Classic,Toys,Quality Goods Ltd.,2025-11-30,25.99,44.52,246,62,WH-C2,192,8547.84,3557.76
+PRD-1543,Wall Clock - Basic,Home & Garden,FastTrack Logistics,2025-01-13,27.48,47.97,363,20,WH-C1,60,2878.2,1229.4
+PRD-1552,Picture Frame - Standard,Home & Garden,Quality Goods Ltd.,2026-01-31,42.07,82.78,335,20,WH-C1,44,3642.32,1791.24
+PRD-1412,Dried Fruits - Pro,Food & Beverage,Global Traders Inc.,2025-12-24,5.93,9.69,41,80,WH-A1,157,1521.33,590.32
+PRD-1733,Fishing Rod - Classic,Sports & Outdoors,Global Traders Inc.,2024-10-09,41.84,100.96,312,54,WH-C1,136,13730.56,8040.32
+PRD-2011,Card Game - Plus,Toys,TechSupply Co.,2026-01-02,17.78,30.56,134,42,WH-A2,283,8648.48,3616.74
+PRD-1906,Building Blocks - Basic,Toys,Quality Goods Ltd.,2025-04-23,44.84,88.62,288,96,WH-B2,216,19141.92,9456.48
+PRD-1317,Organic Coffee - Max,Food & Beverage,Elite Imports,2025-09-24,11.57,25.1,59,38,WH-A1,175,4392.5,2367.75
+PRD-2134,Face Mask - Premium,Health & Beauty,Prime Distributors,2026-02-16,15.39,38.85,194,23,WH-B2,126,4895.1,2955.96
+PRD-1813,History Book - Plus,Books,Global Traders Inc.,2025-07-18,18.69,44.7,444,53,WH-C1,243,10862.1,6320.43
+PRD-1520,Curtain Rod - Deluxe,Home & Garden,FastTrack Logistics,2025-07-20,12.39,30.39,449,81,WH-D1,183,5561.37,3294.0
+PRD-2041,Kite - Classic,Toys,Premium Suppliers,2025-03-08,25.71,53.38,377,31,WH-C1,233,12437.54,6447.11
+PRD-1414,Dried Fruits - Classic,Food & Beverage,Value Wholesalers,2026-01-13,12.25,19.73,238,53,WH-B1,137,2703.01,1024.76
+PRD-1537,Throw Pillow - Max,Home & Garden,Prime Distributors,2024-12-04,50.12,87.03,337,85,WH-D1,175,15230.25,6459.25
+PRD-1061,Laptop Stand - Ultra,Electronics,Premium Suppliers,2025-04-26,128.34,277.62,258,74,WH-D1,280,77733.6,41798.4
+PRD-2126,Hair Oil - Basic,Health & Beauty,Elite Imports,2025-09-05,8.43,14.06,105,40,WH-D1,0,0.0,0.0
+PRD-1093,Mouse Pad - Pro,Electronics,Global Traders Inc.,2025-12-23,130.72,211.45,41,40,WH-D1,282,59628.9,22765.86
+PRD-2152,Hand Sanitizer - Elite,Health & Beauty,TechSupply Co.,2024-10-29,34.54,54.39,3,98,WH-B2,152,8267.28,3017.2
+PRD-1382,Granola - Elite,Food & Beverage,Global Traders Inc.,2026-04-10,20.49,30.98,6,27,WH-B2,113,3500.74,1185.37
+PRD-1352,Mixed Nuts - Lite,Food & Beverage,Value Wholesalers,2025-05-10,9.23,13.95,141,30,WH-B1,145,2022.75,684.4
+PRD-1915,Board Game - Standard,Toys,Value Wholesalers,2026-07-05,5.26,8.5,87,81,WH-C1,207,1759.5,670.68
+PRD-1281,Windbreaker - Ultra,Clothing,Elite Imports,2026-04-14,65.8,170.0,389,60,WH-B2,189,32130.0,19693.8
+PRD-1540,Wall Clock - Premium,Home & Garden,Global Traders Inc.,2025-03-17,41.27,110.3,276,20,WH-A1,220,24266.0,15186.6
+PRD-1360,Olive Oil - Elite,Food & Beverage,Global Traders Inc.,2024-08-07,12.06,26.08,122,27,WH-B1,222,5789.76,3112.44
+PRD-1828,Children Story - Deluxe,Books,TechSupply Co.,2025-12-13,22.33,65.87,87,88,WH-C1,0,0.0,0.0
+PRD-1988,Art Kit - Max,Toys,FastTrack Logistics,2024-08-28,6.04,14.92,347,88,WH-A2,286,4267.12,2539.68
+PRD-1463,LED Bulb - Premium,Home & Garden,Global Traders Inc.,2026-01-26,53.08,138.43,184,60,WH-D1,59,8167.37,5035.65
+PRD-1714,Tennis Racket - Plus,Sports & Outdoors,Value Wholesalers,2025-06-28,49.17,81.3,88,80,WH-B2,284,23089.2,9124.92
+PRD-1183,Running Shoes - Classic,Clothing,Prime Distributors,2025-12-31,65.69,112.17,128,26,WH-D1,190,21312.3,8831.2
+PRD-1632,Dumbbells - Pro,Sports & Outdoors,Quality Goods Ltd.,2024-10-31,99.74,202.38,124,29,WH-C1,220,44523.6,22580.8
+PRD-1674,Hiking Boots - Deluxe,Sports & Outdoors,Premium Suppliers,2025-05-26,57.22,127.89,313,27,WH-C1,270,34530.3,19080.9
+PRD-1111,Monitor Stand - Premium,Electronics,Elite Imports,2026-01-11,196.44,311.67,196,49,WH-B1,210,65450.7,24198.3
+PRD-1371,Pasta Sauce - Elite,Food & Beverage,Quality Goods Ltd.,2025-01-10,19.49,31.11,3,72,WH-C2,0,0.0,0.0
+PRD-1240,Dress Shirt - Max,Clothing,Premium Suppliers,2025-07-26,56.66,158.73,348,53,WH-C1,98,15555.54,10002.86
+PRD-1742,Backpack - Pro,Sports & Outdoors,Elite Imports,2024-11-06,45.34,98.6,55,38,WH-A2,220,21692.0,11717.2
+PRD-1789,Self-Help Guide - Elite,Books,Global Traders Inc.,2025-06-18,27.24,54.58,489,29,WH-A1,141,7695.78,3854.94
+PRD-1584,Rug - Premium,Home & Garden,Elite Imports,2024-08-08,34.66,78.61,233,100,WH-A2,288,22639.68,12657.6
+PRD-1544,Wall Clock - Pro,Home & Garden,TechSupply Co.,2024-09-21,16.3,41.49,209,66,WH-B2,218,9044.82,5491.42
+PRD-1763,Mystery Novel - Basic,Books,Prime Distributors,2025-02-27,19.53,33.65,423,58,WH-C2,2,67.3,28.24
+PRD-1262,Cargo Shorts - Max,Clothing,TechSupply Co.,2025-04-06,56.44,110.75,11,70,WH-C1,1,110.75,54.31
+PRD-1616,Mirror - Lite,Home & Garden,Value Wholesalers,2026-04-06,47.15,106.07,345,78,WH-C2,218,23123.26,12844.56
+PRD-1842,Travel Guide - Ultra,Books,TechSupply Co.,2026-06-21,29.75,84.26,60,69,WH-D1,192,16177.92,10465.92
+PRD-1340,Protein Bars - Plus,Food & Beverage,Premium Suppliers,2025-03-11,9.53,13.36,396,31,WH-B2,234,3126.24,896.22
+PRD-1658,Water Bottle - Max,Sports & Outdoors,Value Wholesalers,2024-10-16,96.63,157.3,225,70,WH-C1,146,22965.8,8857.82
+PRD-1542,Wall Clock - Deluxe,Home & Garden,Premium Suppliers,2024-08-09,36.69,75.33,130,81,WH-C1,42,3163.86,1622.88
+PRD-1794,Science Fiction - Standard,Books,Elite Imports,2024-12-20,6.56,17.75,87,53,WH-B1,190,3372.5,2126.1
+PRD-1184,Running Shoes - Elite,Clothing,Global Traders Inc.,2025-02-10,69.28,133.54,390,40,WH-C2,262,34987.48,16836.12
+PRD-1138,Charger Adapter - Ultra,Electronics,Prime Distributors,2024-12-22,52.96,121.58,283,46,WH-D1,119,14468.02,8165.78
+PRD-2150,Hand Sanitizer - Ultra,Health & Beauty,Premium Suppliers,2025-11-10,33.94,88.45,439,35,WH-C2,247,21847.15,13463.97
+PRD-1695,Swim Goggles - Standard,Sports & Outdoors,Premium Suppliers,2025-08-31,34.39,87.07,411,56,WH-C1,87,7575.09,4583.16
+PRD-1994,Science Kit - Basic,Toys,FastTrack Logistics,2026-04-04,26.31,64.69,426,26,WH-A2,266,17207.54,10209.08
+PRD-1081,Power Bank - Basic,Electronics,Prime Distributors,2025-12-18,80.64,129.83,143,96,WH-B2,141,18306.03,6935.79
+PRD-1939,Puzzle Set - Basic,Toys,Global Traders Inc.,2025-08-11,19.17,47.58,84,75,WH-A1,0,0.0,0.0
+PRD-1778,Cookbook - Elite,Books,Value Wholesalers,2024-08-09,25.17,56.22,123,30,WH-B2,6,337.32,186.3
+PRD-2167,Eye Cream - Premium,Health & Beauty,Value Wholesalers,2026-06-01,14.95,27.66,143,64,WH-C2,126,3485.16,1601.46
+PRD-1030,Bluetooth Speaker - Elite,Electronics,Value Wholesalers,2025-04-14,67.77,144.75,374,91,WH-B1,249,36042.75,19168.02
+PRD-1423,Energy Drink - Pro,Food & Beverage,FastTrack Logistics,2025-01-21,22.24,46.76,135,69,WH-D1,292,13653.92,7159.84
+PRD-1166,Denim Jeans - Premium,Clothing,FastTrack Logistics,2026-01-27,51.37,135.63,335,29,WH-A2,252,34178.76,21233.52
+PRD-1249,Hoodie - Classic,Clothing,Prime Distributors,2026-01-24,75.24,116.96,428,70,WH-B2,95,11111.2,3963.4
+PRD-1308,Beanie - Lite,Clothing,Quality Goods Ltd.,2025-09-05,20.79,43.6,163,57,WH-B2,251,10943.6,5725.31
+PRD-1347,Mixed Nuts - Ultra,Food & Beverage,Elite Imports,2026-03-10,15.65,28.41,227,21,WH-A1,0,0.0,0.0
+PRD-1335,Protein Bars - Pro,Food & Beverage,Quality Goods Ltd.,2025-12-24,20.53,38.1,272,55,WH-D1,86,3276.6,1511.02
+PRD-1286,Windbreaker - Lite,Clothing,TechSupply Co.,2026-07-17,37.69,104.17,118,28,WH-D1,4,416.68,265.92
+PRD-2004,Card Game - Deluxe,Toys,TechSupply Co.,2024-11-30,34.6,56.9,121,84,WH-C1,286,16273.4,6377.8
+PRD-1680,Hiking Boots - Max,Sports & Outdoors,Global Traders Inc.,2025-09-19,55.6,99.45,3,34,WH-B1,174,17304.3,7629.9
+PRD-1736,Fishing Rod - Plus,Sports & Outdoors,Value Wholesalers,2025-02-01,19.35,37.44,112,56,WH-A1,17,636.48,307.53
+PRD-2135,Face Mask - Standard,Health & Beauty,Global Traders Inc.,2026-03-18,23.13,55.26,208,28,WH-B1,45,2486.7,1445.85
+PRD-1895,Textbook - Basic,Books,Value Wholesalers,2025-03-04,4.1,8.61,363,91,WH-A1,252,2169.72,1136.52
+PRD-1592,Rug - Max,Home & Garden,FastTrack Logistics,2024-10-24,32.06,61.45,77,26,WH-C2,11,675.95,323.29
+PRD-2145,Hand Sanitizer - Premium,Health & Beauty,FastTrack Logistics,2025-03-06,33.1,50.11,485,74,WH-C1,69,3457.59,1173.69
+PRD-1773,Cookbook - Deluxe,Books,FastTrack Logistics,2026-04-01,25.99,58.27,87,63,WH-A2,151,8798.77,4874.28
+PRD-1787,Self-Help Guide - Ultra,Books,Premium Suppliers,2025-04-16,16.13,37.7,62,80,WH-B1,272,10254.4,5867.04
+PRD-1677,Hiking Boots - Ultra,Sports & Outdoors,Elite Imports,2026-01-20,89.53,150.34,148,44,WH-B2,0,0.0,0.0
+PRD-1066,Laptop Stand - Lite,Electronics,TechSupply Co.,2024-12-11,85.37,111.59,180,58,WH-D1,214,23880.26,5611.08
+PRD-1948,Remote Control Car - Standard,Toys,Elite Imports,2025-11-24,41.24,102.65,289,100,WH-B1,119,12215.35,7307.79
+PRD-1598,Lamp - Basic,Home & Garden,Quality Goods Ltd.,2025-06-20,42.48,80.96,165,40,WH-B2,21,1700.16,808.08
+PRD-1558,Picture Frame - Elite,Home & Garden,Elite Imports,2026-06-25,31.51,57.83,195,48,WH-C1,117,6766.11,3079.44
+PRD-2073,Toothpaste - Ultra,Health & Beauty,Prime Distributors,2025-06-29,20.69,43.24,192,91,WH-B1,36,1556.64,811.8
+PRD-2088,Sunscreen - Plus,Health & Beauty,Global Traders Inc.,2026-05-19,16.32,36.91,244,82,WH-B1,51,1882.41,1050.09
+PRD-1303,Beanie - Ultra,Clothing,Global Traders Inc.,2024-11-18,64.48,180.26,6,57,WH-C1,43,7751.18,4978.54
+PRD-1255,Cargo Shorts - Standard,Clothing,FastTrack Logistics,2025-09-17,49.94,117.82,133,66,WH-B1,31,3652.42,2104.28
+PRD-1941,Puzzle Set - Ultra,Toys,FastTrack Logistics,2025-06-07,44.86,98.73,447,58,WH-B2,160,15796.8,8619.2
+PRD-1935,Action Figure - Lite,Toys,Global Traders Inc.,2025-12-29,24.76,47.43,393,20,WH-D1,242,11478.06,5486.14
+PRD-1313,Organic Coffee - Pro,Food & Beverage,Value Wholesalers,2026-06-16,20.19,34.07,458,88,WH-C1,43,1465.01,596.84
+PRD-2107,Lip Balm - Classic,Health & Beauty,Global Traders Inc.,2026-07-14,23.38,49.07,74,57,WH-B2,255,12512.85,6550.95
+PRD-1222,Sneakers - Standard,Clothing,Elite Imports,2025-12-27,32.49,55.74,441,60,WH-B2,176,9810.24,4092.0
+PRD-1389,Honey - Basic,Food & Beverage,TechSupply Co.,2025-07-21,13.03,26.39,176,92,WH-B2,198,5225.22,2645.28
+PRD-1236,Dress Shirt - Pro,Clothing,Elite Imports,2025-02-02,53.29,129.47,430,68,WH-A2,124,16054.28,9446.32
+PRD-2075,Toothpaste - Elite,Health & Beauty,Elite Imports,2025-05-24,37.85,104.53,191,69,WH-B2,36,3763.08,2400.48
+PRD-1468,LED Bulb - Ultra,Home & Garden,Premium Suppliers,2026-06-24,52.44,138.65,372,36,WH-C1,249,34523.85,21466.29
+PRD-1701,Swim Goggles - Elite,Sports & Outdoors,Premium Suppliers,2026-01-17,72.97,160.4,403,61,WH-B2,15,2406.0,1311.45
+PRD-1306,Beanie - Max,Clothing,Elite Imports,2024-10-30,22.08,36.66,155,20,WH-C1,170,6232.2,2478.6
+PRD-2100,Vitamins - Lite,Health & Beauty,Global Traders Inc.,2026-06-24,9.77,26.45,462,69,WH-B2,112,2962.4,1868.16
+PRD-1487,Plant Pot - Deluxe,Home & Garden,Premium Suppliers,2025-01-03,39.79,70.08,319,57,WH-C2,67,4695.36,2029.43
+PRD-1758,Binoculars - Plus,Sports & Outdoors,Prime Distributors,2025-12-17,78.78,166.36,171,28,WH-B1,72,11977.92,6305.76
+PRD-1899,Textbook - Elite,Books,Global Traders Inc.,2025-07-06,18.94,55.53,428,61,WH-B2,41,2276.73,1500.19
+PRD-2128,Hair Oil - Ultra,Health & Beauty,Value Wholesalers,2026-07-23,12.94,20.19,484,86,WH-C2,150,3028.5,1087.5
+PRD-1250,Hoodie - Elite,Clothing,FastTrack Logistics,2026-07-14,29.48,70.88,475,62,WH-A1,278,19704.64,11509.2
+PRD-1746,Backpack - Max,Sports & Outdoors,Elite Imports,2025-05-03,46.35,105.37,415,28,WH-B2,1,105.37,59.02
+PRD-1585,Rug - Standard,Home & Garden,Value Wholesalers,2024-10-06,40.17,76.43,177,81,WH-C1,45,3439.35,1631.7
+PRD-1072,Webcam HD - Ultra,Electronics,TechSupply Co.,2025-12-31,170.26,348.28,122,36,WH-A2,58,20200.24,10325.16
+PRD-1095,Mouse Pad - Classic,Electronics,FastTrack Logistics,2025-10-07,145.05,267.59,351,49,WH-C2,101,27026.59,12376.54
+PRD-1536,Throw Pillow - Elite,Home & Garden,FastTrack Logistics,2025-12-14,29.71,82.91,444,81,WH-A1,210,17411.1,11172.0
+PRD-1034,USB-C Cable - Premium,Electronics,Quality Goods Ltd.,2024-11-22,22.35,31.25,336,94,WH-C1,161,5031.25,1432.9
+PRD-1844,Travel Guide - Elite,Books,Elite Imports,2026-03-08,11.44,24.54,391,34,WH-B2,251,6159.54,3288.1
+PRD-1630,Dumbbells - Deluxe,Sports & Outdoors,Prime Distributors,2026-04-30,52.83,121.21,280,71,WH-B1,204,24726.84,13949.52
+PRD-1449,Rice Crackers - Max,Food & Beverage,Value Wholesalers,2025-05-10,24.2,41.3,19,88,WH-B2,191,7888.3,3266.1
+PRD-1446,Rice Crackers - Ultra,Food & Beverage,Prime Distributors,2025-12-30,9.88,21.63,457,78,WH-A2,92,1989.96,1081.0
+PRD-1260,Cargo Shorts - Classic,Clothing,Quality Goods Ltd.,2025-01-20,18.79,37.43,266,76,WH-C1,105,3930.15,1957.2
+PRD-1205,Casual Shirt - Classic,Clothing,Premium Suppliers,2024-12-20,10.33,17.87,230,67,WH-B2,39,696.93,294.06
+PRD-1900,Textbook - Max,Books,Elite Imports,2024-07-29,20.81,46.52,489,54,WH-D1,2,93.04,51.42
+PRD-1809,History Book - Ultra,Books,Elite Imports,2024-12-19,23.39,41.91,95,68,WH-C2,251,10519.41,4648.52
+PRD-1576,Vase - Basic,Home & Garden,FastTrack Logistics,2024-10-15,57.61,151.44,327,63,WH-B2,292,44220.48,27398.36
+PRD-1366,Pasta Sauce - Deluxe,Food & Beverage,TechSupply Co.,2026-07-11,7.62,13.54,196,39,WH-A1,18,243.72,106.56
+PRD-1671,Camping Tent - Lite,Sports & Outdoors,Global Traders Inc.,2026-01-22,24.52,42.7,338,96,WH-B2,287,12254.9,5217.66
+PRD-1078,Power Bank - Premium,Electronics,Prime Distributors,2025-02-04,193.61,314.44,413,88,WH-C2,238,74836.72,28757.54
+PRD-1085,Power Bank - Elite,Electronics,FastTrack Logistics,2025-11-08,57.65,124.84,161,35,WH-B1,94,11734.96,6315.86
+PRD-1530,Throw Pillow - Standard,Home & Garden,FastTrack Logistics,2025-12-07,33.4,65.42,444,64,WH-B2,246,16093.32,7876.92
+PRD-1083,Power Bank - Ultra,Electronics,Elite Imports,2026-07-06,32.21,50.44,354,51,WH-B2,297,14980.68,5414.31
+PRD-1458,Spices - Classic,Food & Beverage,Prime Distributors,2026-04-07,13.77,26.08,144,34,WH-B2,254,6624.32,3126.74
+PRD-2188,Serum - Lite,Health & Beauty,Prime Distributors,2025-10-08,4.76,8.15,90,70,WH-C2,96,782.4,325.44
+PRD-1847,Travel Guide - Lite,Books,TechSupply Co.,2024-10-21,12.21,21.2,176,65,WH-D1,28,593.6,251.72
+PRD-1791,Self-Help Guide - Plus,Books,Value Wholesalers,2025-01-15,28.16,63.74,215,76,WH-C2,10,637.4,355.8
+PRD-1725,Basketball - Plus,Sports & Outdoors,TechSupply Co.,2025-03-14,17.43,34.98,435,55,WH-B1,143,5002.14,2509.65
+PRD-1437,Coconut Water - Elite,Food & Beverage,Global Traders Inc.,2025-02-15,24.99,54.31,429,67,WH-A1,144,7820.64,4222.08
+PRD-1705,Tennis Racket - Premium,Sports & Outdoors,Value Wholesalers,2025-08-09,28.74,64.17,220,75,WH-A1,175,11229.75,6200.25
+PRD-2062,Shampoo - Ultra,Health & Beauty,Quality Goods Ltd.,2024-10-30,31.32,52.03,121,74,WH-A1,40,2081.2,828.4
+PRD-1623,Yoga Mat - Classic,Sports & Outdoors,Premium Suppliers,2026-03-04,33.85,83.53,127,49,WH-A2,153,12780.09,7601.04
+PRD-1351,Mixed Nuts - Plus,Food & Beverage,Prime Distributors,2024-10-31,17.79,37.14,44,32,WH-B2,63,2339.82,1219.05
+PRD-1197,Winter Jacket - Plus,Clothing,Quality Goods Ltd.,2025-09-03,75.2,170.94,417,89,WH-A1,18,3076.92,1723.32
+PRD-1465,LED Bulb - Deluxe,Home & Garden,FastTrack Logistics,2026-04-19,25.49,49.59,58,71,WH-C2,233,11554.47,5615.3
+PRD-1579,Vase - Classic,Home & Garden,Value Wholesalers,2026-01-16,51.98,86.42,120,52,WH-A2,40,3456.8,1377.6
+PRD-1006,Wireless Headphones - Ultra,Electronics,Global Traders Inc.,2025-09-26,168.44,343.99,441,66,WH-C1,35,12039.65,6144.25
+PRD-1311,Organic Coffee - Deluxe,Food & Beverage,Global Traders Inc.,2025-05-31,17.48,26.42,155,50,WH-D1,78,2060.76,697.32
+PRD-2092,Vitamins - Deluxe,Health & Beauty,Value Wholesalers,2026-05-26,39.11,103.05,412,32,WH-C1,0,0.0,0.0
+PRD-1405,Dark Chocolate - Max,Food & Beverage,Premium Suppliers,2025-07-04,4.33,7.72,442,93,WH-C1,115,887.8,389.85
+PRD-2034,Play Dough - Lite,Toys,Value Wholesalers,2025-12-26,47.69,74.57,197,44,WH-B2,168,12527.76,4515.84
+PRD-1887,Comic Book - Classic,Books,Value Wholesalers,2025-12-18,22.26,57.69,376,96,WH-C2,48,2769.12,1700.64
+PRD-1105,Keyboard - Ultra,Electronics,Quality Goods Ltd.,2025-01-07,39.24,64.57,450,82,WH-B1,122,7877.54,3090.26
+PRD-1098,Mouse Pad - Plus,Electronics,FastTrack Logistics,2025-06-06,189.4,359.97,252,76,WH-C2,0,0.0,0.0
+PRD-2040,Kite - Ultra,Toys,Elite Imports,2025-12-29,5.33,8.76,32,71,WH-B1,126,1103.76,432.18
+PRD-1528,Curtain Rod - Lite,Home & Garden,Premium Suppliers,2025-03-30,55.48,146.8,20,61,WH-B2,266,39048.8,24291.12
+PRD-1909,Building Blocks - Classic,Toys,FastTrack Logistics,2025-05-02,8.56,19.7,153,39,WH-B2,153,3014.1,1704.42
+PRD-1970,Stuffed Animal - Standard,Toys,FastTrack Logistics,2026-03-22,7.33,12.75,305,95,WH-B2,260,3315.0,1409.2
+PRD-1315,Organic Coffee - Classic,Food & Beverage,Value Wholesalers,2025-08-18,24.21,42.23,5,32,WH-D1,261,11022.03,4703.22
+PRD-1600,Lamp - Ultra,Home & Garden,Global Traders Inc.,2024-10-13,28.88,43.89,406,55,WH-A2,202,8865.78,3032.02
+PRD-1870,Technical Manual - Premium,Books,TechSupply Co.,2024-09-13,24.57,41.19,469,50,WH-D1,196,8073.24,3257.52
+PRD-1063,Laptop Stand - Elite,Electronics,Elite Imports,2025-11-21,65.8,91.66,146,50,WH-C2,163,14940.58,4215.18
+PRD-1282,Windbreaker - Classic,Clothing,Premium Suppliers,2026-06-07,48.5,88.85,74,22,WH-B2,299,26566.15,12064.65
+PRD-1731,Fishing Rod - Pro,Sports & Outdoors,Elite Imports,2025-01-24,31.03,68.89,199,80,WH-C2,271,18669.19,10260.06
+PRD-1267,Polo Shirt - Deluxe,Clothing,Elite Imports,2025-01-12,38.54,79.74,117,51,WH-C2,79,6299.46,3254.8
+PRD-1967,Doll House - Plus,Toys,TechSupply Co.,2025-01-29,19.28,33.88,58,32,WH-D1,146,4946.48,2131.6
+PRD-1239,Dress Shirt - Elite,Clothing,Quality Goods Ltd.,2025-08-25,79.86,177.09,192,60,WH-C1,235,41616.15,22849.05
+PRD-1224,Sneakers - Basic,Clothing,Quality Goods Ltd.,2026-04-15,11.64,33.97,442,98,WH-A2,81,2751.57,1808.73
+PRD-1146,Earbuds - Deluxe,Electronics,Value Wholesalers,2024-08-04,36.17,75.44,449,90,WH-A1,110,8298.4,4319.7
+PRD-2108,Lip Balm - Elite,Health & Beauty,Elite Imports,2024-11-15,14.2,35.09,434,24,WH-A2,158,5544.22,3300.62
+PRD-1374,Pasta Sauce - Lite,Food & Beverage,FastTrack Logistics,2026-06-09,23.19,49.11,266,72,WH-A1,190,9330.9,4924.8
+PRD-1119,Monitor Stand - Max,Electronics,Prime Distributors,2026-01-25,29.61,69.44,317,50,WH-A2,298,20693.12,11869.34
+PRD-1788,Self-Help Guide - Classic,Books,FastTrack Logistics,2024-10-26,12.94,32.9,354,28,WH-B2,234,7698.6,4670.64
+PRD-1251,Hoodie - Max,Clothing,Elite Imports,2025-02-22,41.7,74.61,57,62,WH-A2,234,17458.74,7700.94
+PRD-2146,Hand Sanitizer - Standard,Health & Beauty,Elite Imports,2025-02-11,28.66,68.21,272,35,WH-B2,97,6616.37,3836.35
+PRD-1010,Wireless Headphones - Plus,Electronics,TechSupply Co.,2026-06-21,163.93,292.02,33,47,WH-A2,290,84685.8,37146.1
+PRD-1450,Rice Crackers - Plus,Food & Beverage,TechSupply Co.,2025-01-26,6.38,12.39,320,51,WH-B1,176,2180.64,1057.76
+PRD-1856,Art Book - Max,Books,Value Wholesalers,2024-10-22,16.91,42.95,280,43,WH-B1,264,11338.8,6874.56
+PRD-1390,Honey - Pro,Food & Beverage,FastTrack Logistics,2026-06-27,9.33,14.7,458,55,WH-A2,0,0.0,0.0
+PRD-1615,Mirror - Plus,Home & Garden,Global Traders Inc.,2025-11-29,34.24,59.79,269,51,WH-C2,91,5440.89,2325.05
+PRD-1461,Spices - Plus,Food & Beverage,TechSupply Co.,2026-04-23,22.86,47.28,342,83,WH-C2,46,2174.88,1123.32
+PRD-2014,Toy Train - Standard,Toys,Premium Suppliers,2025-07-07,34.74,84.81,500,99,WH-D1,33,2798.73,1652.31
+PRD-1145,Earbuds - Standard,Electronics,FastTrack Logistics,2024-10-13,123.29,265.64,195,96,WH-C1,232,61628.48,33025.2
+PRD-1502,Door Mat - Classic,Home & Garden,TechSupply Co.,2024-09-07,24.03,43.55,328,98,WH-A1,124,5400.2,2420.48
+PRD-2097,Vitamins - Elite,Health & Beauty,Value Wholesalers,2024-11-09,11.02,18.58,266,93,WH-B1,258,4793.64,1950.48
+PRD-1178,Running Shoes - Standard,Clothing,Quality Goods Ltd.,2026-03-05,19.16,37.24,403,32,WH-A2,276,10278.24,4990.08
+PRD-2148,Hand Sanitizer - Basic,Health & Beauty,Elite Imports,2024-09-01,37.49,93.46,462,48,WH-A2,187,17477.02,10466.39
+PRD-2158,Deodorant - Deluxe,Health & Beauty,TechSupply Co.,2024-09-09,11.16,23.69,340,54,WH-A2,250,5922.5,3132.5
+PRD-1574,Vase - Standard,Home & Garden,FastTrack Logistics,2026-07-03,27.65,54.09,347,97,WH-B1,294,15902.46,7773.36
+PRD-2183,Serum - Ultra,Health & Beauty,FastTrack Logistics,2026-03-09,18.7,42.92,166,27,WH-C2,5,214.6,121.1
+PRD-1008,Wireless Headphones - Elite,Electronics,FastTrack Logistics,2024-10-11,169.31,253.15,181,46,WH-B2,36,9113.4,3018.24
+PRD-1546,Wall Clock - Classic,Home & Garden,Elite Imports,2025-07-09,35.75,76.11,157,93,WH-A2,203,15450.33,8193.08
+PRD-1826,Children Story - Premium,Books,Quality Goods Ltd.,2024-09-05,12.49,21.57,433,55,WH-A2,178,3839.46,1616.24
+PRD-1358,Olive Oil - Ultra,Food & Beverage,FastTrack Logistics,2024-07-24,13.52,23.42,359,71,WH-C2,0,0.0,0.0
+PRD-1330,Green Tea - Lite,Food & Beverage,TechSupply Co.,2025-12-10,8.72,14.13,275,56,WH-D1,234,3306.42,1265.94
+PRD-1693,Bike Helmet - Lite,Sports & Outdoors,Quality Goods Ltd.,2025-12-30,27.33,47.33,163,76,WH-B1,139,6578.87,2780.0
+PRD-1815,Biography - Premium,Books,Premium Suppliers,2024-08-13,6.66,12.18,139,66,WH-B2,182,2216.76,1004.64
+PRD-1259,Cargo Shorts - Ultra,Clothing,Elite Imports,2024-08-02,34.05,97.92,57,27,WH-C1,258,25263.36,16478.46
+PRD-1873,Technical Manual - Basic,Books,FastTrack Logistics,2026-02-09,27.73,68.88,450,72,WH-A2,140,9643.2,5761.0
+PRD-1762,Mystery Novel - Deluxe,Books,Prime Distributors,2026-02-27,20.28,47.3,210,50,WH-A2,19,898.7,513.38
+PRD-1591,Rug - Elite,Home & Garden,FastTrack Logistics,2026-01-12,51.94,90.23,148,34,WH-B2,231,20843.13,8844.99
+PRD-1814,History Book - Lite,Books,Global Traders Inc.,2025-02-14,22.79,37.02,132,40,WH-B1,74,2739.48,1053.02
+PRD-1526,Curtain Rod - Max,Home & Garden,Prime Distributors,2026-02-10,14.85,40.59,337,38,WH-B2,247,10025.73,6357.78
+PRD-1799,Science Fiction - Classic,Books,Value Wholesalers,2026-02-25,28.59,82.88,79,20,WH-B2,279,23123.52,15146.91
+PRD-2106,Lip Balm - Ultra,Health & Beauty,Quality Goods Ltd.,2025-06-21,39.27,75.22,186,36,WH-D1,113,8499.86,4062.35
+PRD-1738,Backpack - Premium,Sports & Outdoors,Global Traders Inc.,2024-11-11,21.69,47.45,460,92,WH-A1,94,4460.3,2421.44
+PRD-2132,Hair Oil - Plus,Health & Beauty,FastTrack Logistics,2025-06-28,27.39,46.9,233,30,WH-B1,217,10177.3,4233.67
+PRD-1441,Rice Crackers - Premium,Food & Beverage,Quality Goods Ltd.,2025-12-08,17.79,33.99,243,65,WH-B1,87,2957.13,1409.4
+PRD-1532,Throw Pillow - Basic,Home & Garden,Prime Distributors,2024-11-14,44.45,73.51,117,73,WH-B1,58,4263.58,1685.48
+PRD-1942,Puzzle Set - Classic,Toys,Premium Suppliers,2025-10-10,45.51,96.04,75,71,WH-A1,105,10084.2,5305.65
+PRD-1229,Sneakers - Max,Clothing,TechSupply Co.,2024-12-25,22.02,51.3,37,69,WH-C1,281,14415.3,8227.68
+PRD-2030,Play Dough - Classic,Toys,Premium Suppliers,2026-01-12,24.3,59.34,213,46,WH-D1,285,16911.9,9986.4
+PRD-1213,Yoga Pants - Basic,Clothing,Value Wholesalers,2025-05-30,67.28,108.36,497,60,WH-D1,230,24922.8,9448.4
+PRD-1080,Power Bank - Deluxe,Electronics,Quality Goods Ltd.,2025-04-04,120.42,253.1,172,23,WH-D1,166,42014.6,22024.88
+PRD-1149,Earbuds - Ultra,Electronics,Global Traders Inc.,2025-05-07,32.86,71.85,415,36,WH-A1,300,21555.0,11697.0
+PRD-1582,Vase - Plus,Home & Garden,FastTrack Logistics,2024-10-20,11.95,26.11,87,23,WH-B2,0,0.0,0.0
+PRD-1696,Swim Goggles - Deluxe,Sports & Outdoors,Global Traders Inc.,2024-11-03,90.3,185.0,25,36,WH-B1,0,0.0,0.0
+PRD-1925,Action Figure - Premium,Toys,Prime Distributors,2026-01-08,26.12,50.62,259,48,WH-B1,173,8757.26,4238.5
+PRD-1134,Charger Adapter - Standard,Electronics,Value Wholesalers,2026-02-15,178.8,372.96,426,82,WH-C1,143,53333.28,27764.88
+PRD-1768,Mystery Novel - Max,Books,Prime Distributors,2026-06-24,16.1,28.38,458,50,WH-A2,296,8400.48,3634.88
+PRD-1409,Dried Fruits - Standard,Food & Beverage,Prime Distributors,2026-04-11,9.62,20.97,209,90,WH-A1,276,5787.72,3132.6
+PRD-1662,Camping Tent - Standard,Sports & Outdoors,FastTrack Logistics,2024-08-14,68.37,154.09,83,35,WH-B1,0,0.0,0.0
+PRD-1508,Storage Box - Standard,Home & Garden,TechSupply Co.,2025-11-08,35.69,80.21,116,53,WH-A2,230,18448.3,10239.6
+PRD-1859,Poetry Collection - Premium,Books,Value Wholesalers,2025-08-31,26.23,75.43,324,46,WH-B2,136,10258.48,6691.2
+PRD-1505,Door Mat - Plus,Home & Garden,Premium Suppliers,2026-04-30,57.15,98.16,489,88,WH-C1,33,3239.28,1353.33
+PRD-1666,Camping Tent - Ultra,Sports & Outdoors,FastTrack Logistics,2026-01-19,20.58,32.06,103,20,WH-C2,129,4135.74,1480.92
+PRD-1348,Mixed Nuts - Classic,Food & Beverage,Premium Suppliers,2026-03-22,24.73,42.98,67,81,WH-D1,0,0.0,0.0
+PRD-1387,Honey - Standard,Food & Beverage,Prime Distributors,2024-11-02,16.24,25.93,151,83,WH-A1,281,7286.33,2722.89
+PRD-1001,Wireless Headphones - Premium,Electronics,Global Traders Inc.,2025-10-15,60.3,88.49,52,89,WH-A1,0,0.0,0.0
+PRD-1361,Olive Oil - Max,Food & Beverage,Global Traders Inc.,2024-11-04,16.0,26.36,379,42,WH-B2,70,1845.2,725.2
+PRD-2123,Hair Oil - Premium,Health & Beauty,FastTrack Logistics,2026-03-17,7.58,12.0,465,88,WH-C1,10,120.0,44.2
+PRD-1476,Garden Hose - Deluxe,Home & Garden,TechSupply Co.,2025-01-07,5.01,8.11,309,99,WH-C1,260,2108.6,806.0
+PRD-1977,Stuffed Animal - Max,Toys,FastTrack Logistics,2026-02-08,38.26,78.93,153,31,WH-A1,62,4893.66,2521.54
+PRD-1740,Backpack - Deluxe,Sports & Outdoors,Value Wholesalers,2024-09-08,79.29,141.78,82,29,WH-C2,31,4395.18,1937.19
+PRD-1173,Denim Jeans - Elite,Clothing,Premium Suppliers,2025-10-07,35.89,95.53,347,96,WH-B1,0,0.0,0.0
+PRD-1451,Rice Crackers - Lite,Food & Beverage,FastTrack Logistics,2026-04-09,10.82,20.24,85,28,WH-A2,152,3076.48,1431.84
+PRD-1126,HDMI Cable - Pro,Electronics,FastTrack Logistics,2025-04-28,21.17,36.79,67,31,WH-D1,167,6143.93,2608.54
+PRD-1629,Dumbbells - Standard,Sports & Outdoors,Elite Imports,2024-11-21,61.77,93.16,221,57,WH-D1,75,6987.0,2354.25
+PRD-1531,Throw Pillow - Deluxe,Home & Garden,TechSupply Co.,2026-03-03,29.19,52.51,263,55,WH-C1,95,4988.45,2215.4
+PRD-1091,Mouse Pad - Deluxe,Electronics,FastTrack Logistics,2025-11-11,36.91,81.84,310,96,WH-A1,115,9411.6,5166.95
+PRD-2151,Hand Sanitizer - Classic,Health & Beauty,FastTrack Logistics,2025-12-17,4.08,9.47,201,47,WH-B1,263,2490.61,1417.57
+PRD-1182,Running Shoes - Ultra,Clothing,Premium Suppliers,2024-12-16,78.88,172.95,144,68,WH-C2,214,37011.3,20130.98
+PRD-2047,Face Cream - Standard,Health & Beauty,Elite Imports,2025-08-06,30.85,80.6,203,24,WH-B2,0,0.0,0.0
+PRD-1981,Art Kit - Standard,Toys,Elite Imports,2026-07-14,35.27,67.48,458,82,WH-A1,275,18557.0,8857.75
+PRD-1252,Hoodie - Plus,Clothing,FastTrack Logistics,2026-01-14,9.01,18.07,151,92,WH-C2,98,1770.86,887.88
+PRD-1070,Webcam HD - Basic,Electronics,Quality Goods Ltd.,2025-08-23,77.44,182.42,142,73,WH-B2,41,7479.22,4304.18
+PRD-1132,HDMI Cable - Lite,Electronics,Global Traders Inc.,2025-04-04,183.24,304.66,209,34,WH-C2,19,5788.54,2306.98
+PRD-1301,Beanie - Basic,Clothing,Premium Suppliers,2026-04-21,8.37,16.43,184,54,WH-A1,44,722.92,354.64
+PRD-1928,Action Figure - Basic,Toys,Global Traders Inc.,2025-05-24,47.44,94.58,120,46,WH-D1,9,851.22,424.26
+PRD-1327,Green Tea - Elite,Food & Beverage,Prime Distributors,2025-10-01,5.23,8.64,230,99,WH-B2,0,0.0,0.0
+PRD-2000,Science Kit - Plus,Toys,Elite Imports,2025-08-21,31.45,50.57,6,96,WH-C1,99,5006.43,1892.88
+PRD-1500,Door Mat - Pro,Home & Garden,Global Traders Inc.,2025-02-21,13.77,30.38,206,31,WH-D1,109,3311.42,1810.49
+PRD-1655,Water Bottle - Ultra,Sports & Outdoors,Elite Imports,2024-10-30,54.09,96.81,234,51,WH-D1,21,2033.01,897.12
+PRD-1901,Textbook - Plus,Books,Premium Suppliers,2024-09-20,19.8,44.24,485,92,WH-A1,24,1061.76,586.56
+PRD-1496,Door Mat - Premium,Home & Garden,Quality Goods Ltd.,2025-04-20,14.76,35.24,95,42,WH-B1,61,2149.64,1249.28
+PRD-1339,Protein Bars - Max,Food & Beverage,FastTrack Logistics,2025-05-25,10.63,15.52,406,31,WH-C2,142,2203.84,694.38
+PRD-1983,Art Kit - Basic,Toys,Value Wholesalers,2024-11-15,21.11,35.41,393,21,WH-D1,189,6692.49,2702.7
+PRD-1165,Cotton T-Shirt - Lite,Clothing,Quality Goods Ltd.,2025-07-31,33.28,97.75,330,38,WH-D1,74,7233.5,4770.78
+PRD-1029,Bluetooth Speaker - Classic,Electronics,Prime Distributors,2025-03-13,104.05,243.23,462,27,WH-B2,1,243.23,139.18
+PRD-1517,Storage Box - Lite,Home & Garden,Elite Imports,2025-07-23,12.05,28.34,51,56,WH-B1,99,2805.66,1612.71
+PRD-1194,Winter Jacket - Classic,Clothing,Global Traders Inc.,2025-11-19,60.77,148.42,395,94,WH-B1,170,25231.4,14900.5
+PRD-1766,Mystery Novel - Classic,Books,Elite Imports,2026-02-10,21.09,35.02,330,66,WH-A2,222,7774.44,3092.46
+PRD-1170,Denim Jeans - Pro,Clothing,Global Traders Inc.,2024-11-22,44.51,97.66,283,25,WH-C1,292,28516.72,15519.8
+PRD-1807,History Book - Basic,Books,Value Wholesalers,2024-11-29,19.14,34.47,155,80,WH-A2,268,9237.96,4108.44
+PRD-1174,Denim Jeans - Max,Clothing,Premium Suppliers,2025-08-20,14.8,37.26,145,52,WH-A1,76,2831.76,1706.96
+PRD-1519,Curtain Rod - Standard,Home & Garden,Premium Suppliers,2025-09-03,57.73,99.25,160,51,WH-D1,223,22132.75,9258.96
+PRD-1902,Textbook - Lite,Books,FastTrack Logistics,2026-05-28,23.08,54.61,308,68,WH-B1,0,0.0,0.0
+PRD-1708,Tennis Racket - Basic,Sports & Outdoors,Global Traders Inc.,2024-11-20,79.42,147.3,253,27,WH-C2,0,0.0,0.0
+PRD-1492,Plant Pot - Elite,Home & Garden,Elite Imports,2024-10-31,52.74,129.81,442,48,WH-A1,287,37255.47,22119.09
+PRD-1074,Webcam HD - Elite,Electronics,Prime Distributors,2026-04-04,122.06,294.73,294,68,WH-B1,101,29767.73,17439.67
+PRD-2001,Science Kit - Lite,Toys,Prime Distributors,2025-02-17,16.53,31.75,371,99,WH-C2,124,3937.0,1887.28
+PRD-1588,Rug - Pro,Home & Garden,FastTrack Logistics,2025-11-29,48.82,108.02,96,72,WH-C1,223,24088.46,13201.6
+PRD-1235,Dress Shirt - Basic,Clothing,FastTrack Logistics,2024-08-18,53.31,127.7,135,94,WH-D1,26,3320.2,1934.14
+PRD-1215,Yoga Pants - Ultra,Clothing,Prime Distributors,2025-02-24,73.57,116.47,63,86,WH-B2,84,9783.48,3603.6
+PRD-1993,Science Kit - Deluxe,Toys,FastTrack Logistics,2024-10-20,33.14,50.63,221,23,WH-A1,171,8657.73,2990.79
+PRD-1133,Charger Adapter - Premium,Electronics,FastTrack Logistics,2026-03-27,32.98,77.99,69,69,WH-B2,276,21525.24,12422.76
+PRD-1721,Basketball - Ultra,Sports & Outdoors,Elite Imports,2026-05-04,57.1,121.74,125,80,WH-C1,39,4747.86,2520.96
+PRD-1923,Board Game - Plus,Toys,Quality Goods Ltd.,2026-05-22,28.77,55.3,161,90,WH-C2,0,0.0,0.0
+PRD-1186,Running Shoes - Plus,Clothing,Value Wholesalers,2025-06-13,44.14,81.82,41,67,WH-A1,163,13336.66,6141.84
+PRD-1042,USB-C Cable - Max,Electronics,Prime Distributors,2025-04-27,117.06,212.26,4,34,WH-C2,0,0.0,0.0
+PRD-1109,Keyboard - Plus,Electronics,Value Wholesalers,2025-02-19,64.43,83.96,371,58,WH-B1,296,24852.16,5780.88
+PRD-2155,Hand Sanitizer - Lite,Health & Beauty,TechSupply Co.,2024-09-19,13.0,27.45,191,58,WH-A2,93,2552.85,1343.85
+PRD-1569,Candle Set - Elite,Home & Garden,Elite Imports,2025-12-20,28.05,69.5,186,71,WH-B2,92,6394.0,3813.4
+PRD-1913,Building Blocks - Lite,Toys,TechSupply Co.,2025-05-23,44.45,79.91,300,78,WH-A1,230,18379.3,8155.8
+PRD-2020,Toy Train - Elite,Toys,Value Wholesalers,2024-12-03,34.24,58.45,458,45,WH-C2,120,7014.0,2905.2
+PRD-2144,Face Mask - Lite,Health & Beauty,Global Traders Inc.,2026-05-03,6.76,12.25,47,41,WH-C2,43,526.75,236.07
+PRD-1484,Garden Hose - Lite,Home & Garden,Prime Distributors,2024-12-08,14.55,37.25,53,69,WH-C2,164,6109.0,3722.8
+PRD-1469,LED Bulb - Classic,Home & Garden,Global Traders Inc.,2025-04-28,7.53,13.86,160,21,WH-B2,268,3714.48,1696.44
+PRD-1025,Bluetooth Speaker - Deluxe,Electronics,Value Wholesalers,2026-04-18,32.93,59.84,216,72,WH-A2,27,1615.68,726.57
+PRD-1650,Water Bottle - Premium,Sports & Outdoors,Value Wholesalers,2025-04-26,77.1,183.96,326,55,WH-B1,96,17660.16,10258.56
+PRD-1669,Camping Tent - Max,Sports & Outdoors,FastTrack Logistics,2024-10-18,60.18,143.85,25,43,WH-C1,178,25605.3,14893.26
+PRD-1739,Backpack - Standard,Sports & Outdoors,Global Traders Inc.,2026-01-16,32.8,64.3,479,29,WH-C2,141,9066.3,4441.5
+PRD-2161,Deodorant - Ultra,Health & Beauty,Quality Goods Ltd.,2024-08-28,33.87,69.72,305,21,WH-A1,148,10318.56,5305.8
+PRD-1367,Pasta Sauce - Basic,Food & Beverage,Value Wholesalers,2025-08-28,7.71,16.44,163,54,WH-A2,292,4800.48,2549.16
+PRD-1824,Biography - Plus,Books,TechSupply Co.,2026-04-04,3.89,9.82,303,27,WH-A2,129,1266.78,764.97
+PRD-2042,Kite - Elite,Toys,Premium Suppliers,2024-07-25,40.66,76.89,421,42,WH-C2,91,6996.99,3296.93
+PRD-1384,Granola - Plus,Food & Beverage,Global Traders Inc.,2026-05-18,6.55,12.55,414,36,WH-A1,0,0.0,0.0
+PRD-1455,Spices - Basic,Food & Beverage,Value Wholesalers,2025-11-04,19.74,37.48,304,26,WH-C2,10,374.8,177.4
+PRD-1265,Polo Shirt - Premium,Clothing,Elite Imports,2025-07-02,35.05,88.47,338,89,WH-D1,178,15747.66,9508.76
+PRD-1747,Backpack - Plus,Sports & Outdoors,Value Wholesalers,2025-03-17,20.91,42.71,183,62,WH-C2,205,8755.55,4469.0
+PRD-1962,Doll House - Pro,Toys,Elite Imports,2025-10-12,34.07,80.61,362,23,WH-C2,158,12736.38,7353.32
+PRD-1445,Rice Crackers - Pro,Food & Beverage,Global Traders Inc.,2026-01-05,13.51,28.29,195,87,WH-B2,27,763.83,399.06
+PRD-1396,Honey - Lite,Food & Beverage,Quality Goods Ltd.,2026-03-12,9.84,15.17,410,61,WH-D1,0,0.0,0.0
+PRD-1729,Fishing Rod - Deluxe,Sports & Outdoors,Value Wholesalers,2024-09-15,49.62,107.43,107,93,WH-A2,176,18907.68,10174.56
+PRD-1177,Running Shoes - Premium,Clothing,Value Wholesalers,2025-07-18,9.31,18.28,486,47,WH-C1,248,4533.44,2224.56
+PRD-1019,Smart Watch - Elite,Electronics,Global Traders Inc.,2025-03-13,165.96,410.52,272,36,WH-A1,243,99756.36,59428.08
+PRD-1694,Swim Goggles - Premium,Sports & Outdoors,Prime Distributors,2025-10-16,20.3,51.76,286,85,WH-A2,277,14337.52,8714.42
+PRD-1835,Children Story - Plus,Books,Global Traders Inc.,2025-06-14,13.82,33.54,52,41,WH-A2,0,0.0,0.0
+PRD-1596,Lamp - Standard,Home & Garden,Elite Imports,2026-01-08,54.26,99.03,195,21,WH-A2,127,12576.81,5685.79
+PRD-1062,Laptop Stand - Classic,Electronics,Elite Imports,2025-03-24,98.26,216.38,430,55,WH-A2,266,57557.08,31419.92
+PRD-1273,Polo Shirt - Max,Clothing,Elite Imports,2025-08-05,75.79,190.01,402,87,WH-A1,213,40472.13,24328.86
+PRD-2115,Body Lotion - Basic,Health & Beauty,Prime Distributors,2024-08-10,21.37,56.98,107,47,WH-B2,100,5698.0,3561.0
+PRD-1279,Windbreaker - Basic,Clothing,Global Traders Inc.,2025-03-20,73.84,187.81,360,46,WH-C2,122,22912.82,13904.34
+PRD-1825,Biography - Lite,Books,TechSupply Co.,2025-09-18,21.02,55.84,400,35,WH-A1,105,5863.2,3656.1
+PRD-1369,Pasta Sauce - Ultra,Food & Beverage,Global Traders Inc.,2025-10-07,19.79,32.62,44,90,WH-B2,188,6132.56,2412.04
+PRD-1869,Poetry Collection - Lite,Books,FastTrack Logistics,2026-02-25,12.8,33.3,420,59,WH-D1,0,0.0,0.0
+PRD-2136,Face Mask - Deluxe,Health & Beauty,Premium Suppliers,2025-10-17,9.27,23.52,140,21,WH-B1,0,0.0,0.0
+PRD-1843,Travel Guide - Classic,Books,Elite Imports,2026-06-17,3.89,9.26,440,58,WH-B2,84,777.84,451.08
+PRD-1709,Tennis Racket - Pro,Sports & Outdoors,Prime Distributors,2024-10-10,82.89,191.35,338,39,WH-C1,149,28511.15,16160.54
+PRD-1760,Mystery Novel - Premium,Books,Global Traders Inc.,2024-10-14,19.54,52.54,8,82,WH-D1,0,0.0,0.0
+PRD-1548,Wall Clock - Max,Home & Garden,Value Wholesalers,2025-08-11,49.05,112.73,350,26,WH-D1,2,225.46,127.36
+PRD-1862,Poetry Collection - Basic,Books,Quality Goods Ltd.,2025-10-17,6.68,13.1,411,55,WH-A2,90,1179.0,577.8
+PRD-1882,Comic Book - Standard,Books,Global Traders Inc.,2026-01-30,28.58,50.42,367,87,WH-B1,232,11697.44,5066.88
+PRD-1457,Spices - Ultra,Food & Beverage,Quality Goods Ltd.,2024-08-20,16.5,27.07,338,32,WH-C2,138,3735.66,1458.66
+PRD-1394,Honey - Max,Food & Beverage,Premium Suppliers,2024-12-23,5.27,11.38,428,83,WH-C1,89,1012.82,543.79
+PRD-1894,Textbook - Deluxe,Books,TechSupply Co.,2026-02-21,4.47,8.3,240,53,WH-A2,239,1983.7,915.37
+PRD-1947,Remote Control Car - Premium,Toys,Premium Suppliers,2026-06-05,39.05,95.33,229,58,WH-A1,2,190.66,112.56
+PRD-1376,Granola - Standard,Food & Beverage,TechSupply Co.,2024-09-13,24.18,38.43,133,60,WH-B2,201,7724.43,2864.25
+PRD-1413,Dried Fruits - Ultra,Food & Beverage,Value Wholesalers,2025-03-10,22.58,36.4,328,89,WH-B2,189,6879.6,2611.98
+PRD-1075,Webcam HD - Max,Electronics,Global Traders Inc.,2024-08-15,168.66,268.41,356,58,WH-C1,61,16373.01,6084.75
+PRD-2111,Lip Balm - Lite,Health & Beauty,Prime Distributors,2025-03-11,30.19,57.02,417,40,WH-D1,280,15965.6,7512.4
+PRD-1845,Travel Guide - Max,Books,Elite Imports,2024-12-25,26.07,60.2,200,53,WH-B2,193,11618.6,6587.09
+PRD-1501,Door Mat - Ultra,Home & Garden,Premium Suppliers,2025-07-19,21.15,57.85,316,87,WH-B1,287,16602.95,10532.9
+PRD-1786,Self-Help Guide - Pro,Books,Quality Goods Ltd.,2025-07-27,27.24,62.79,216,55,WH-B1,0,0.0,0.0
+PRD-1617,Yoga Mat - Premium,Sports & Outdoors,Global Traders Inc.,2026-01-20,59.5,119.34,336,40,WH-A2,226,26970.84,13523.84
+PRD-1115,Monitor Stand - Pro,Electronics,Premium Suppliers,2024-08-13,88.53,123.62,168,88,WH-C1,162,20026.44,5684.58
+PRD-1418,Dried Fruits - Lite,Food & Beverage,Prime Distributors,2025-04-20,5.98,13.08,497,47,WH-A1,64,837.12,454.4
+PRD-1602,Lamp - Elite,Home & Garden,Quality Goods Ltd.,2025-02-27,10.03,23.11,476,100,WH-A2,0,0.0,0.0
+PRD-1605,Lamp - Lite,Home & Garden,TechSupply Co.,2024-07-30,29.06,54.72,356,82,WH-B2,95,5198.4,2437.7
+PRD-1090,Mouse Pad - Standard,Electronics,Global Traders Inc.,2026-05-18,89.13,123.79,322,26,WH-D1,288,35651.52,9982.08
+PRD-2138,Face Mask - Pro,Health & Beauty,Global Traders Inc.,2025-07-31,29.22,76.7,282,54,WH-C1,24,1840.8,1139.52
+PRD-1499,Door Mat - Basic,Home & Garden,Elite Imports,2024-12-14,35.26,56.23,362,60,WH-D1,94,5285.62,1971.18
+PRD-1858,Art Book - Lite,Books,Value Wholesalers,2024-10-20,4.62,8.69,236,38,WH-C1,153,1329.57,622.71
+PRD-1865,Poetry Collection - Classic,Books,Global Traders Inc.,2024-09-11,25.38,74.35,476,87,WH-C1,46,3420.1,2252.62
+PRD-1863,Poetry Collection - Pro,Books,TechSupply Co.,2025-03-13,24.12,40.46,459,30,WH-C2,152,6149.92,2483.68
+PRD-1012,Smart Watch - Premium,Electronics,Quality Goods Ltd.,2024-12-26,114.71,251.95,219,94,WH-C2,112,28218.4,15370.88
+PRD-1397,Dark Chocolate - Premium,Food & Beverage,Prime Distributors,2024-08-01,23.1,46.65,433,87,WH-C1,37,1726.05,871.35
+PRD-2176,Eye Cream - Plus,Health & Beauty,TechSupply Co.,2024-11-17,13.87,38.25,148,25,WH-A2,31,1185.75,755.78
+PRD-1556,Picture Frame - Ultra,Home & Garden,Global Traders Inc.,2026-05-10,32.67,63.44,59,85,WH-C1,275,17446.0,8461.75
+PRD-1043,USB-C Cable - Plus,Electronics,Prime Distributors,2026-06-17,169.4,338.63,75,75,WH-C1,157,53164.91,26569.11
+PRD-1168,Denim Jeans - Deluxe,Clothing,Premium Suppliers,2025-04-29,12.92,27.95,155,55,WH-A2,180,5031.0,2705.4
+PRD-1417,Dried Fruits - Plus,Food & Beverage,Elite Imports,2026-05-04,11.08,23.08,17,84,WH-B1,264,6093.12,3168.0
+PRD-1577,Vase - Pro,Home & Garden,Value Wholesalers,2026-05-11,9.35,18.2,160,60,WH-D1,136,2475.2,1203.6
+PRD-1268,Polo Shirt - Basic,Clothing,FastTrack Logistics,2026-03-30,10.32,25.7,314,22,WH-A2,34,873.8,522.92
+PRD-1944,Puzzle Set - Max,Toys,TechSupply Co.,2025-08-15,22.55,50.04,450,36,WH-C1,276,13811.04,7587.24
+PRD-1427,Energy Drink - Max,Food & Beverage,Prime Distributors,2025-04-26,19.8,32.8,373,73,WH-B1,45,1476.0,585.0
+PRD-1691,Bike Helmet - Max,Sports & Outdoors,Elite Imports,2025-02-04,20.43,36.23,22,96,WH-B2,170,6159.1,2686.0
+PRD-1545,Wall Clock - Ultra,Home & Garden,FastTrack Logistics,2025-01-21,28.3,55.9,141,70,WH-B1,211,11794.9,5823.6
+PRD-2112,Body Lotion - Premium,Health & Beauty,Value Wholesalers,2025-05-17,28.4,79.16,387,70,WH-B1,270,21373.2,13705.2
+PRD-1675,Hiking Boots - Basic,Sports & Outdoors,Global Traders Inc.,2024-08-17,64.43,151.14,361,56,WH-B2,162,24484.68,14047.02
+PRD-1690,Bike Helmet - Elite,Sports & Outdoors,Prime Distributors,2026-04-14,83.99,212.13,346,36,WH-D1,18,3818.34,2306.52
+PRD-2044,Kite - Plus,Toys,Quality Goods Ltd.,2026-02-12,17.32,36.86,149,28,WH-D1,111,4091.46,2168.94
+PRD-2165,Deodorant - Plus,Health & Beauty,Quality Goods Ltd.,2025-05-13,4.64,8.16,442,26,WH-A2,268,2186.88,943.36
+PRD-1964,Doll House - Classic,Toys,Quality Goods Ltd.,2025-03-23,27.62,41.95,337,88,WH-D1,9,377.55,128.97
+PRD-1866,Poetry Collection - Elite,Books,Quality Goods Ltd.,2026-03-20,23.88,48.69,426,94,WH-C1,120,5842.8,2977.2
+PRD-1258,Cargo Shorts - Pro,Clothing,Value Wholesalers,2025-01-07,73.72,194.33,410,47,WH-C2,41,7967.53,4945.01
+PRD-1336,Protein Bars - Ultra,Food & Beverage,Premium Suppliers,2025-09-27,8.65,13.96,439,85,WH-C2,48,670.08,254.88
+PRD-1016,Smart Watch - Pro,Electronics,Elite Imports,2025-10-27,194.8,431.36,259,33,WH-A1,152,65566.72,35957.12
+PRD-2023,Toy Train - Lite,Toys,Premium Suppliers,2025-04-18,26.04,49.71,411,83,WH-B2,195,9693.45,4615.65
+PRD-1325,Green Tea - Ultra,Food & Beverage,Global Traders Inc.,2026-03-08,9.2,14.64,59,43,WH-C2,72,1054.08,391.68
+PRD-1608,Mirror - Deluxe,Home & Garden,Value Wholesalers,2026-01-15,53.56,123.49,186,99,WH-C2,32,3951.68,2237.76
+PRD-2043,Kite - Max,Toys,Value Wholesalers,2025-06-25,45.99,77.42,291,32,WH-B2,22,1703.24,691.46
+PRD-1819,Biography - Pro,Books,Value Wholesalers,2026-02-07,5.77,10.48,113,44,WH-B1,286,2997.28,1347.06
+PRD-1223,Sneakers - Deluxe,Clothing,Value Wholesalers,2025-07-09,45.08,74.8,123,79,WH-A2,230,17204.0,6835.6
+PRD-1180,Running Shoes - Basic,Clothing,Prime Distributors,2025-05-01,11.15,22.82,368,50,WH-C2,145,3308.9,1692.15
+PRD-1100,Keyboard - Premium,Electronics,FastTrack Logistics,2026-06-12,156.18,235.87,265,76,WH-C1,92,21700.04,7331.48
+PRD-1522,Curtain Rod - Pro,Home & Garden,Quality Goods Ltd.,2024-10-20,9.21,14.72,9,84,WH-B1,297,4371.84,1636.47
+PRD-1023,Bluetooth Speaker - Premium,Electronics,TechSupply Co.,2026-05-15,182.5,425.51,36,85,WH-A2,248,105526.48,60266.48
+PRD-1357,Olive Oil - Pro,Food & Beverage,TechSupply Co.,2026-05-15,2.32,3.65,472,27,WH-C1,203,740.95,269.99
+PRD-1943,Puzzle Set - Elite,Toys,Elite Imports,2025-08-04,44.95,102.56,207,45,WH-C2,43,4410.08,2477.23
+PRD-2101,Lip Balm - Premium,Health & Beauty,FastTrack Logistics,2025-03-23,38.25,90.72,340,37,WH-C2,251,22770.72,13169.97
+PRD-1612,Mirror - Classic,Home & Garden,FastTrack Logistics,2025-07-13,17.14,41.71,6,46,WH-A1,40,1668.4,982.8
+PRD-1990,Art Kit - Lite,Toys,FastTrack Logistics,2024-08-26,28.32,56.51,264,25,WH-A1,114,6442.14,3213.66
+PRD-1341,Protein Bars - Lite,Food & Beverage,Premium Suppliers,2026-05-20,20.3,34.88,495,74,WH-D1,253,8824.64,3688.74
+PRD-1432,Coconut Water - Deluxe,Food & Beverage,Elite Imports,2025-03-25,15.5,26.04,83,53,WH-A2,46,1197.84,484.84
+PRD-1769,Mystery Novel - Plus,Books,Premium Suppliers,2026-01-01,23.17,66.21,117,34,WH-B2,50,3310.5,2152.0
+PRD-1218,Yoga Pants - Max,Clothing,Prime Distributors,2024-12-06,19.1,47.52,368,97,WH-C1,288,13685.76,8184.96
+PRD-1204,Casual Shirt - Ultra,Clothing,TechSupply Co.,2024-11-08,56.82,122.58,64,28,WH-A2,187,22922.46,12297.12
+PRD-1888,Comic Book - Elite,Books,TechSupply Co.,2025-08-17,28.14,63.58,181,97,WH-A1,23,1462.34,815.12
+PRD-1094,Mouse Pad - Ultra,Electronics,Global Traders Inc.,2026-07-21,90.58,192.69,240,57,WH-A2,0,0.0,0.0
+PRD-2054,Face Cream - Max,Health & Beauty,Global Traders Inc.,2026-04-16,32.69,84.33,85,41,WH-A2,0,0.0,0.0
+PRD-1069,Webcam HD - Deluxe,Electronics,TechSupply Co.,2024-10-03,94.29,220.66,93,26,WH-A1,167,36850.22,21103.79
+PRD-1877,Technical Manual - Elite,Books,Quality Goods Ltd.,2025-09-14,11.47,19.67,80,51,WH-C2,66,1298.22,541.2
+PRD-1285,Windbreaker - Plus,Clothing,Prime Distributors,2025-01-10,43.16,124.1,277,27,WH-A2,38,4715.8,3075.72
+PRD-1697,Swim Goggles - Basic,Sports & Outdoors,TechSupply Co.,2025-06-26,14.84,28.37,91,96,WH-A1,228,6468.36,3084.84
+PRD-1086,Power Bank - Max,Electronics,Quality Goods Ltd.,2025-03-15,66.15,132.8,389,87,WH-A2,51,6772.8,3399.15
+PRD-1435,Coconut Water - Ultra,Food & Beverage,Prime Distributors,2026-07-15,7.15,13.49,482,59,WH-C1,140,1888.6,887.6
+PRD-1782,Self-Help Guide - Premium,Books,Premium Suppliers,2026-06-20,11.01,29.22,357,98,WH-C1,106,3097.32,1930.26
+PRD-1154,Earbuds - Lite,Electronics,Premium Suppliers,2026-07-17,48.56,71.48,336,71,WH-B1,0,0.0,0.0
+PRD-1076,Webcam HD - Plus,Electronics,TechSupply Co.,2025-01-24,94.25,164.44,259,63,WH-B1,0,0.0,0.0
+PRD-2032,Play Dough - Max,Toys,Premium Suppliers,2025-05-20,24.16,54.42,390,88,WH-A2,300,16326.0,9078.0
+PRD-1581,Vase - Max,Home & Garden,Value Wholesalers,2026-04-29,10.72,24.69,43,69,WH-C1,126,3110.94,1760.22
+PRD-1447,Rice Crackers - Classic,Food & Beverage,Global Traders Inc.,2025-08-17,16.51,25.45,324,27,WH-B2,0,0.0,0.0
+PRD-1704,Swim Goggles - Lite,Sports & Outdoors,FastTrack Logistics,2025-04-07,46.07,87.35,317,51,WH-C1,246,21488.1,10154.88
+PRD-1189,Winter Jacket - Standard,Clothing,Quality Goods Ltd.,2026-02-20,47.51,123.09,270,74,WH-D1,147,18094.23,11110.26
+PRD-1272,Polo Shirt - Elite,Clothing,Quality Goods Ltd.,2025-09-19,27.81,64.94,302,42,WH-B2,218,14156.92,8094.34
+PRD-1237,Dress Shirt - Ultra,Clothing,TechSupply Co.,2024-08-05,15.91,24.32,160,73,WH-C1,104,2529.28,874.64
+PRD-1488,Plant Pot - Basic,Home & Garden,Prime Distributors,2025-01-14,43.19,82.89,59,65,WH-C1,298,24701.22,11830.6
+PRD-2149,Hand Sanitizer - Pro,Health & Beauty,Prime Distributors,2025-07-27,38.29,78.48,194,41,WH-C1,57,4473.36,2290.83
+PRD-1560,Picture Frame - Plus,Home & Garden,Value Wholesalers,2025-08-07,9.18,24.89,243,60,WH-C2,293,7292.77,4603.03
+PRD-1118,Monitor Stand - Elite,Electronics,Premium Suppliers,2026-05-27,69.27,121.21,74,51,WH-D1,289,35029.69,15010.66
+PRD-1638,Dumbbells - Lite,Sports & Outdoors,FastTrack Logistics,2025-03-16,66.07,171.17,355,22,WH-C1,269,46044.73,28271.9
+PRD-2066,Shampoo - Plus,Health & Beauty,Quality Goods Ltd.,2024-08-19,29.07,52.01,446,68,WH-D1,93,4836.93,2133.42
+PRD-1751,Binoculars - Deluxe,Sports & Outdoors,Prime Distributors,2026-01-07,12.28,31.87,122,82,WH-A1,276,8796.12,5406.84
+PRD-1513,Storage Box - Classic,Home & Garden,Prime Distributors,2026-06-11,5.28,12.02,275,90,WH-A1,156,1875.12,1051.44
+PRD-1634,Dumbbells - Classic,Sports & Outdoors,Premium Suppliers,2024-09-20,12.18,21.51,179,98,WH-C1,226,4861.26,2108.58
+PRD-1772,Cookbook - Standard,Books,Quality Goods Ltd.,2025-07-21,29.34,55.25,65,24,WH-C2,30,1657.5,777.3
+PRD-1987,Art Kit - Elite,Toys,Prime Distributors,2024-11-28,10.77,16.86,132,92,WH-A1,267,4501.62,1626.03
+PRD-2031,Play Dough - Elite,Toys,TechSupply Co.,2026-03-03,30.99,50.46,482,21,WH-B1,181,9133.26,3524.07
+PRD-1127,HDMI Cable - Ultra,Electronics,Value Wholesalers,2025-12-30,39.45,76.82,497,66,WH-A2,139,10677.98,5194.43
+PRD-1117,Monitor Stand - Classic,Electronics,Value Wholesalers,2024-10-13,145.22,206.3,85,58,WH-A1,23,4744.9,1404.84
+PRD-1474,Garden Hose - Premium,Home & Garden,Value Wholesalers,2025-11-25,9.34,19.4,293,77,WH-D1,0,0.0,0.0
+PRD-1741,Backpack - Basic,Sports & Outdoors,Value Wholesalers,2025-08-17,99.64,170.37,416,53,WH-B2,35,5962.95,2475.55
+PRD-1975,Stuffed Animal - Classic,Toys,Elite Imports,2024-10-26,18.02,44.55,0,27,WH-D1,246,10959.3,6526.38
+PRD-1058,Laptop Stand - Deluxe,Electronics,Quality Goods Ltd.,2024-11-05,172.2,238.91,212,100,WH-B2,196,46826.36,13075.16
+PRD-1604,Lamp - Plus,Home & Garden,Premium Suppliers,2025-04-30,45.33,69.25,193,65,WH-D1,128,8864.0,3061.76
+PRD-1985,Art Kit - Ultra,Toys,Quality Goods Ltd.,2025-03-05,48.53,74.58,252,97,WH-A2,100,7458.0,2605.0
+PRD-1657,Water Bottle - Elite,Sports & Outdoors,Global Traders Inc.,2025-04-12,84.43,122.5,125,86,WH-B2,20,2450.0,761.4
+PRD-1885,Comic Book - Pro,Books,Value Wholesalers,2025-05-31,24.4,40.02,499,53,WH-A2,230,9204.6,3592.6
+PRD-1904,Building Blocks - Standard,Toys,Value Wholesalers,2025-06-06,17.82,40.14,334,39,WH-D1,251,10075.14,5602.32
+PRD-1106,Keyboard - Classic,Electronics,Prime Distributors,2025-01-05,17.53,31.37,115,34,WH-B1,60,1882.2,830.4
+PRD-1636,Dumbbells - Max,Sports & Outdoors,Global Traders Inc.,2026-05-29,31.87,68.37,75,56,WH-C2,0,0.0,0.0
+PRD-1370,Pasta Sauce - Classic,Food & Beverage,Quality Goods Ltd.,2024-12-23,20.04,39.91,124,79,WH-B1,252,10057.32,5007.24
+PRD-1269,Polo Shirt - Pro,Clothing,Global Traders Inc.,2026-06-19,40.14,100.67,446,26,WH-C1,22,2214.74,1331.66
+PRD-1656,Water Bottle - Classic,Sports & Outdoors,Value Wholesalers,2025-09-06,45.47,114.9,292,96,WH-C2,19,2183.1,1319.17
+PRD-1047,Phone Case - Deluxe,Electronics,Value Wholesalers,2026-06-14,173.84,272.39,418,78,WH-D1,116,31597.24,11431.8
+PRD-1350,Mixed Nuts - Max,Food & Beverage,Prime Distributors,2025-01-26,14.96,28.25,84,76,WH-A1,109,3079.25,1448.61
+PRD-1774,Cookbook - Basic,Books,Prime Distributors,2024-10-08,28.72,82.36,295,90,WH-D1,44,3623.84,2360.16
+PRD-1196,Winter Jacket - Max,Clothing,Prime Distributors,2026-03-07,12.54,33.41,234,24,WH-D1,22,735.02,459.14
+PRD-1103,Keyboard - Basic,Electronics,TechSupply Co.,2026-04-24,73.19,123.54,496,71,WH-B2,0,0.0,0.0
+PRD-1005,Wireless Headphones - Pro,Electronics,Premium Suppliers,2025-10-26,164.32,357.51,274,35,WH-C1,193,68999.43,37285.67
+PRD-1620,Yoga Mat - Basic,Sports & Outdoors,Premium Suppliers,2025-04-21,96.38,134.95,17,56,WH-B2,265,35761.75,10221.05
+PRD-2049,Face Cream - Basic,Health & Beauty,Quality Goods Ltd.,2025-05-01,9.05,23.23,430,40,WH-C2,9,209.07,127.62
+PRD-1053,Phone Case - Max,Electronics,Premium Suppliers,2025-09-05,137.73,199.65,460,58,WH-C1,209,41726.85,12941.28
+PRD-1264,Cargo Shorts - Lite,Clothing,Elite Imports,2025-10-03,37.44,99.35,392,73,WH-A1,195,19373.25,12072.45
+PRD-2082,Sunscreen - Basic,Health & Beauty,FastTrack Logistics,2025-05-28,31.09,83.99,445,31,WH-C2,293,24609.07,15499.7
+PRD-1444,Rice Crackers - Basic,Food & Beverage,Premium Suppliers,2024-12-01,8.76,18.23,240,26,WH-B1,298,5432.54,2822.06
+PRD-1954,Remote Control Car - Elite,Toys,Prime Distributors,2025-02-21,10.72,23.7,66,85,WH-A2,60,1422.0,778.8
+PRD-1783,Self-Help Guide - Standard,Books,Global Traders Inc.,2025-08-14,22.87,38.35,484,66,WH-C1,56,2147.6,866.88
+PRD-1830,Children Story - Pro,Books,Prime Distributors,2025-07-25,29.5,64.71,263,49,WH-D1,160,10353.6,5633.6
+PRD-1692,Bike Helmet - Plus,Sports & Outdoors,Elite Imports,2026-04-09,56.85,124.55,159,22,WH-A1,159,19803.45,10764.3
+PRD-1305,Beanie - Elite,Clothing,Prime Distributors,2026-02-02,39.3,83.77,247,29,WH-A1,126,10555.02,5603.22
+PRD-1342,Mixed Nuts - Premium,Food & Beverage,FastTrack Logistics,2025-10-06,9.77,18.2,289,82,WH-B1,24,436.8,202.32
+PRD-1849,Art Book - Standard,Books,Premium Suppliers,2026-07-03,17.54,28.98,336,74,WH-A2,215,6230.7,2459.6
+PRD-1314,Organic Coffee - Ultra,Food & Beverage,Global Traders Inc.,2025-11-11,17.12,28.83,331,98,WH-D1,0,0.0,0.0
+PRD-1150,Earbuds - Classic,Electronics,Premium Suppliers,2026-03-20,91.0,213.7,481,74,WH-C2,26,5556.2,3190.2
+PRD-1125,HDMI Cable - Basic,Electronics,Quality Goods Ltd.,2026-01-10,129.86,274.44,369,37,WH-C2,20,5488.8,2891.6
+PRD-2053,Face Cream - Elite,Health & Beauty,Quality Goods Ltd.,2025-11-21,11.2,17.03,14,21,WH-B1,98,1668.94,571.34
+PRD-1575,Vase - Deluxe,Home & Garden,Prime Distributors,2025-10-05,24.53,58.26,249,77,WH-D1,195,11360.7,6577.35
+PRD-1698,Swim Goggles - Pro,Sports & Outdoors,Premium Suppliers,2025-08-17,83.57,188.49,343,88,WH-B1,0,0.0,0.0
+PRD-1665,Camping Tent - Pro,Sports & Outdoors,Prime Distributors,2026-02-25,26.1,58.84,214,59,WH-D1,228,13415.52,7464.72
+PRD-1051,Phone Case - Classic,Electronics,Value Wholesalers,2025-02-15,36.39,86.59,97,52,WH-C1,0,0.0,0.0
+PRD-1727,Fishing Rod - Premium,Sports & Outdoors,Premium Suppliers,2026-01-25,33.51,75.09,248,43,WH-D1,16,1201.44,665.28
+PRD-1800,Science Fiction - Elite,Books,Premium Suppliers,2024-07-31,10.98,31.34,496,93,WH-C2,289,9057.26,5884.04
+PRD-1354,Olive Oil - Standard,Food & Beverage,FastTrack Logistics,2026-05-29,20.03,40.76,122,83,WH-C2,123,5013.48,2549.79
+PRD-2142,Face Mask - Max,Health & Beauty,Value Wholesalers,2025-04-11,10.59,29.46,408,79,WH-C2,141,4153.86,2660.67
+PRD-1143,Charger Adapter - Lite,Electronics,FastTrack Logistics,2024-10-03,193.34,265.45,245,71,WH-B2,55,14599.75,3966.05
+PRD-1471,LED Bulb - Max,Home & Garden,Elite Imports,2024-09-12,42.2,84.41,429,91,WH-B1,27,2279.07,1139.67
+PRD-1654,Water Bottle - Pro,Sports & Outdoors,TechSupply Co.,2025-05-27,30.03,66.23,103,46,WH-B1,0,0.0,0.0
+PRD-1400,Dark Chocolate - Basic,Food & Beverage,Quality Goods Ltd.,2024-11-27,20.73,35.3,375,57,WH-C2,0,0.0,0.0
+PRD-1880,Technical Manual - Lite,Books,Quality Goods Ltd.,2026-06-30,27.92,69.97,320,49,WH-A1,236,16512.92,9923.8
+PRD-2143,Face Mask - Plus,Health & Beauty,Value Wholesalers,2025-12-01,14.99,39.2,485,59,WH-C1,160,6272.0,3873.6
+PRD-1321,Green Tea - Standard,Food & Beverage,Prime Distributors,2024-10-06,17.12,29.39,377,98,WH-A2,230,6759.7,2822.1
+PRD-1020,Smart Watch - Max,Electronics,Prime Distributors,2025-01-29,176.4,318.89,108,89,WH-B1,102,32526.78,14533.98
+PRD-1685,Bike Helmet - Deluxe,Sports & Outdoors,Prime Distributors,2026-06-22,40.52,74.97,273,41,WH-B1,199,14919.03,6855.55
+PRD-1036,USB-C Cable - Deluxe,Electronics,Elite Imports,2026-05-10,16.72,34.2,288,32,WH-B1,0,0.0,0.0
+PRD-1506,Door Mat - Lite,Home & Garden,Quality Goods Ltd.,2024-10-17,47.55,124.79,217,33,WH-C2,222,27703.38,17147.28
+PRD-2061,Shampoo - Pro,Health & Beauty,TechSupply Co.,2024-12-01,20.16,43.63,379,49,WH-C1,6,261.78,140.82
+PRD-1408,Dried Fruits - Premium,Food & Beverage,Premium Suppliers,2024-11-02,22.54,44.26,220,41,WH-C1,222,9825.72,4821.84
+PRD-1818,Biography - Basic,Books,Global Traders Inc.,2024-12-07,12.49,22.5,70,86,WH-C1,248,5580.0,2482.48
+PRD-1538,Throw Pillow - Plus,Home & Garden,Elite Imports,2024-11-26,8.79,17.51,67,33,WH-C1,0,0.0,0.0
+PRD-1759,Binoculars - Lite,Sports & Outdoors,Value Wholesalers,2024-08-09,43.29,69.18,124,94,WH-A2,0,0.0,0.0
+PRD-2058,Shampoo - Standard,Health & Beauty,TechSupply Co.,2025-12-12,18.8,46.96,255,33,WH-A1,291,13665.36,8194.56
+PRD-1875,Technical Manual - Ultra,Books,Prime Distributors,2025-10-29,16.67,34.88,308,90,WH-C2,232,8092.16,4224.72
+PRD-1039,USB-C Cable - Ultra,Electronics,FastTrack Logistics,2026-04-08,188.7,275.72,59,33,WH-C2,79,21781.88,6874.58
+PRD-1176,Denim Jeans - Lite,Clothing,FastTrack Logistics,2025-07-03,54.33,108.26,65,87,WH-C1,0,0.0,0.0
+PRD-1246,Hoodie - Basic,Clothing,Quality Goods Ltd.,2025-11-27,11.78,24.97,367,80,WH-C2,70,1747.9,923.3
+PRD-1811,History Book - Elite,Books,Prime Distributors,2025-09-19,28.81,79.74,241,35,WH-B1,147,11721.78,7486.71
+PRD-2074,Toothpaste - Classic,Health & Beauty,Premium Suppliers,2025-03-30,11.05,29.74,2,21,WH-A2,191,5680.34,3569.79
+PRD-1945,Puzzle Set - Plus,Toys,FastTrack Logistics,2026-04-19,28.03,50.8,174,40,WH-A2,0,0.0,0.0
+PRD-1785,Self-Help Guide - Basic,Books,Quality Goods Ltd.,2025-08-15,9.44,16.6,244,94,WH-A2,107,1776.2,766.12
+PRD-2173,Eye Cream - Classic,Health & Beauty,Premium Suppliers,2025-03-25,39.63,69.85,369,39,WH-B1,0,0.0,0.0
+PRD-1490,Plant Pot - Ultra,Home & Garden,Value Wholesalers,2026-05-30,41.86,73.67,384,40,WH-A2,128,9429.76,4071.68
+PRD-1155,Cotton T-Shirt - Premium,Clothing,TechSupply Co.,2025-01-26,23.49,50.03,174,40,WH-A1,166,8304.98,4405.64
+PRD-1639,Jump Rope - Premium,Sports & Outdoors,TechSupply Co.,2026-01-30,15.41,25.29,356,99,WH-B1,238,6019.02,2351.44
+PRD-1663,Camping Tent - Deluxe,Sports & Outdoors,Elite Imports,2025-07-17,17.68,39.76,372,85,WH-C2,81,3220.56,1788.48
+PRD-1288,Athletic Socks - Standard,Clothing,TechSupply Co.,2025-01-25,47.72,72.43,271,55,WH-A1,146,10574.78,3607.66
+PRD-1626,Yoga Mat - Plus,Sports & Outdoors,Value Wholesalers,2026-05-27,92.97,167.46,450,75,WH-A1,61,10215.06,4543.89
+PRD-2116,Body Lotion - Pro,Health & Beauty,TechSupply Co.,2024-12-11,7.67,19.34,439,38,WH-B1,218,4216.12,2544.06
+PRD-1686,Bike Helmet - Basic,Sports & Outdoors,Prime Distributors,2026-03-26,87.81,202.13,361,60,WH-C1,139,28096.07,15890.48
+PRD-2035,Kite - Premium,Toys,Elite Imports,2025-09-15,9.2,14.76,283,42,WH-C2,0,0.0,0.0
+PRD-1570,Candle Set - Max,Home & Garden,Prime Distributors,2024-08-20,17.57,28.64,138,50,WH-C1,195,5584.8,2158.65
+PRD-2133,Hair Oil - Lite,Health & Beauty,Prime Distributors,2025-12-27,6.54,16.04,324,44,WH-C1,288,4619.52,2736.0
+PRD-1735,Fishing Rod - Max,Sports & Outdoors,Premium Suppliers,2024-08-16,99.39,176.51,5,21,WH-C2,6,1059.06,462.72
+PRD-1793,Science Fiction - Premium,Books,Premium Suppliers,2024-09-30,24.24,55.28,340,87,WH-C2,227,12548.56,7046.08
+PRD-1018,Smart Watch - Classic,Electronics,Elite Imports,2026-03-31,186.88,440.0,425,59,WH-A1,123,54120.0,31133.76
+PRD-1128,HDMI Cable - Classic,Electronics,Prime Distributors,2025-03-17,193.97,320.86,445,63,WH-B1,239,76685.54,30326.71
+PRD-1323,Green Tea - Basic,Food & Beverage,Prime Distributors,2025-08-24,6.53,9.74,343,82,WH-B1,160,1558.4,513.6
+PRD-1256,Cargo Shorts - Deluxe,Clothing,Global Traders Inc.,2025-09-12,19.5,49.32,472,59,WH-B2,151,7447.32,4502.82
+PRD-1926,Action Figure - Standard,Toys,Elite Imports,2025-09-26,37.53,70.95,213,66,WH-A2,82,5817.9,2740.44
+PRD-2168,Eye Cream - Standard,Health & Beauty,Premium Suppliers,2026-01-18,5.47,8.58,381,61,WH-A1,241,2067.78,749.51
+PRD-1191,Winter Jacket - Basic,Clothing,Elite Imports,2025-01-21,9.18,20.87,123,38,WH-C1,0,0.0,0.0
+PRD-1116,Monitor Stand - Ultra,Electronics,Elite Imports,2025-01-15,21.64,29.91,323,56,WH-D1,46,1375.86,380.42
+PRD-2162,Deodorant - Classic,Health & Beauty,FastTrack Logistics,2026-04-30,31.39,57.19,78,85,WH-B2,143,8178.17,3689.4
+PRD-2076,Toothpaste - Max,Health & Beauty,Value Wholesalers,2026-03-18,17.85,39.9,99,75,WH-A1,178,7102.2,3924.9
+PRD-1607,Mirror - Standard,Home & Garden,Prime Distributors,2025-09-24,50.07,110.36,232,20,WH-B2,259,28583.24,15615.11
+PRD-1181,Running Shoes - Pro,Clothing,Elite Imports,2025-01-23,25.22,74.36,401,80,WH-A2,99,7361.64,4864.86
+PRD-1302,Beanie - Pro,Clothing,Prime Distributors,2025-04-20,48.1,109.12,52,23,WH-B2,0,0.0,0.0
+PRD-1497,Door Mat - Standard,Home & Garden,Value Wholesalers,2025-05-11,20.35,37.52,82,94,WH-A1,2,75.04,34.34
+PRD-2009,Card Game - Elite,Toys,Quality Goods Ltd.,2026-01-16,42.17,63.54,5,29,WH-B2,284,18045.36,6069.08
+PRD-2025,Play Dough - Standard,Toys,Global Traders Inc.,2025-10-13,46.7,74.65,36,66,WH-D1,0,0.0,0.0
+PRD-1965,Doll House - Elite,Toys,FastTrack Logistics,2025-12-25,16.04,35.38,454,94,WH-D1,273,9658.74,5279.82
+PRD-1745,Backpack - Elite,Sports & Outdoors,TechSupply Co.,2025-06-19,33.98,76.12,463,70,WH-C2,263,20019.56,11082.82
+PRD-1938,Puzzle Set - Deluxe,Toys,Elite Imports,2025-02-10,40.76,75.89,15,76,WH-D1,5,379.45,175.65
+PRD-1518,Curtain Rod - Premium,Home & Garden,Premium Suppliers,2025-04-18,23.06,54.36,355,94,WH-B2,290,15764.4,9077.0
+PRD-1373,Pasta Sauce - Plus,Food & Beverage,Global Traders Inc.,2025-01-27,24.61,42.72,492,27,WH-A2,72,3075.84,1303.92
+PRD-1046,Phone Case - Standard,Electronics,Prime Distributors,2025-08-17,159.74,286.58,342,51,WH-C2,55,15761.9,6976.2
+PRD-1477,Garden Hose - Basic,Home & Garden,Quality Goods Ltd.,2024-09-04,30.09,58.47,422,26,WH-C2,232,13565.04,6584.16
+PRD-1158,Cotton T-Shirt - Basic,Clothing,FastTrack Logistics,2024-08-28,50.71,116.15,157,25,WH-C2,28,3252.2,1832.32
+PRD-2036,Kite - Standard,Toys,Elite Imports,2026-01-13,13.95,33.64,197,56,WH-A1,149,5012.36,2933.81
+PRD-1172,Denim Jeans - Classic,Clothing,Global Traders Inc.,2024-09-30,20.42,38.22,224,76,WH-C1,81,3095.82,1441.8
+PRD-1017,Smart Watch - Ultra,Electronics,Quality Goods Ltd.,2025-07-06,156.06,303.89,398,87,WH-A2,165,50141.85,24391.95
+PRD-1512,Storage Box - Ultra,Home & Garden,FastTrack Logistics,2026-02-26,21.39,56.75,494,67,WH-C2,5,283.75,176.8
+PRD-1049,Phone Case - Pro,Electronics,Premium Suppliers,2025-02-17,88.94,220.34,274,62,WH-C2,59,13000.06,7752.6
+PRD-1192,Winter Jacket - Pro,Clothing,Premium Suppliers,2024-12-16,37.99,94.84,43,87,WH-A2,34,3224.56,1932.9
+PRD-1547,Wall Clock - Elite,Home & Garden,Prime Distributors,2024-09-16,11.55,20.78,400,40,WH-D1,260,5402.8,2399.8
+PRD-1516,Storage Box - Plus,Home & Garden,Elite Imports,2025-01-07,9.02,21.41,128,32,WH-C2,297,6358.77,3679.83
+PRD-1960,Doll House - Deluxe,Toys,Prime Distributors,2024-10-10,25.74,50.19,229,39,WH-C1,166,8331.54,4058.7
+PRD-1921,Board Game - Elite,Toys,TechSupply Co.,2026-07-15,9.62,22.58,221,73,WH-B1,296,6683.68,3836.16
+PRD-1829,Children Story - Basic,Books,Global Traders Inc.,2025-02-22,25.99,58.86,357,95,WH-A2,54,3178.44,1774.98
+PRD-1966,Doll House - Max,Toys,Premium Suppliers,2024-11-27,7.02,16.58,11,63,WH-B2,212,3514.96,2026.72
+PRD-1481,Garden Hose - Elite,Home & Garden,Quality Goods Ltd.,2025-06-16,16.86,43.36,97,63,WH-A1,212,9192.32,5618.0
+PRD-2118,Body Lotion - Classic,Health & Beauty,Premium Suppliers,2025-05-05,38.91,90.08,206,51,WH-C1,0,0.0,0.0
+PRD-1284,Windbreaker - Max,Clothing,FastTrack Logistics,2025-03-10,77.59,191.07,251,78,WH-D1,180,34392.6,20426.4
+PRD-2015,Toy Train - Deluxe,Toys,Global Traders Inc.,2026-03-12,40.77,68.97,193,67,WH-A2,219,15104.43,6175.8
+PRD-1798,Science Fiction - Ultra,Books,Premium Suppliers,2026-02-22,13.07,30.79,83,88,WH-B1,12,369.48,212.64
+PRD-1922,Board Game - Max,Toys,FastTrack Logistics,2025-03-11,22.99,46.29,371,98,WH-A1,249,11526.21,5801.7
+PRD-1226,Sneakers - Ultra,Clothing,Elite Imports,2026-04-22,76.06,171.76,494,50,WH-A1,180,30916.8,17226.0
+PRD-1027,Bluetooth Speaker - Pro,Electronics,Elite Imports,2025-05-17,48.95,90.81,447,29,WH-A2,281,25517.61,11762.66
+PRD-1283,Windbreaker - Elite,Clothing,Value Wholesalers,2026-02-17,22.13,40.83,291,51,WH-B1,172,7022.76,3216.4
+PRD-2139,Face Mask - Ultra,Health & Beauty,Prime Distributors,2025-06-20,10.5,26.75,347,88,WH-B1,206,5510.5,3347.5
+PRD-1438,Coconut Water - Max,Food & Beverage,FastTrack Logistics,2026-04-04,13.08,21.83,141,61,WH-C2,133,2903.39,1163.75
+PRD-2156,Deodorant - Premium,Health & Beauty,FastTrack Logistics,2025-04-30,27.63,57.23,71,65,WH-A1,2,114.46,59.2
+PRD-1365,Pasta Sauce - Standard,Food & Beverage,Prime Distributors,2026-02-12,7.87,11.67,293,34,WH-B1,260,3034.2,988.0
+PRD-1230,Sneakers - Plus,Clothing,FastTrack Logistics,2024-10-23,56.99,95.64,499,32,WH-D1,173,16545.72,6686.45
+PRD-1038,USB-C Cable - Pro,Electronics,Elite Imports,2025-01-13,145.15,295.24,413,87,WH-D1,0,0.0,0.0
+PRD-1670,Camping Tent - Plus,Sports & Outdoors,TechSupply Co.,2026-06-20,70.03,168.47,152,62,WH-A2,25,4211.75,2461.0
+PRD-1750,Binoculars - Standard,Sports & Outdoors,Value Wholesalers,2024-10-16,72.0,142.83,453,100,WH-A1,97,13854.51,6870.51
+PRD-2169,Eye Cream - Deluxe,Health & Beauty,FastTrack Logistics,2026-04-11,19.51,35.66,251,66,WH-C1,57,2032.62,920.55
+PRD-1375,Granola - Premium,Food & Beverage,Elite Imports,2026-04-28,15.36,27.71,326,70,WH-C2,0,0.0,0.0
+PRD-1470,LED Bulb - Elite,Home & Garden,Quality Goods Ltd.,2025-08-11,33.55,80.34,316,32,WH-C2,127,10203.18,5942.33
+PRD-1883,Comic Book - Deluxe,Books,Elite Imports,2025-12-06,22.27,41.57,441,54,WH-A1,253,10517.21,4882.9
+PRD-2170,Eye Cream - Basic,Health & Beauty,Global Traders Inc.,2026-07-10,28.59,71.52,66,62,WH-C2,185,13231.2,7942.05
+PRD-1688,Bike Helmet - Ultra,Sports & Outdoors,Prime Distributors,2025-07-05,80.64,188.16,467,31,WH-A1,12,2257.92,1290.24
+PRD-1033,Bluetooth Speaker - Lite,Electronics,Global Traders Inc.,2026-01-14,27.68,38.24,441,50,WH-D1,291,11127.84,3072.96
+PRD-1991,Science Kit - Premium,Toys,TechSupply Co.,2025-05-19,28.96,52.6,200,44,WH-B1,292,15359.2,6902.88
+PRD-2028,Play Dough - Pro,Toys,Elite Imports,2025-02-14,49.52,121.4,443,70,WH-C2,107,12989.8,7691.16
+PRD-1195,Winter Jacket - Elite,Clothing,Prime Distributors,2025-07-28,47.31,128.7,89,79,WH-A1,245,31531.5,19940.55
+PRD-2095,Vitamins - Ultra,Health & Beauty,Premium Suppliers,2024-10-13,16.97,26.46,413,61,WH-A1,119,3148.74,1129.31
+PRD-2103,Lip Balm - Deluxe,Health & Beauty,Premium Suppliers,2025-06-28,27.54,69.42,494,75,WH-B2,114,7913.88,4774.32
+PRD-1934,Action Figure - Plus,Toys,Elite Imports,2025-02-20,27.43,65.02,78,66,WH-D1,70,4551.4,2631.3
+PRD-1504,Door Mat - Max,Home & Garden,TechSupply Co.,2025-07-05,33.29,71.95,249,25,WH-C1,98,7051.1,3788.68
+PRD-1916,Board Game - Deluxe,Toys,Elite Imports,2024-10-28,41.59,88.04,353,70,WH-B1,44,3873.76,2043.8
+PRD-1959,Doll House - Standard,Toys,Value Wholesalers,2024-12-14,18.94,36.98,172,68,WH-B2,67,2477.66,1208.68
+PRD-2171,Eye Cream - Pro,Health & Beauty,Premium Suppliers,2024-09-26,13.93,31.48,44,33,WH-A2,61,1920.28,1070.55
+PRD-2117,Body Lotion - Ultra,Health & Beauty,Prime Distributors,2026-04-16,16.8,35.55,483,26,WH-A1,263,9349.65,4931.25
+PRD-1801,Science Fiction - Max,Books,Elite Imports,2024-08-17,6.03,13.69,20,37,WH-B1,59,807.71,451.94
+PRD-1580,Vase - Elite,Home & Garden,Quality Goods Ltd.,2025-06-12,10.67,16.89,449,80,WH-A2,13,219.57,80.86
+PRD-1161,Cotton T-Shirt - Classic,Clothing,Global Traders Inc.,2026-06-10,39.41,86.29,39,60,WH-B2,293,25282.97,13735.84
+PRD-1681,Hiking Boots - Plus,Sports & Outdoors,Value Wholesalers,2024-12-18,65.44,93.9,89,44,WH-C2,173,16244.7,4923.58
+PRD-2120,Body Lotion - Max,Health & Beauty,Elite Imports,2024-09-26,17.76,41.24,227,67,WH-D1,0,0.0,0.0
+PRD-1163,Cotton T-Shirt - Max,Clothing,Premium Suppliers,2025-05-02,68.8,128.31,301,71,WH-A1,202,25918.62,12021.02
+PRD-1822,Biography - Elite,Books,TechSupply Co.,2026-03-24,9.0,25.2,72,49,WH-C2,107,2696.4,1733.4
+PRD-1706,Tennis Racket - Standard,Sports & Outdoors,Quality Goods Ltd.,2024-09-13,70.26,160.7,364,93,WH-A2,58,9320.6,5245.52
+PRD-1989,Art Kit - Plus,Toys,Elite Imports,2025-05-12,33.84,82.67,26,61,WH-A1,208,17195.36,10156.64
+PRD-1878,Technical Manual - Max,Books,Value Wholesalers,2025-08-30,15.19,42.88,68,53,WH-D1,167,7160.96,4624.23
+PRD-1896,Textbook - Pro,Books,Global Traders Inc.,2026-02-22,6.34,10.97,444,56,WH-D1,86,943.42,398.18
+PRD-1914,Board Game - Premium,Toys,FastTrack Logistics,2026-01-13,14.5,22.88,309,53,WH-B1,54,1235.52,452.52
+PRD-2187,Serum - Plus,Health & Beauty,Premium Suppliers,2025-03-20,7.37,12.79,94,42,WH-A2,251,3210.29,1360.42
+PRD-1153,Earbuds - Plus,Electronics,TechSupply Co.,2024-09-18,168.45,273.05,92,54,WH-C1,158,43141.9,16526.8
+PRD-2164,Deodorant - Max,Health & Beauty,Prime Distributors,2024-11-25,26.64,45.11,61,36,WH-A2,140,6315.4,2585.8
+PRD-1984,Art Kit - Pro,Toys,Quality Goods Ltd.,2026-07-14,14.97,22.75,143,65,WH-B2,155,3526.25,1205.9
+PRD-1510,Storage Box - Basic,Home & Garden,TechSupply Co.,2026-05-10,24.67,53.13,148,58,WH-C2,144,7650.72,4098.24
+PRD-1112,Monitor Stand - Standard,Electronics,TechSupply Co.,2025-03-26,145.47,330.75,197,39,WH-B1,18,5953.5,3335.04
+PRD-1227,Sneakers - Classic,Clothing,TechSupply Co.,2025-10-08,43.63,123.19,334,80,WH-A1,4,492.76,318.24
+PRD-1968,Doll House - Lite,Toys,Prime Distributors,2025-11-04,39.57,65.46,487,72,WH-A2,30,1963.8,776.7
+PRD-1852,Art Book - Pro,Books,Prime Distributors,2025-09-20,12.81,28.32,254,29,WH-C1,274,7759.68,4249.74
+PRD-1104,Keyboard - Pro,Electronics,Elite Imports,2026-05-29,49.7,86.19,387,83,WH-B2,26,2240.94,948.74
+PRD-1422,Energy Drink - Basic,Food & Beverage,Prime Distributors,2024-11-28,15.4,33.45,51,33,WH-C1,51,1705.95,920.55
+PRD-1420,Energy Drink - Standard,Food & Beverage,Premium Suppliers,2026-05-16,4.0,7.38,282,61,WH-C2,266,1963.08,899.08
+PRD-1625,Yoga Mat - Max,Sports & Outdoors,Elite Imports,2024-08-16,73.26,174.61,48,96,WH-D1,19,3317.59,1925.65
+PRD-1587,Rug - Basic,Home & Garden,Premium Suppliers,2025-03-30,34.43,82.43,251,81,WH-B1,220,18134.6,10560.0
+PRD-2050,Face Cream - Pro,Health & Beauty,Global Traders Inc.,2025-09-25,8.47,20.87,86,29,WH-A2,5,104.35,62.0
+PRD-1920,Board Game - Classic,Toys,Elite Imports,2026-07-03,43.69,91.1,103,57,WH-B2,200,18220.0,9482.0
+PRD-1673,Hiking Boots - Standard,Sports & Outdoors,Global Traders Inc.,2025-05-12,85.9,126.95,241,37,WH-D1,140,17773.0,5747.0
+PRD-1120,Monitor Stand - Plus,Electronics,Prime Distributors,2025-04-07,133.01,246.27,341,21,WH-A2,238,58612.26,26955.88
+PRD-1054,Phone Case - Plus,Electronics,Premium Suppliers,2024-08-09,69.7,101.26,215,68,WH-B2,89,9012.14,2808.84
+PRD-1152,Earbuds - Max,Electronics,Global Traders Inc.,2024-12-31,83.0,183.86,293,48,WH-B1,287,52767.82,28946.82
+PRD-1404,Dark Chocolate - Elite,Food & Beverage,TechSupply Co.,2025-06-23,12.08,20.97,85,72,WH-A1,193,4047.21,1715.77
+PRD-2177,Eye Cream - Lite,Health & Beauty,Quality Goods Ltd.,2025-06-11,21.82,47.83,262,29,WH-C2,260,12435.8,6762.6
+PRD-1208,Casual Shirt - Plus,Clothing,FastTrack Logistics,2025-03-08,22.41,38.18,37,77,WH-C2,227,8666.86,3579.79
+PRD-2179,Serum - Standard,Health & Beauty,TechSupply Co.,2025-02-13,20.4,49.37,268,53,WH-D1,112,5529.44,3244.64
+PRD-1659,Water Bottle - Plus,Sports & Outdoors,Elite Imports,2025-05-17,36.5,91.35,353,86,WH-A2,237,21649.95,12999.45
+PRD-2086,Sunscreen - Elite,Health & Beauty,Elite Imports,2025-12-18,10.68,16.84,93,44,WH-C1,209,3519.56,1287.44
+PRD-1233,Dress Shirt - Standard,Clothing,Premium Suppliers,2025-08-31,19.7,58.82,378,58,WH-C1,259,15234.38,10132.08
+PRD-1009,Wireless Headphones - Max,Electronics,Prime Distributors,2025-11-15,45.23,79.39,473,91,WH-C1,166,13178.74,5670.56
+PRD-1160,Cotton T-Shirt - Ultra,Clothing,TechSupply Co.,2025-05-09,20.65,42.75,360,49,WH-B2,181,7737.75,4000.1
+PRD-1037,USB-C Cable - Basic,Electronics,Quality Goods Ltd.,2025-10-25,39.5,67.89,35,51,WH-C1,80,5431.2,2271.2
+PRD-1453,Spices - Standard,Food & Beverage,Premium Suppliers,2026-01-12,5.79,12.31,415,71,WH-D1,0,0.0,0.0
+PRD-1652,Water Bottle - Deluxe,Sports & Outdoors,Quality Goods Ltd.,2024-08-19,12.35,18.47,399,81,WH-A2,240,4432.8,1468.8
+PRD-1254,Cargo Shorts - Premium,Clothing,Global Traders Inc.,2026-03-02,42.38,123.06,3,53,WH-A2,228,28057.68,18395.04
+PRD-1304,Beanie - Classic,Clothing,Quality Goods Ltd.,2025-02-05,20.21,41.86,71,54,WH-C1,252,10548.72,5455.8
+PRD-1897,Textbook - Ultra,Books,FastTrack Logistics,2024-09-12,18.81,45.46,497,20,WH-C1,292,13274.32,7781.8
+PRD-2038,Kite - Basic,Toys,Prime Distributors,2025-05-21,26.52,41.6,489,46,WH-C1,105,4368.0,1583.4
+PRD-1881,Comic Book - Premium,Books,Quality Goods Ltd.,2024-08-04,26.0,43.41,316,74,WH-B1,76,3299.16,1323.16
+PRD-1572,Candle Set - Lite,Home & Garden,Premium Suppliers,2025-03-12,21.5,47.96,290,26,WH-D1,83,3980.68,2196.18
+PRD-1624,Yoga Mat - Elite,Sports & Outdoors,Global Traders Inc.,2025-06-09,61.22,101.68,39,61,WH-C1,88,8947.84,3560.48
+PRD-2002,Card Game - Premium,Toys,Prime Distributors,2026-06-08,7.72,13.99,223,85,WH-D1,183,2560.17,1147.41
+PRD-2016,Toy Train - Basic,Toys,Quality Goods Ltd.,2024-10-31,31.43,74.0,150,39,WH-A1,27,1998.0,1149.39
+PRD-2006,Card Game - Pro,Toys,Quality Goods Ltd.,2025-03-23,36.27,90.02,307,62,WH-C2,289,26015.78,15533.75
+PRD-1263,Cargo Shorts - Plus,Clothing,Quality Goods Ltd.,2026-05-10,11.26,22.71,32,89,WH-C1,35,794.85,400.75
+PRD-1611,Mirror - Ultra,Home & Garden,Quality Goods Ltd.,2025-03-13,15.54,23.95,328,69,WH-A1,269,6442.55,2262.29
+PRD-1298,Beanie - Premium,Clothing,Premium Suppliers,2024-10-12,27.68,82.73,251,49,WH-A1,192,15884.16,10569.6
+PRD-1415,Dried Fruits - Elite,Food & Beverage,TechSupply Co.,2024-08-09,17.35,25.48,176,89,WH-A2,116,2955.68,943.08
+PRD-1151,Earbuds - Elite,Electronics,FastTrack Logistics,2025-09-07,80.05,159.58,108,39,WH-C1,114,18192.12,9066.42
+PRD-1946,Puzzle Set - Lite,Toys,FastTrack Logistics,2025-09-15,37.69,93.73,56,27,WH-A2,132,12372.36,7397.28
+PRD-1473,LED Bulb - Lite,Home & Garden,Elite Imports,2025-11-19,23.2,43.19,259,48,WH-B1,193,8335.67,3858.07
+PRD-1953,Remote Control Car - Classic,Toys,Elite Imports,2025-05-16,49.84,109.1,485,82,WH-C2,213,23238.3,12622.38
+PRD-1779,Cookbook - Max,Books,Value Wholesalers,2026-03-10,12.68,24.53,46,22,WH-A2,156,3826.68,1848.6
+PRD-1641,Jump Rope - Deluxe,Sports & Outdoors,FastTrack Logistics,2024-09-27,44.79,115.37,260,32,WH-D1,248,28611.76,17503.84
+PRD-2178,Serum - Premium,Health & Beauty,Value Wholesalers,2025-06-19,18.43,34.15,94,20,WH-C1,111,3790.65,1744.92
+PRD-2119,Body Lotion - Elite,Health & Beauty,Quality Goods Ltd.,2025-03-10,14.9,33.9,88,68,WH-B2,45,1525.5,855.0
+PRD-1551,Picture Frame - Premium,Home & Garden,TechSupply Co.,2026-01-25,40.22,83.28,103,86,WH-D1,17,1415.76,732.02
+PRD-1640,Jump Rope - Standard,Sports & Outdoors,TechSupply Co.,2025-06-21,69.43,152.44,467,66,WH-A1,9,1371.96,747.09
+PRD-1936,Puzzle Set - Premium,Toys,Premium Suppliers,2025-02-21,12.71,22.45,366,73,WH-B1,125,2806.25,1217.5
+PRD-1929,Action Figure - Pro,Toys,Premium Suppliers,2025-07-23,35.46,59.39,440,84,WH-B1,0,0.0,0.0
+PRD-1489,Plant Pot - Pro,Home & Garden,Value Wholesalers,2025-01-23,20.73,53.93,413,21,WH-C2,12,647.16,398.4
+PRD-1820,Biography - Ultra,Books,Global Traders Inc.,2025-04-08,27.73,48.89,67,22,WH-B2,159,7773.51,3364.44
+PRD-1711,Tennis Racket - Classic,Sports & Outdoors,Value Wholesalers,2025-08-05,99.13,208.1,313,85,WH-C2,65,13526.5,7083.05
+PRD-2070,Toothpaste - Deluxe,Health & Beauty,FastTrack Logistics,2024-12-10,20.14,46.85,139,81,WH-B1,0,0.0,0.0
+PRD-1148,Earbuds - Pro,Electronics,Value Wholesalers,2024-09-10,62.15,151.91,351,80,WH-B1,0,0.0,0.0
+PRD-1147,Earbuds - Basic,Electronics,Value Wholesalers,2025-12-02,91.56,209.94,204,73,WH-B2,160,33590.4,18940.8
+PRD-2098,Vitamins - Max,Health & Beauty,TechSupply Co.,2025-03-01,32.69,61.84,344,90,WH-A2,239,14779.76,6966.85
+PRD-1963,Doll House - Ultra,Toys,Global Traders Inc.,2024-12-28,8.83,21.68,277,93,WH-C2,291,6308.88,3739.35
+PRD-1346,Mixed Nuts - Pro,Food & Beverage,FastTrack Logistics,2024-08-06,19.37,33.77,46,32,WH-C2,0,0.0,0.0
+PRD-1403,Dark Chocolate - Classic,Food & Beverage,Premium Suppliers,2026-07-12,8.1,12.96,34,64,WH-B2,55,712.8,267.3
+PRD-1932,Action Figure - Elite,Toys,Global Traders Inc.,2026-06-02,46.7,90.5,234,34,WH-C2,52,4706.0,2277.6
+PRD-1955,Remote Control Car - Max,Toys,Quality Goods Ltd.,2025-03-26,6.47,10.72,286,67,WH-B2,60,643.2,255.0
+PRD-2114,Body Lotion - Deluxe,Health & Beauty,Premium Suppliers,2024-12-06,35.17,55.23,478,58,WH-D1,83,4584.09,1664.98
+PRD-1660,Water Bottle - Lite,Sports & Outdoors,Elite Imports,2025-02-26,20.19,47.13,480,89,WH-A1,211,9944.43,5684.34
+PRD-1771,Cookbook - Premium,Books,TechSupply Co.,2026-02-25,8.84,21.69,91,69,WH-B2,234,5075.46,3006.9
+PRD-1349,Mixed Nuts - Elite,Food & Beverage,Value Wholesalers,2026-04-10,4.37,7.4,153,37,WH-A1,68,503.2,206.04
+PRD-1464,LED Bulb - Standard,Home & Garden,Global Traders Inc.,2026-06-07,5.53,9.29,331,41,WH-D1,224,2080.96,842.24
+PRD-1326,Green Tea - Classic,Food & Beverage,Value Wholesalers,2024-11-20,5.17,8.83,95,82,WH-B2,88,777.04,322.08
+PRD-1187,Running Shoes - Lite,Clothing,Global Traders Inc.,2024-09-26,32.14,55.25,19,56,WH-D1,241,13315.25,5569.51
+PRD-1124,HDMI Cable - Deluxe,Electronics,TechSupply Co.,2025-03-02,169.08,403.01,397,49,WH-C1,180,72541.8,42107.4
+PRD-2094,Vitamins - Pro,Health & Beauty,Premium Suppliers,2024-10-28,28.7,75.5,263,72,WH-B2,1,75.5,46.8
+PRD-1609,Mirror - Basic,Home & Garden,Value Wholesalers,2025-02-02,42.58,106.26,78,98,WH-A2,209,22208.34,13309.12
+PRD-1144,Earbuds - Premium,Electronics,Elite Imports,2025-04-25,28.6,39.95,311,38,WH-C2,0,0.0,0.0
+PRD-1752,Binoculars - Basic,Sports & Outdoors,FastTrack Logistics,2025-01-23,96.85,229.93,494,22,WH-B2,0,0.0,0.0
+PRD-2163,Deodorant - Elite,Health & Beauty,Global Traders Inc.,2025-10-27,39.79,72.48,420,74,WH-D1,52,3768.96,1699.88
+PRD-1907,Building Blocks - Pro,Toys,Premium Suppliers,2026-01-14,24.53,47.25,20,85,WH-C1,237,11198.25,5384.64
+PRD-1982,Art Kit - Deluxe,Toys,Global Traders Inc.,2024-09-27,34.31,69.95,456,76,WH-D1,180,12591.0,6415.2
+PRD-1198,Winter Jacket - Lite,Clothing,Quality Goods Ltd.,2025-07-23,70.07,110.13,335,62,WH-B1,188,20704.44,7531.28
+PRD-1610,Mirror - Pro,Home & Garden,Premium Suppliers,2026-04-16,33.78,53.6,427,36,WH-A1,16,857.6,317.12
+PRD-1884,Comic Book - Basic,Books,Value Wholesalers,2025-05-08,26.12,63.74,421,56,WH-A2,96,6119.04,3611.52
+PRD-1837,Travel Guide - Premium,Books,FastTrack Logistics,2024-12-05,19.03,50.6,410,71,WH-D1,207,10474.2,6534.99
+PRD-1280,Windbreaker - Pro,Clothing,Premium Suppliers,2025-10-07,35.41,81.46,183,59,WH-D1,262,21342.52,12065.1
+PRD-1294,Athletic Socks - Elite,Clothing,Quality Goods Ltd.,2024-08-14,71.9,159.13,23,29,WH-A2,143,22755.59,12473.89
+PRD-2078,Toothpaste - Lite,Health & Beauty,Elite Imports,2025-07-18,26.71,63.55,357,38,WH-A1,233,14807.15,8583.72
+PRD-1401,Dark Chocolate - Pro,Food & Beverage,Value Wholesalers,2024-12-19,2.74,5.16,471,98,WH-D1,289,1491.24,699.38
+PRD-1123,HDMI Cable - Standard,Electronics,Premium Suppliers,2025-09-24,198.65,328.62,500,70,WH-C1,289,94971.18,37561.33
+PRD-1203,Casual Shirt - Pro,Clothing,FastTrack Logistics,2026-05-26,13.4,32.91,186,85,WH-C2,81,2665.71,1580.31
+PRD-1836,Children Story - Lite,Books,Quality Goods Ltd.,2025-12-30,19.06,56.93,62,49,WH-B1,255,14517.15,9656.85
+PRD-1247,Hoodie - Pro,Clothing,TechSupply Co.,2026-02-12,37.3,108.27,449,80,WH-C1,102,11043.54,7238.94
+PRD-2129,Hair Oil - Classic,Health & Beauty,Elite Imports,2024-12-10,21.66,41.3,466,65,WH-A2,261,10779.3,5126.04
+PRD-1385,Granola - Lite,Food & Beverage,Premium Suppliers,2026-06-10,23.67,34.1,473,93,WH-A1,202,6888.2,2106.86
+PRD-1855,Art Book - Elite,Books,Global Traders Inc.,2025-09-17,16.63,33.59,339,89,WH-C2,212,7121.08,3595.52
+PRD-1220,Yoga Pants - Lite,Clothing,Value Wholesalers,2024-10-07,10.18,28.84,279,57,WH-C1,154,4441.36,2873.64
+PRD-1642,Jump Rope - Basic,Sports & Outdoors,Global Traders Inc.,2026-01-01,55.06,107.34,474,22,WH-A2,0,0.0,0.0
+PRD-1002,Wireless Headphones - Standard,Electronics,Value Wholesalers,2026-06-23,32.33,51.06,308,23,WH-A1,279,14245.74,5225.67
+PRD-1113,Monitor Stand - Deluxe,Electronics,Prime Distributors,2024-11-26,76.42,108.55,432,76,WH-C1,0,0.0,0.0
+PRD-1699,Swim Goggles - Ultra,Sports & Outdoors,Elite Imports,2026-03-11,18.36,43.38,357,79,WH-C1,0,0.0,0.0
+PRD-1952,Remote Control Car - Ultra,Toys,Global Traders Inc.,2024-08-29,28.68,59.89,265,70,WH-B1,299,17907.11,9331.79
+PRD-2068,Toothpaste - Premium,Health & Beauty,Prime Distributors,2026-03-17,7.3,16.57,425,46,WH-A2,40,662.8,370.8
+PRD-1442,Rice Crackers - Standard,Food & Beverage,Prime Distributors,2026-04-15,12.83,25.57,371,91,WH-B1,93,2378.01,1184.82
+PRD-1664,Camping Tent - Basic,Sports & Outdoors,Value Wholesalers,2025-06-29,13.95,22.39,171,92,WH-C1,76,1701.64,641.44
+PRD-2085,Sunscreen - Classic,Health & Beauty,Value Wholesalers,2026-01-24,17.49,42.24,101,82,WH-A2,56,2365.44,1386.0
+PRD-1318,Organic Coffee - Plus,Food & Beverage,Elite Imports,2025-12-24,13.99,23.48,49,76,WH-D1,231,5423.88,2192.19
+PRD-1649,Jump Rope - Lite,Sports & Outdoors,Global Traders Inc.,2025-09-01,85.56,134.73,15,60,WH-A2,211,28428.03,10374.87
+PRD-1710,Tennis Racket - Ultra,Sports & Outdoors,Value Wholesalers,2024-12-09,50.24,82.73,449,60,WH-C1,155,12823.15,5035.95
+PRD-1973,Stuffed Animal - Pro,Toys,FastTrack Logistics,2025-06-02,25.07,58.82,256,46,WH-C1,72,4235.04,2430.0
+PRD-1628,Dumbbells - Premium,Sports & Outdoors,TechSupply Co.,2025-01-17,60.84,109.04,357,48,WH-B1,201,21917.04,9688.2
+PRD-1633,Dumbbells - Ultra,Sports & Outdoors,Premium Suppliers,2024-12-11,18.06,39.84,216,66,WH-C2,164,6533.76,3571.92
+PRD-2160,Deodorant - Pro,Health & Beauty,Prime Distributors,2026-04-04,32.54,54.15,176,84,WH-A1,0,0.0,0.0
+PRD-2185,Serum - Elite,Health & Beauty,FastTrack Logistics,2024-10-20,26.83,59.46,418,76,WH-D1,137,8146.02,4470.31
+PRD-1796,Science Fiction - Basic,Books,FastTrack Logistics,2026-01-25,25.66,65.95,341,39,WH-A2,59,3891.05,2377.11
+PRD-1646,Jump Rope - Elite,Sports & Outdoors,Quality Goods Ltd.,2025-11-19,61.56,117.69,159,97,WH-B2,277,32600.13,15548.01
+PRD-2013,Toy Train - Premium,Toys,Prime Distributors,2024-09-21,40.43,65.13,479,46,WH-B2,122,7945.86,3013.4
+PRD-1557,Picture Frame - Classic,Home & Garden,FastTrack Logistics,2025-04-26,58.13,129.75,394,51,WH-C2,234,30361.5,16759.08
+PRD-1682,Hiking Boots - Lite,Sports & Outdoors,Elite Imports,2026-06-17,68.11,134.71,321,78,WH-B2,274,36910.54,18248.4
+PRD-1578,Vase - Ultra,Home & Garden,Value Wholesalers,2025-04-24,47.95,130.44,382,95,WH-B1,230,30001.2,18972.7
+PRD-1525,Curtain Rod - Elite,Home & Garden,Prime Distributors,2025-02-25,33.07,66.66,257,21,WH-B2,84,5599.44,2821.56
+PRD-2060,Shampoo - Basic,Health & Beauty,Premium Suppliers,2024-10-11,31.42,75.22,500,81,WH-A2,0,0.0,0.0
+PRD-1541,Wall Clock - Standard,Home & Garden,Value Wholesalers,2026-06-09,43.37,89.24,480,81,WH-B1,195,17401.8,8944.65
+PRD-1749,Binoculars - Premium,Sports & Outdoors,Elite Imports,2025-09-30,68.3,110.1,20,69,WH-D1,153,16845.3,6395.4
+PRD-2099,Vitamins - Plus,Health & Beauty,Prime Distributors,2026-03-27,21.36,47.05,124,47,WH-B2,45,2117.25,1156.05
+PRD-1485,Plant Pot - Premium,Home & Garden,Value Wholesalers,2024-11-07,55.38,137.96,140,70,WH-B2,150,20694.0,12387.0
+PRD-1096,Mouse Pad - Elite,Electronics,Value Wholesalers,2025-01-12,56.59,83.68,136,38,WH-A1,0,0.0,0.0
+PRD-2021,Toy Train - Max,Toys,Value Wholesalers,2025-09-13,24.13,45.29,80,67,WH-A2,43,1947.47,909.88
+PRD-1564,Candle Set - Deluxe,Home & Garden,Premium Suppliers,2025-09-04,32.08,89.21,459,93,WH-C1,251,22391.71,14339.63
+PRD-1743,Backpack - Ultra,Sports & Outdoors,Quality Goods Ltd.,2024-10-03,19.56,37.75,132,33,WH-C1,0,0.0,0.0
+PRD-1864,Poetry Collection - Ultra,Books,Global Traders Inc.,2025-07-16,21.14,60.04,203,37,WH-B2,292,17531.68,11358.8
+PRD-1892,Textbook - Premium,Books,Prime Distributors,2025-10-09,23.19,67.18,144,53,WH-B2,135,9069.3,5938.65
+PRD-2039,Kite - Pro,Toys,FastTrack Logistics,2024-07-27,34.92,57.92,294,59,WH-B2,257,14885.44,5911.0
+PRD-1207,Casual Shirt - Max,Clothing,Prime Distributors,2025-02-08,35.86,84.0,134,53,WH-B2,109,9156.0,5247.26
+PRD-1393,Honey - Elite,Food & Beverage,Prime Distributors,2024-11-24,9.31,18.53,183,95,WH-A2,0,0.0,0.0
+PRD-1795,Science Fiction - Deluxe,Books,FastTrack Logistics,2026-06-05,7.01,14.01,489,41,WH-D1,82,1148.82,574.0
+PRD-1871,Technical Manual - Standard,Books,FastTrack Logistics,2024-08-05,12.8,35.04,62,88,WH-C2,226,7919.04,5026.24
+PRD-1398,Dark Chocolate - Standard,Food & Beverage,Premium Suppliers,2024-09-13,11.1,16.44,154,61,WH-C2,80,1315.2,427.2
+PRD-1767,Mystery Novel - Elite,Books,FastTrack Logistics,2024-10-30,24.74,65.85,22,33,WH-B1,275,18108.75,11305.25
+PRD-2089,Sunscreen - Lite,Health & Beauty,TechSupply Co.,2025-10-24,31.06,46.88,298,25,WH-A1,0,0.0,0.0
+PRD-2029,Play Dough - Ultra,Toys,Elite Imports,2025-02-10,31.42,64.49,239,79,WH-A2,43,2773.07,1422.01
+PRD-1643,Jump Rope - Pro,Sports & Outdoors,FastTrack Logistics,2025-03-09,45.41,72.13,177,65,WH-B1,154,11108.02,4114.88
+PRD-1613,Mirror - Elite,Home & Garden,Elite Imports,2024-10-07,8.34,18.56,480,73,WH-D1,29,538.24,296.38
+PRD-1961,Doll House - Basic,Toys,Global Traders Inc.,2024-10-22,34.9,66.65,119,70,WH-D1,23,1532.95,730.25
+PRD-1726,Basketball - Lite,Sports & Outdoors,FastTrack Logistics,2025-11-02,11.28,17.3,89,95,WH-D1,228,3944.4,1372.56
+PRD-1684,Bike Helmet - Standard,Sports & Outdoors,TechSupply Co.,2024-12-09,71.69,169.15,454,65,WH-A2,0,0.0,0.0
+PRD-1099,Mouse Pad - Lite,Electronics,TechSupply Co.,2025-08-27,126.69,168.63,117,93,WH-B2,10,1686.3,419.4
+PRD-1805,History Book - Standard,Books,Value Wholesalers,2025-05-12,12.98,27.54,145,64,WH-A2,228,6279.12,3319.68
+PRD-1407,Dark Chocolate - Lite,Food & Beverage,Global Traders Inc.,2026-01-30,22.42,34.27,38,90,WH-B1,47,1610.69,556.95
+PRD-1503,Door Mat - Elite,Home & Garden,TechSupply Co.,2025-08-29,25.98,65.86,58,69,WH-C2,144,9483.84,5742.72
+PRD-2072,Toothpaste - Pro,Health & Beauty,Elite Imports,2025-06-28,19.39,31.18,464,58,WH-A1,78,2432.04,919.62
+PRD-2057,Shampoo - Premium,Health & Beauty,TechSupply Co.,2025-12-18,20.52,32.54,417,55,WH-B2,188,6117.52,2259.76
+PRD-1930,Action Figure - Ultra,Toys,Global Traders Inc.,2025-05-09,10.13,17.49,287,48,WH-B1,174,3043.26,1280.64
+PRD-1780,Cookbook - Plus,Books,Prime Distributors,2025-04-09,26.16,69.22,12,78,WH-C2,70,4845.4,3014.2
+PRD-1201,Casual Shirt - Deluxe,Clothing,FastTrack Logistics,2026-04-09,13.76,34.28,156,77,WH-B1,218,7473.04,4473.36
+PRD-1135,Charger Adapter - Deluxe,Electronics,TechSupply Co.,2025-07-09,55.19,101.2,120,66,WH-C2,0,0.0,0.0
+PRD-2052,Face Cream - Classic,Health & Beauty,Global Traders Inc.,2024-08-16,15.1,23.68,2,26,WH-B2,103,2439.04,883.74
+PRD-1041,USB-C Cable - Elite,Electronics,TechSupply Co.,2024-10-12,93.36,152.37,1,62,WH-A1,134,20417.58,7907.34
+PRD-2018,Toy Train - Ultra,Toys,Elite Imports,2024-09-12,32.67,54.48,198,85,WH-D1,265,14437.2,5779.65
+PRD-1231,Sneakers - Lite,Clothing,Premium Suppliers,2026-02-26,22.33,50.55,256,25,WH-D1,0,0.0,0.0
+PRD-1379,Granola - Pro,Food & Beverage,Elite Imports,2025-04-05,8.1,12.12,80,58,WH-B1,20,242.4,80.4
+PRD-1289,Athletic Socks - Deluxe,Clothing,TechSupply Co.,2024-08-08,56.53,153.15,465,42,WH-C1,49,7504.35,4734.38
+PRD-1419,Energy Drink - Premium,Food & Beverage,TechSupply Co.,2026-05-04,24.73,43.24,421,100,WH-B2,132,5707.68,2443.32
+PRD-1392,Honey - Classic,Food & Beverage,FastTrack Logistics,2026-05-27,19.57,42.24,294,69,WH-C1,88,3717.12,1994.96
+PRD-1593,Rug - Plus,Home & Garden,Prime Distributors,2025-10-08,19.81,48.13,372,21,WH-A1,77,3706.01,2180.64
+PRD-2087,Sunscreen - Max,Health & Beauty,Elite Imports,2024-10-22,7.93,18.46,40,57,WH-C2,0,0.0,0.0
+PRD-1648,Jump Rope - Plus,Sports & Outdoors,Prime Distributors,2026-02-25,69.06,143.49,80,60,WH-B2,0,0.0,0.0
+PRD-1521,Curtain Rod - Basic,Home & Garden,FastTrack Logistics,2025-01-05,10.99,25.71,41,55,WH-B2,71,1825.41,1045.12
+PRD-1065,Laptop Stand - Plus,Electronics,Value Wholesalers,2025-01-14,101.2,139.12,426,73,WH-B1,299,41596.88,11338.08
+PRD-1015,Smart Watch - Basic,Electronics,Global Traders Inc.,2025-01-20,153.91,342.04,174,34,WH-C2,80,27363.2,15050.4
+PRD-2065,Shampoo - Max,Health & Beauty,FastTrack Logistics,2026-06-29,12.24,30.02,175,51,WH-D1,27,810.54,480.06
+PRD-1493,Plant Pot - Max,Home & Garden,Value Wholesalers,2025-02-15,48.14,122.2,147,26,WH-A2,198,24195.6,14663.88
+PRD-1380,Granola - Ultra,Food & Beverage,Quality Goods Ltd.,2025-08-22,5.41,10.65,495,65,WH-D1,25,266.25,131.0
+PRD-1188,Winter Jacket - Premium,Clothing,Prime Distributors,2024-07-31,41.78,101.23,463,30,WH-D1,0,0.0,0.0
+PRD-1764,Mystery Novel - Pro,Books,Quality Goods Ltd.,2026-03-25,29.64,87.96,316,66,WH-A2,276,24276.96,16096.32
+PRD-1217,Yoga Pants - Elite,Clothing,Quality Goods Ltd.,2025-01-05,27.76,67.67,314,88,WH-C2,0,0.0,0.0
+PRD-1792,Self-Help Guide - Lite,Books,FastTrack Logistics,2026-05-20,3.59,9.77,427,86,WH-A2,210,2051.7,1297.8
+PRD-2077,Toothpaste - Plus,Health & Beauty,Elite Imports,2024-08-17,17.25,27.17,197,74,WH-C2,124,3369.08,1230.08
+PRD-1879,Technical Manual - Plus,Books,FastTrack Logistics,2026-04-28,14.19,26.32,448,68,WH-A2,292,7685.44,3541.96
+PRD-1338,Protein Bars - Elite,Food & Beverage,Quality Goods Ltd.,2024-07-25,9.41,15.04,431,70,WH-A2,295,4436.8,1660.85
+PRD-1720,Basketball - Pro,Sports & Outdoors,Global Traders Inc.,2025-03-17,96.56,144.46,373,87,WH-C1,143,20657.78,6849.7
+PRD-1296,Athletic Socks - Plus,Clothing,Prime Distributors,2025-11-19,48.8,135.38,346,89,WH-C1,71,9611.98,6147.18
+PRD-2017,Toy Train - Pro,Toys,FastTrack Logistics,2026-03-16,43.32,106.93,453,82,WH-D1,41,4384.13,2608.01
+PRD-1456,Spices - Pro,Food & Beverage,TechSupply Co.,2026-03-27,11.59,19.75,280,52,WH-C2,78,1540.5,636.48
+PRD-1816,Biography - Standard,Books,TechSupply Co.,2025-09-28,17.3,50.36,263,44,WH-B1,93,4683.48,3074.58
+PRD-1270,Polo Shirt - Ultra,Clothing,Value Wholesalers,2025-11-26,46.86,123.32,397,27,WH-B2,148,18251.36,11316.08
+PRD-1996,Science Kit - Ultra,Toys,TechSupply Co.,2025-07-02,19.1,44.84,33,36,WH-A1,0,0.0,0.0
+PRD-1202,Casual Shirt - Basic,Clothing,Prime Distributors,2025-04-25,33.31,52.08,445,65,WH-C2,222,11561.76,4166.94
+PRD-1162,Cotton T-Shirt - Elite,Clothing,Value Wholesalers,2024-10-06,38.07,63.68,10,61,WH-C2,235,14964.8,6018.35
+PRD-1730,Fishing Rod - Basic,Sports & Outdoors,TechSupply Co.,2025-10-26,77.99,120.04,85,79,WH-C2,154,18486.16,6475.7
+PRD-1402,Dark Chocolate - Ultra,Food & Beverage,Global Traders Inc.,2026-03-01,9.62,14.07,177,60,WH-B2,45,633.15,200.25
+PRD-1703,Swim Goggles - Plus,Sports & Outdoors,Prime Distributors,2026-04-09,46.51,104.98,54,61,WH-C1,36,3779.28,2104.92
+PRD-2130,Hair Oil - Elite,Health & Beauty,Quality Goods Ltd.,2026-04-13,27.85,43.39,18,44,WH-C2,110,4772.9,1709.4
+PRD-1566,Candle Set - Pro,Home & Garden,Value Wholesalers,2025-01-16,6.79,13.25,440,42,WH-B2,61,808.25,394.06
+PRD-2022,Toy Train - Plus,Toys,Prime Distributors,2026-04-28,18.28,36.9,117,94,WH-D1,0,0.0,0.0
+PRD-2026,Play Dough - Deluxe,Toys,Quality Goods Ltd.,2026-01-03,35.38,61.92,381,55,WH-B1,70,4334.4,1857.8
+PRD-2105,Lip Balm - Pro,Health & Beauty,Premium Suppliers,2025-09-06,38.35,86.29,0,59,WH-A2,0,0.0,0.0
+PRD-1206,Casual Shirt - Elite,Clothing,Prime Distributors,2025-07-13,36.66,90.71,127,34,WH-C1,0,0.0,0.0
+PRD-1035,USB-C Cable - Standard,Electronics,FastTrack Logistics,2024-09-06,147.5,234.0,202,36,WH-A2,153,35802.0,13234.5
+PRD-1776,Cookbook - Ultra,Books,TechSupply Co.,2025-05-11,22.88,44.51,167,75,WH-C2,76,3382.76,1643.88
+PRD-1509,Storage Box - Deluxe,Home & Garden,Value Wholesalers,2025-09-03,5.93,14.09,273,20,WH-B2,32,450.88,261.12
+PRD-2172,Eye Cream - Ultra,Health & Beauty,TechSupply Co.,2024-09-21,33.43,58.53,228,32,WH-C1,0,0.0,0.0
+PRD-1092,Mouse Pad - Basic,Electronics,Value Wholesalers,2025-04-26,70.01,140.46,219,59,WH-B2,30,4213.8,2113.5
+PRD-1898,Textbook - Classic,Books,Prime Distributors,2026-05-06,9.65,22.17,48,62,WH-B2,0,0.0,0.0
+PRD-1565,Candle Set - Basic,Home & Garden,Prime Distributors,2025-02-15,20.41,36.51,295,36,WH-D1,0,0.0,0.0
+PRD-1777,Cookbook - Classic,Books,TechSupply Co.,2026-06-08,4.08,9.22,393,84,WH-B2,0,0.0,0.0
+PRD-1242,Dress Shirt - Lite,Clothing,Premium Suppliers,2025-07-31,48.36,140.33,369,55,WH-B2,293,41116.69,26947.21
+PRD-1014,Smart Watch - Deluxe,Electronics,Global Traders Inc.,2025-06-28,125.24,233.15,128,90,WH-B2,5,1165.75,539.55
+PRD-1316,Organic Coffee - Elite,Food & Beverage,Quality Goods Ltd.,2025-07-05,11.0,22.2,301,84,WH-B2,12,266.4,134.4
+PRD-1601,Lamp - Classic,Home & Garden,Quality Goods Ltd.,2026-06-10,36.96,88.63,352,96,WH-A1,45,3988.35,2325.15
+PRD-1388,Honey - Deluxe,Food & Beverage,Elite Imports,2026-04-25,8.43,12.73,102,87,WH-A1,278,3538.94,1195.4
+PRD-1167,Denim Jeans - Standard,Clothing,Elite Imports,2024-12-23,62.71,136.29,473,92,WH-D1,165,22487.85,12140.7
+PRD-1841,Travel Guide - Pro,Books,Quality Goods Ltd.,2024-09-14,16.44,37.92,277,63,WH-B1,276,10465.92,5928.48
+PRD-1021,Smart Watch - Plus,Electronics,FastTrack Logistics,2024-09-04,135.23,246.89,264,77,WH-B2,115,28392.35,12840.9
+PRD-1647,Jump Rope - Max,Sports & Outdoors,Prime Distributors,2024-09-23,22.47,46.06,409,45,WH-A2,158,7277.48,3727.22
+PRD-1832,Children Story - Classic,Books,Global Traders Inc.,2025-03-05,6.12,12.22,307,59,WH-B1,227,2773.94,1384.7
+PRD-1563,Candle Set - Standard,Home & Garden,Global Traders Inc.,2024-08-30,57.57,123.23,3,89,WH-A1,246,30314.58,16152.36
+PRD-2159,Deodorant - Basic,Health & Beauty,Elite Imports,2024-08-24,29.72,57.13,391,71,WH-D1,199,11368.87,5454.59
+PRD-1687,Bike Helmet - Pro,Sports & Outdoors,Value Wholesalers,2025-03-02,88.93,164.16,424,58,WH-A1,154,25280.64,11585.42
+PRD-1958,Doll House - Premium,Toys,FastTrack Logistics,2026-01-17,41.86,83.25,62,90,WH-A2,22,1831.5,910.58
+PRD-1190,Winter Jacket - Deluxe,Clothing,Quality Goods Ltd.,2026-03-21,11.44,24.36,406,99,WH-B1,56,1364.16,723.52
+PRD-1976,Stuffed Animal - Elite,Toys,FastTrack Logistics,2025-11-09,42.78,80.43,179,100,WH-C1,261,20992.23,9826.65
+PRD-1700,Swim Goggles - Classic,Sports & Outdoors,FastTrack Logistics,2024-10-02,73.92,144.77,118,48,WH-C2,132,19109.64,9352.2
+PRD-1511,Storage Box - Pro,Home & Garden,Elite Imports,2025-06-14,50.22,77.34,80,88,WH-B2,200,15468.0,5424.0
+PRD-2083,Sunscreen - Pro,Health & Beauty,Premium Suppliers,2026-02-27,13.68,24.25,383,70,WH-D1,3,72.75,31.71
+PRD-1475,Garden Hose - Standard,Home & Garden,Elite Imports,2025-09-03,11.53,24.75,334,22,WH-B2,211,5222.25,2789.42
+PRD-1857,Art Book - Plus,Books,Prime Distributors,2025-02-27,8.75,25.79,380,79,WH-C1,272,7014.88,4634.88
+PRD-1748,Backpack - Lite,Sports & Outdoors,TechSupply Co.,2024-09-29,18.16,37.07,491,63,WH-C2,0,0.0,0.0
+PRD-1253,Hoodie - Lite,Clothing,Prime Distributors,2024-10-07,72.59,198.93,263,61,WH-C1,0,0.0,0.0
+PRD-1022,Smart Watch - Lite,Electronics,Global Traders Inc.,2026-07-02,123.84,195.19,112,20,WH-B1,0,0.0,0.0
+PRD-1460,Spices - Max,Food & Beverage,FastTrack Logistics,2026-06-13,14.61,31.09,352,81,WH-A2,1,31.09,16.48
+PRD-1277,Windbreaker - Standard,Clothing,Quality Goods Ltd.,2025-10-22,35.16,84.65,20,29,WH-A1,300,25395.0,14847.0
+PRD-1956,Remote Control Car - Plus,Toys,Value Wholesalers,2026-03-22,21.63,38.71,267,39,WH-A1,156,6038.76,2664.48
+PRD-1386,Honey - Premium,Food & Beverage,Elite Imports,2025-06-27,17.71,27.24,109,43,WH-A1,228,6210.72,2172.84
+PRD-1806,History Book - Deluxe,Books,Global Traders Inc.,2025-04-25,23.02,50.23,226,56,WH-A2,217,10899.91,5904.57
+PRD-1344,Mixed Nuts - Deluxe,Food & Beverage,Value Wholesalers,2024-08-17,22.92,48.26,154,40,WH-A2,140,6756.4,3547.6
+PRD-1770,Mystery Novel - Lite,Books,Quality Goods Ltd.,2025-05-27,26.49,56.31,112,29,WH-C2,248,13964.88,7395.36
+PRD-1131,HDMI Cable - Plus,Electronics,Global Traders Inc.,2025-11-26,102.22,208.88,482,91,WH-C2,113,23603.44,12052.58
+PRD-1872,Technical Manual - Deluxe,Books,Value Wholesalers,2025-06-16,28.04,80.9,154,31,WH-A1,120,9708.0,6343.2
+PRD-2124,Hair Oil - Standard,Health & Beauty,Value Wholesalers,2025-01-20,32.21,70.51,32,86,WH-C1,275,19390.25,10532.5
+PRD-1088,Power Bank - Lite,Electronics,TechSupply Co.,2025-09-27,144.02,209.05,444,82,WH-C1,6,1254.3,390.18
+PRD-1331,Protein Bars - Premium,Food & Beverage,Elite Imports,2025-02-15,4.6,6.86,396,89,WH-C1,187,1282.82,422.62
+PRD-1467,LED Bulb - Pro,Home & Garden,Prime Distributors,2025-05-23,55.12,117.27,291,76,WH-A1,194,22750.38,12057.1
+PRD-1122,HDMI Cable - Premium,Electronics,FastTrack Logistics,2025-09-17,51.86,91.36,247,33,WH-B2,292,26677.12,11534.0
+PRD-2045,Kite - Lite,Toys,Elite Imports,2025-01-03,10.46,19.55,386,33,WH-B2,166,3245.3,1508.94
+PRD-2096,Vitamins - Classic,Health & Beauty,Elite Imports,2024-11-03,32.58,63.62,480,80,WH-B2,51,3244.62,1583.04
+PRD-2131,Hair Oil - Max,Health & Beauty,Prime Distributors,2025-01-04,11.78,23.17,65,99,WH-C1,281,6510.77,3200.59
+PRD-1861,Poetry Collection - Deluxe,Books,TechSupply Co.,2025-09-09,15.53,37.02,223,74,WH-A2,18,666.36,386.82
+PRD-2127,Hair Oil - Pro,Health & Beauty,FastTrack Logistics,2026-06-18,7.05,11.72,152,66,WH-D1,87,1019.64,406.29
