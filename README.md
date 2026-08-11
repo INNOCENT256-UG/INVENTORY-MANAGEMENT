@@ -1,7 +1,5 @@
 # CRM Sales & Inventory Analytics Dashboard
 
-![Inventory Management](Charts/Inventory%20Management.png)
-
 ## Project Overview
 
 A comprehensive Business Intelligence solution built with Python, Pandas, and OpenPyXL that simulates a complete CRM, sales pipeline, customer management, and inventory monitoring system. This dashboard provides automated insights and visualizations for data-driven decision making.
@@ -40,6 +38,7 @@ A company needs to track:
   - Customer segmentation (pie chart)
 
 #### Inventory Dashboard
+![Inventory Management](Charts/Inventory%20Management.png)
 - Inventory Metrics:
   - Current stock value
   - Total products
