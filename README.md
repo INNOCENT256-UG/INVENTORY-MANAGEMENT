@@ -1,6 +1,6 @@
 # CRM Sales & Inventory Analytics Dashboard
 
-![Charts](Charts/Inventory%20Management.png)
+![Inventory Management](Charts/Inventory%20Management.png)
 
 ## Project Overview
 
