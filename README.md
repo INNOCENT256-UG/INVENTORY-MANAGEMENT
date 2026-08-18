@@ -39,7 +39,8 @@ A company needs to track:
 
 #### Inventory Dashboard
 
-![Inventory Management](https://github.com/INNOCENT256-UG/INVENTORY-MANAGEMENT/blob/main/Charts/Inventory%20Management.png)
+![Inventory Management — Stock overview](https://github.com/INNOCENT256-UG/INVENTORY-MANAGEMENT/blob/main/Charts/Inventory%20Management.png)
+*Figure: Inventory Management — consolidated stock value and low-stock alerts.*
 
 The Inventory Dashboard concisely surfaces stock status, value, and movement so supply and operations teams can make timely decisions.
 
@@ -52,6 +53,10 @@ Inventory Metrics:
 Visualizations and recommended views:
 - Inventory by category (bar chart) — quick view of category distribution and value concentration
 - Top-selling products (ranked bar chart) — identify SKUs that drive revenue and require prioritized replenishment
+
+![Best Selling Products — top SKUs](https://github.com/INNOCENT256-UG/INVENTORY-MANAGEMENT/blob/main/Charts/Best%20Selling%20Products.png)
+*Figure: Best Selling Products — highlights top SKUs by units sold and contribution to revenue.*
+
 - Stock movement over time (line/area chart) — track inflows and outflows to spot seasonality or demand shifts
 - Stock value heatmap (by warehouse) — detect where capital is tied up
 
