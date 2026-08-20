@@ -318,8 +318,12 @@ Potential additions:
 - Export to PDF functionality
 - Email automation for insights distribution
 
-## Author
+## 👤 Author
 
+**INNOCENT256**
+- GitHub: [INNOCENT256-UG](https://github.com/INNOCENT256-UG)
+- LinkedIn: [WatsalaDigital](https://linkedin.com/in/Watsala.Digital)
+- Email: watsala.digital.com.com
 Created as a Data Analyst portfolio project demonstrating advanced Excel automation, data analysis, and business intelligence capabilities.
 
 ## License
