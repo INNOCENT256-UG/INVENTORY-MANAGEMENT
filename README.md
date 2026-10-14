@@ -18,6 +18,8 @@ A company needs to track:
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-Completed-success?style=flat-square)
+
+
 ![Last Updated](https://img.shields.io/badge/Updated-October_2026-blue?style=flat-square)
 
 ## Features
@@ -30,7 +32,6 @@ A company needs to track:
 
 ### 2. Excel Dashboard Sheets
 
-#### CRM Dashboard
 - Key Performance Indicators (KPIs):
   - Total Customers
   - Total Revenue
