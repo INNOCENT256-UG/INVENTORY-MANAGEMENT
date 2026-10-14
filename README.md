@@ -1,17 +1,24 @@
-# CRM Sales & Inventory Analytics Dashboard
-
+# SALES MANAGEMENT INVENTORY
 ## Project Overview
-
 A comprehensive Business Intelligence solution built with Python, Pandas, and OpenPyXL that simulates a complete CRM, sales pipeline, customer management, and inventory monitoring system. This dashboard produces a professionally formatted Excel workbook with KPIs, visualizations, pivot summaries, and automated insights designed for operational and executive review.
 
 ## Business Scenario
-
 A company needs to track:
 - Customer relationships and segmentation
 - Sales performance and revenue trends
 - Product inventory levels and stock management
 - Sales pipeline and conversion rates
 - Lost opportunities and profit margins
+
+![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Completed-success?style=flat-square)
+![Last Updated](https://img.shields.io/badge/Updated-October_2026-blue?style=flat-square)
 
 ## Features
 
