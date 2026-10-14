@@ -9,7 +9,7 @@ A company needs to track:
 - Product inventory levels and stock management
 - Sales pipeline and conversion rates
 - Lost opportunities and profit margins
-
+![OpenpyXL](https://img.shields.io/badge/Zapier-FF4F00?style=for-the-badge&logo=OpenpyXL&logoColor=white)
 ![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
