@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 440" width="100%" height="100%" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif">
+  <rect width="1200" height="440" rx="16" fill="#0b0f19"/>
+  <rect x="24" y="24" width="1152" height="392" rx="12" fill="#1e293b" stroke="#334155"/>
+  <text x="48" y="58" fill="#f8fafc" font-size="18" font-weight="700">Warehouse Capital Distribution &amp; Stockout Risk Matrix</text>
+  <text x="48" y="78" fill="#94a3b8" font-size="12">Comparing Inventory Asset Value, Total Revenue Generated, and Low-Stock Alerts across 8 Fulfillment Centers</text>
+
+  <rect x="48" y="104" width="260" height="128" rx="10" fill="#0f172a" stroke="#334155"/>
+  <text x="66" y="132" fill="#38bdf8" font-size="15" font-weight="700">WH-C1</text>
+  <text x="233" y="132" fill="#94a3b8" font-size="12">173 SKUs</text>
+  <text x="66" y="162" fill="#f8fafc" font-size="22" font-weight="800">$2005.3K</text>
+  <text x="66" y="180" fill="#64748b" font-size="11">Inventory Asset Value (44,755 units)</text>
+  <text x="66" y="208" fill="#10b981" font-size="12" font-weight="600">Rev: $2.18M</text>
+  <text x="193" y="208" fill="#f59e0b" font-size="12" font-weight="600">⚠ 24 Low Stock</text>
+  <rect x="326" y="104" width="260" height="128" rx="10" fill="#0f172a" stroke="#334155"/>
+  <text x="344" y="132" fill="#38bdf8" font-size="15" font-weight="700">WH-B2</text>
+  <text x="511" y="132" fill="#94a3b8" font-size="12">184 SKUs</text>
+  <text x="344" y="162" fill="#f8fafc" font-size="22" font-weight="800">$1879.1K</text>
+  <text x="344" y="180" fill="#64748b" font-size="11">Inventory Asset Value (44,142 units)</text>
+  <text x="344" y="208" fill="#10b981" font-size="12" font-weight="600">Rev: $1.96M</text>
+  <text x="471" y="208" fill="#f59e0b" font-size="12" font-weight="600">⚠ 23 Low Stock</text>
+  <rect x="604" y="104" width="260" height="128" rx="10" fill="#0f172a" stroke="#334155"/>
+  <text x="622" y="132" fill="#38bdf8" font-size="15" font-weight="700">WH-C2</text>
+  <text x="789" y="132" fill="#94a3b8" font-size="12">177 SKUs</text>
+  <text x="622" y="162" fill="#f8fafc" font-size="22" font-weight="800">$1736.7K</text>
+  <text x="622" y="180" fill="#64748b" font-size="11">Inventory Asset Value (44,097 units)</text>
+  <text x="622" y="208" fill="#10b981" font-size="12" font-weight="600">Rev: $1.59M</text>
+  <text x="749" y="208" fill="#f59e0b" font-size="12" font-weight="600">⚠ 20 Low Stock</text>
+  <rect x="882" y="104" width="260" height="128" rx="10" fill="#0f172a" stroke="#334155"/>
+  <text x="900" y="132" fill="#38bdf8" font-size="15" font-weight="700">WH-D1</text>
+  <text x="1067" y="132" fill="#94a3b8" font-size="12">171 SKUs</text>
+  <text x="900" y="162" fill="#f8fafc" font-size="22" font-weight="800">$1719.5K</text>
+  <text x="900" y="180" fill="#64748b" font-size="11">Inventory Asset Value (46,406 units)</text>
+  <text x="900" y="208" fill="#10b981" font-size="12" font-weight="600">Rev: $1.94M</text>
+  <text x="1027" y="208" fill="#f59e0b" font-size="12" font-weight="600">⚠ 17 Low Stock</text>
+  <rect x="48" y="249" width="260" height="128" rx="10" fill="#0f172a" stroke="#334155"/>
+  <text x="66" y="277" fill="#38bdf8" font-size="15" font-weight="700">WH-A1</text>
+  <text x="233" y="277" fill="#94a3b8" font-size="12">150 SKUs</text>
+  <text x="66" y="307" fill="#f8fafc" font-size="22" font-weight="800">$1565.8K</text>
+  <text x="66" y="325" fill="#64748b" font-size="11">Inventory Asset Value (37,476 units)</text>
+  <text x="66" y="353" fill="#10b981" font-size="12" font-weight="600">Rev: $1.70M</text>
+  <text x="193" y="353" fill="#f59e0b" font-size="12" font-weight="600">⚠ 15 Low Stock</text>
+  <rect x="326" y="249" width="260" height="128" rx="10" fill="#0f172a" stroke="#334155"/>
+  <text x="344" y="277" fill="#38bdf8" font-size="15" font-weight="700">WH-A2</text>
+  <text x="511" y="277" fill="#94a3b8" font-size="12">178 SKUs</text>
+  <text x="344" y="307" fill="#f8fafc" font-size="22" font-weight="800">$1503.2K</text>
+  <text x="344" y="325" fill="#64748b" font-size="11">Inventory Asset Value (45,539 units)</text>
+  <text x="344" y="353" fill="#10b981" font-size="12" font-weight="600">Rev: $1.91M</text>
+  <text x="471" y="353" fill="#f59e0b" font-size="12" font-weight="600">⚠ 22 Low Stock</text>
+  <rect x="604" y="249" width="260" height="128" rx="10" fill="#0f172a" stroke="#334155"/>
+  <text x="622" y="277" fill="#38bdf8" font-size="15" font-weight="700">WH-B1</text>
+  <text x="789" y="277" fill="#94a3b8" font-size="12">155 SKUs</text>
+  <text x="622" y="307" fill="#f8fafc" font-size="22" font-weight="800">$1442.8K</text>
+  <text x="622" y="325" fill="#64748b" font-size="11">Inventory Asset Value (36,951 units)</text>
+  <text x="622" y="353" fill="#10b981" font-size="12" font-weight="600">Rev: $1.52M</text>
+  <text x="749" y="353" fill="#f59e0b" font-size="12" font-weight="600">⚠ 21 Low Stock</text>
+</svg>

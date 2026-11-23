@@ -1,0 +1,169 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" width="100%" height="100%" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b0f19"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="barGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+    <linearGradient id="profitGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#34d399"/>
+    </linearGradient>
+    <linearGradient id="accentCard" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="680" rx="16" fill="url(#bgGrad)"/>
+
+  <!-- Header -->
+  <rect x="24" y="20" width="1152" height="68" rx="12" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+  <circle cx="52" cy="54" r="12" fill="#3b82f6"/>
+  <path d="M47 58 L52 48 L57 58 Z" fill="#fff"/>
+  <text x="76" y="49" fill="#f8fafc" font-size="20" font-weight="700">ENTERPRISE SUPPLY CHAIN &amp; REVENUE BI COMMAND CENTER</text>
+  <text x="76" y="70" fill="#94a3b8" font-size="12">Interactive D3.js Analytics Suite • 1,188 Active SKUs • 8 Warehouses • 1,000 CRM Transactions</text>
+  <rect x="1020" y="37" width="136" height="34" rx="17" fill="#065f46" stroke="#10b981" stroke-width="1"/>
+  <circle cx="1040" cy="54" r="5" fill="#34d399"/>
+  <text x="1054" y="58" fill="#ecfdf5" font-size="12" font-weight="600">D3.js v7 LIVE</text>
+
+  <!-- 5 KPI Cards -->
+  <!-- Card 1 -->
+  <rect x="24" y="104" width="218" height="102" rx="12" fill="url(#accentCard)" stroke="#334155"/>
+  <text x="42" y="130" fill="#94a3b8" font-size="12" font-weight="600">TOTAL RETAIL REVENUE</text>
+  <text x="42" y="166" fill="#f8fafc" font-size="28" font-weight="800">$12.81M</text>
+  <text x="42" y="190" fill="#34d399" font-size="12" font-weight="600">▲ $12,807,159 across 8 categories</text>
+
+  <!-- Card 2 -->
+  <rect x="257" y="104" width="218" height="102" rx="12" fill="url(#accentCard)" stroke="#334155"/>
+  <text x="275" y="130" fill="#94a3b8" font-size="12" font-weight="600">NET GROSS PROFIT</text>
+  <text x="275" y="166" fill="#10b981" font-size="28" font-weight="800">$6.51M</text>
+  <text x="275" y="190" fill="#34d399" font-size="12" font-weight="600">▲ 50.8% Gross Margin Ratio</text>
+
+  <!-- Card 3 -->
+  <rect x="490" y="104" width="218" height="102" rx="12" fill="url(#accentCard)" stroke="#334155"/>
+  <text x="508" y="130" fill="#94a3b8" font-size="12" font-weight="600">INVENTORY ASSET VALUE</text>
+  <text x="508" y="166" fill="#38bdf8" font-size="28" font-weight="800">$11.85M</text>
+  <text x="508" y="190" fill="#94a3b8" font-size="12" font-weight="500">299,366 units (1,188 SKUs)</text>
+
+  <!-- Card 4 -->
+  <rect x="723" y="104" width="218" height="102" rx="12" fill="url(#accentCard)" stroke="#334155"/>
+  <text x="741" y="130" fill="#94a3b8" font-size="12" font-weight="600">REORDER RISK ALERTS</text>
+  <text x="741" y="166" fill="#f59e0b" font-size="28" font-weight="800">142 SKUs</text>
+  <text x="741" y="190" fill="#f87171" font-size="12" font-weight="600">⚠ 74 Critical / 5 Out of Stock</text>
+
+  <!-- Card 5 -->
+  <rect x="956" y="104" width="220" height="102" rx="12" fill="url(#accentCard)" stroke="#334155"/>
+  <text x="974" y="130" fill="#94a3b8" font-size="12" font-weight="600">CRM PIPELINE OPPORTUNITY</text>
+  <text x="974" y="166" fill="#a855f7" font-size="28" font-weight="800">$7.15M</text>
+  <text x="974" y="190" fill="#c084fc" font-size="12" font-weight="600">$3.05M Weighted • 46.3% Win Rate</text>
+
+  <!-- Left Panel: Category Revenue & Profit Horizontal Multi-Bar Chart -->
+  <rect x="24" y="222" width="710" height="434" rx="12" fill="#1e293b" stroke="#334155"/>
+  <text x="48" y="254" fill="#f8fafc" font-size="16" font-weight="700">Category Revenue vs. Net Profit Performance</text>
+  <text x="48" y="274" fill="#94a3b8" font-size="12">Ranked by revenue contribution with gross profit overlay &amp; margin %</text>
+  <rect x="520" y="242" width="12" height="12" rx="3" fill="url(#barGrad)"/>
+  <text x="538" y="253" fill="#cbd5e1" font-size="12">Revenue</text>
+  <rect x="605" y="242" width="12" height="12" rx="3" fill="url(#profitGrad)"/>
+  <text x="623" y="253" fill="#cbd5e1" font-size="12">Net Profit</text>
+
+  <text x="48" y="319" fill="#e2e8f0" font-size="13" font-weight="600">Electronics</text>
+  <rect x="195" y="304" width="390" height="24" rx="6" fill="#0f172a"/>
+  <rect x="195" y="304" width="380" height="13" rx="4" fill="url(#barGrad)"/>
+  <rect x="195" y="317" width="180" height="11" rx="4" fill="url(#profitGrad)"/>
+  <text x="598" y="320" fill="#f8fafc" font-size="12" font-weight="700">$4.26M</text>
+  <text x="665" y="320" fill="#34d399" font-size="12" font-weight="600">(47.5%)</text>
+  <text x="48" y="361" fill="#e2e8f0" font-size="13" font-weight="600">Clothing</text>
+  <rect x="195" y="346" width="390" height="24" rx="6" fill="#0f172a"/>
+  <rect x="195" y="346" width="180" height="13" rx="4" fill="url(#barGrad)"/>
+  <rect x="195" y="359" width="100" height="11" rx="4" fill="url(#profitGrad)"/>
+  <text x="598" y="362" fill="#f8fafc" font-size="12" font-weight="700">$2.02M</text>
+  <text x="665" y="362" fill="#34d399" font-size="12" font-weight="600">(55.9%)</text>
+  <text x="48" y="403" fill="#e2e8f0" font-size="13" font-weight="600">Sports &amp; Outdoors</text>
+  <rect x="195" y="388" width="390" height="24" rx="6" fill="#0f172a"/>
+  <rect x="195" y="388" width="168" height="13" rx="4" fill="url(#barGrad)"/>
+  <rect x="195" y="401" width="83" height="11" rx="4" fill="url(#profitGrad)"/>
+  <text x="598" y="404" fill="#f8fafc" font-size="12" font-weight="700">$1.89M</text>
+  <text x="665" y="404" fill="#34d399" font-size="12" font-weight="600">(49.4%)</text>
+  <text x="48" y="445" fill="#e2e8f0" font-size="13" font-weight="600">Home &amp; Garden</text>
+  <rect x="195" y="430" width="390" height="24" rx="6" fill="#0f172a"/>
+  <rect x="195" y="430" width="136" height="13" rx="4" fill="url(#barGrad)"/>
+  <rect x="195" y="443" width="73" height="11" rx="4" fill="url(#profitGrad)"/>
+  <text x="598" y="446" fill="#f8fafc" font-size="12" font-weight="700">$1.53M</text>
+  <text x="665" y="446" fill="#34d399" font-size="12" font-weight="600">(53.8%)</text>
+  <text x="48" y="487" fill="#e2e8f0" font-size="13" font-weight="600">Toys</text>
+  <rect x="195" y="472" width="390" height="24" rx="6" fill="#0f172a"/>
+  <rect x="195" y="472" width="100" height="13" rx="4" fill="url(#barGrad)"/>
+  <rect x="195" y="485" width="50" height="11" rx="4" fill="url(#profitGrad)"/>
+  <text x="598" y="488" fill="#f8fafc" font-size="12" font-weight="700">$1.13M</text>
+  <text x="665" y="488" fill="#34d399" font-size="12" font-weight="600">(49.6%)</text>
+  <text x="48" y="529" fill="#e2e8f0" font-size="13" font-weight="600">Books</text>
+  <rect x="195" y="514" width="390" height="24" rx="6" fill="#0f172a"/>
+  <rect x="195" y="514" width="73" height="13" rx="4" fill="url(#barGrad)"/>
+  <rect x="195" y="527" width="41" height="11" rx="4" fill="url(#profitGrad)"/>
+  <text x="598" y="530" fill="#f8fafc" font-size="12" font-weight="700">$0.82M</text>
+  <text x="665" y="530" fill="#34d399" font-size="12" font-weight="600">(56.3%)</text>
+  <text x="48" y="571" fill="#e2e8f0" font-size="13" font-weight="600">Health &amp; Beauty</text>
+  <rect x="195" y="556" width="390" height="24" rx="6" fill="#0f172a"/>
+  <rect x="195" y="556" width="62" height="13" rx="4" fill="url(#barGrad)"/>
+  <rect x="195" y="569" width="33" height="11" rx="4" fill="url(#profitGrad)"/>
+  <text x="598" y="572" fill="#f8fafc" font-size="12" font-weight="700">$0.70M</text>
+  <text x="665" y="572" fill="#34d399" font-size="12" font-weight="600">(53.3%)</text>
+  <text x="48" y="613" fill="#e2e8f0" font-size="13" font-weight="600">Food &amp; Beverage</text>
+  <rect x="195" y="598" width="390" height="24" rx="6" fill="#0f172a"/>
+  <rect x="195" y="598" width="40" height="13" rx="4" fill="url(#barGrad)"/>
+  <rect x="195" y="611" width="17" height="11" rx="4" fill="url(#profitGrad)"/>
+  <text x="598" y="614" fill="#f8fafc" font-size="12" font-weight="700">$0.45M</text>
+  <text x="665" y="614" fill="#34d399" font-size="12" font-weight="600">(44.0%)</text>
+  <rect x="750" y="222" width="426" height="210" rx="12" fill="#1e293b" stroke="#334155"/>
+  <text x="774" y="254" fill="#f8fafc" font-size="16" font-weight="700">Stock Health &amp; Replenishment Risk</text>
+  <text x="774" y="274" fill="#94a3b8" font-size="12">Distribution of 1,188 SKUs across operational risk tiers</text>
+
+  <circle cx="782" cy="303" r="5" fill="#10b981"/>
+  <text x="796" y="307" fill="#e2e8f0" font-size="12" font-weight="600">Optimal</text>
+  <rect x="905" y="296" width="170" height="14" rx="4" fill="#0f172a"/>
+  <rect x="905" y="296" width="76" height="14" rx="4" fill="#10b981"/>
+  <text x="1085" y="307" fill="#f8fafc" font-size="12" font-weight="700">431 (36.3%)</text>
+  <circle cx="782" cy="328" r="5" fill="#3b82f6"/>
+  <text x="796" y="332" fill="#e2e8f0" font-size="12" font-weight="600">Overstocked</text>
+  <rect x="905" y="321" width="170" height="14" rx="4" fill="#0f172a"/>
+  <rect x="905" y="321" width="108" height="14" rx="4" fill="#3b82f6"/>
+  <text x="1085" y="332" fill="#f8fafc" font-size="12" font-weight="700">615 (51.8%)</text>
+  <circle cx="782" cy="353" r="5" fill="#f59e0b"/>
+  <text x="796" y="357" fill="#e2e8f0" font-size="12" font-weight="600">Below Reorder</text>
+  <rect x="905" y="346" width="170" height="14" rx="4" fill="#0f172a"/>
+  <rect x="905" y="346" width="12" height="14" rx="4" fill="#f59e0b"/>
+  <text x="1085" y="357" fill="#f8fafc" font-size="12" font-weight="700">68 (5.7%)</text>
+  <circle cx="782" cy="378" r="5" fill="#f97316"/>
+  <text x="796" y="382" fill="#e2e8f0" font-size="12" font-weight="600">Critical Low</text>
+  <rect x="905" y="371" width="170" height="14" rx="4" fill="#0f172a"/>
+  <rect x="905" y="371" width="12" height="14" rx="4" fill="#f97316"/>
+  <text x="1085" y="382" fill="#f8fafc" font-size="12" font-weight="700">69 (5.8%)</text>
+  <circle cx="782" cy="403" r="5" fill="#ef4444"/>
+  <text x="796" y="407" fill="#e2e8f0" font-size="12" font-weight="600">Out of Stock</text>
+  <rect x="905" y="396" width="170" height="14" rx="4" fill="#0f172a"/>
+  <rect x="905" y="396" width="4" height="14" rx="4" fill="#ef4444"/>
+  <text x="1085" y="407" fill="#f8fafc" font-size="12" font-weight="700">5 (0.4%)</text>
+  <rect x="750" y="446" width="426" height="210" rx="12" fill="#1e293b" stroke="#334155"/>
+  <text x="774" y="478" fill="#f8fafc" font-size="16" font-weight="700">ABC Pareto Inventory Classification</text>
+  <text x="774" y="498" fill="#94a3b8" font-size="12">Capital &amp; revenue concentration across SKU tiers</text>
+
+  <rect x="774" y="524" width="378" height="32" rx="6" fill="#0f172a" stroke="#334155" stroke-width="0.8"/>
+  <rect x="774" y="524" width="8" height="32" rx="4" fill="#38bdf8"/>
+  <text x="794" y="544" fill="#f8fafc" font-size="13" font-weight="700">A (Top 70% Rev)</text>
+  <text x="955" y="544" fill="#94a3b8" font-size="12">308 SKUs (26%)</text>
+  <text x="1065" y="544" fill="#38bdf8" font-size="13" font-weight="700">$8.96M (70%)</text>
+  <rect x="774" y="564" width="378" height="32" rx="6" fill="#0f172a" stroke="#334155" stroke-width="0.8"/>
+  <rect x="774" y="564" width="8" height="32" rx="4" fill="#a855f7"/>
+  <text x="794" y="584" fill="#f8fafc" font-size="13" font-weight="700">B (Next 20% Rev)</text>
+  <text x="955" y="584" fill="#94a3b8" font-size="12">275 SKUs (23%)</text>
+  <text x="1065" y="584" fill="#a855f7" font-size="13" font-weight="700">$2.56M (20%)</text>
+  <rect x="774" y="604" width="378" height="32" rx="6" fill="#0f172a" stroke="#334155" stroke-width="0.8"/>
+  <rect x="774" y="604" width="8" height="32" rx="4" fill="#64748b"/>
+  <text x="794" y="624" fill="#f8fafc" font-size="13" font-weight="700">C (Bottom 10% Rev)</text>
+  <text x="955" y="624" fill="#94a3b8" font-size="12">605 SKUs (51%)</text>
+  <text x="1065" y="624" fill="#64748b" font-size="13" font-weight="700">$1.29M (10%)</text>
+</svg>

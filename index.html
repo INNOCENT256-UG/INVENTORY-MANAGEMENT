@@ -1,0 +1,2188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Enterprise Supply Chain & CRM Revenue BI Command Center | D3.js v7</title>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="dashboard_data.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-primary: #070b14;
+      --bg-secondary: #0f172a;
+      --bg-card: #131c31;
+      --bg-card-hover: #192540;
+      --border-color: #1e293b;
+      --border-highlight: #334155;
+      --text-primary: #f8fafc;
+      --text-secondary: #94a3b8;
+      --text-muted: #64748b;
+      --accent-blue: #3b82f6;
+      --accent-cyan: #06b6d4;
+      --accent-emerald: #10b981;
+      --accent-amber: #f59e0b;
+      --accent-orange: #f97316;
+      --accent-rose: #ef4444;
+      --accent-purple: #8b5cf6;
+      --radius-lg: 14px;
+      --radius-md: 10px;
+      --shadow-card: 0 10px 30px -10px rgba(0, 0, 0, 0.55);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      background: radial-gradient(circle at 15% 0%, #111c38 0%, var(--bg-primary) 55%);
+      color: var(--text-primary);
+      min-height: 100vh;
+      line-height: 1.5;
+      padding-bottom: 48px;
+    }
+
+    /* Top Header & Navigation */
+    .topbar {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(11, 17, 32, 0.88);
+      backdrop-filter: blur(14px);
+      border-bottom: 1px solid var(--border-color);
+      padding: 14px 28px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+
+    .brand-logo {
+      width: 40px;
+      height: 40px;
+      border-radius: 10px;
+      background: linear-gradient(135deg, var(--accent-blue), var(--accent-cyan));
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 800;
+      font-size: 18px;
+      color: #fff;
+      box-shadow: 0 4px 15px rgba(59, 130, 246, 0.4);
+    }
+
+    .brand-title h1 {
+      font-size: 17px;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      color: var(--text-primary);
+    }
+
+    .brand-title p {
+      font-size: 12px;
+      color: var(--text-secondary);
+    }
+
+    .nav-tabs {
+      display: flex;
+      gap: 8px;
+      background: var(--bg-secondary);
+      padding: 5px;
+      border-radius: 10px;
+      border: 1px solid var(--border-color);
+    }
+
+    .nav-tab {
+      background: transparent;
+      color: var(--text-secondary);
+      border: none;
+      padding: 8px 16px;
+      border-radius: 7px;
+      font-size: 13px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+
+    .nav-tab:hover {
+      color: var(--text-primary);
+    }
+
+    .nav-tab.active {
+      background: linear-gradient(135deg, var(--accent-blue), #2563eb);
+      color: #fff;
+      box-shadow: 0 2px 10px rgba(37, 99, 235, 0.35);
+    }
+
+    .header-actions {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .status-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      padding: 6px 12px;
+      border-radius: 999px;
+      font-size: 12px;
+      font-weight: 600;
+      background: rgba(16, 185, 129, 0.12);
+      color: #34d399;
+      border: 1px solid rgba(16, 185, 129, 0.3);
+    }
+
+    .status-dot {
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background: #10b981;
+      box-shadow: 0 0 8px #10b981;
+    }
+
+    .container {
+      max-width: 1440px;
+      margin: 0 auto;
+      padding: 22px 28px 0;
+    }
+
+    /* Filter Bar */
+    .filter-bar {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-lg);
+      padding: 14px 18px;
+      margin-bottom: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      box-shadow: var(--shadow-card);
+    }
+
+    .filter-group {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .filter-item {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    .filter-item label {
+      font-size: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--text-secondary);
+      font-weight: 700;
+    }
+
+    .filter-item select,
+    .filter-item input {
+      background: var(--bg-secondary);
+      color: var(--text-primary);
+      border: 1px solid var(--border-highlight);
+      border-radius: 7px;
+      padding: 7px 11px;
+      font-size: 12.5px;
+      font-family: inherit;
+      min-width: 150px;
+      outline: none;
+      transition: border-color 0.15s;
+    }
+
+    .filter-item select:focus,
+    .filter-item input:focus {
+      border-color: var(--accent-blue);
+    }
+
+    .btn-reset {
+      background: rgba(239, 68, 68, 0.12);
+      color: #f87171;
+      border: 1px solid rgba(239, 68, 68, 0.3);
+      padding: 8px 14px;
+      border-radius: 8px;
+      font-size: 12px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    .btn-reset:hover {
+      background: rgba(239, 68, 68, 0.22);
+    }
+
+    .btn-export {
+      background: rgba(59, 130, 246, 0.15);
+      color: #60a5fa;
+      border: 1px solid rgba(59, 130, 246, 0.35);
+      padding: 8px 14px;
+      border-radius: 8px;
+      font-size: 12px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    .btn-export:hover {
+      background: rgba(59, 130, 246, 0.28);
+    }
+
+    /* KPI Grid */
+    .kpi-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 16px;
+      margin-bottom: 20px;
+    }
+
+    .kpi-card {
+      background: linear-gradient(160deg, var(--bg-card) 0%, #0d1527 100%);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-lg);
+      padding: 18px 20px;
+      position: relative;
+      overflow: hidden;
+      box-shadow: var(--shadow-card);
+      transition: transform 0.2s, border-color 0.2s;
+    }
+
+    .kpi-card:hover {
+      transform: translateY(-2px);
+      border-color: var(--border-highlight);
+    }
+
+    .kpi-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 4px;
+      height: 100%;
+      background: var(--kpi-accent, var(--accent-blue));
+    }
+
+    .kpi-label {
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--text-secondary);
+      margin-bottom: 6px;
+    }
+
+    .kpi-value {
+      font-size: 27px;
+      font-weight: 800;
+      letter-spacing: -0.02em;
+      color: var(--text-primary);
+      font-family: 'Inter', sans-serif;
+    }
+
+    .kpi-sub {
+      margin-top: 6px;
+      font-size: 12px;
+      color: var(--text-secondary);
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    /* Dashboard Grid Layouts */
+    .grid-2col {
+      display: grid;
+      grid-template-columns: 1.45fr 1fr;
+      gap: 18px;
+      margin-bottom: 18px;
+    }
+
+    .grid-equal {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 18px;
+      margin-bottom: 18px;
+    }
+
+    .grid-full {
+      margin-bottom: 18px;
+    }
+
+    @media (max-width: 1100px) {
+      .grid-2col, .grid-equal {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-lg);
+      padding: 20px;
+      box-shadow: var(--shadow-card);
+      display: flex;
+      flex-direction: column;
+    }
+
+    .card-header {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 12px;
+      margin-bottom: 14px;
+    }
+
+    .card-title {
+      font-size: 15.5px;
+      font-weight: 700;
+      color: var(--text-primary);
+    }
+
+    .card-subtitle {
+      font-size: 12px;
+      color: var(--text-secondary);
+      margin-top: 2px;
+    }
+
+    .chart-controls {
+      display: flex;
+      gap: 6px;
+      background: var(--bg-secondary);
+      padding: 3px;
+      border-radius: 7px;
+      border: 1px solid var(--border-color);
+    }
+
+    .ctrl-btn {
+      background: transparent;
+      color: var(--text-secondary);
+      border: none;
+      padding: 5px 10px;
+      border-radius: 5px;
+      font-size: 11.5px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.15s;
+    }
+
+    .ctrl-btn.active {
+      background: var(--accent-blue);
+      color: #fff;
+    }
+
+    .chart-stage {
+      width: 100%;
+      min-height: 320px;
+      position: relative;
+      flex: 1;
+    }
+
+    /* Interactive Donut Layout */
+    .donut-layout {
+      display: grid;
+      grid-template-columns: 1.1fr 1fr;
+      align-items: center;
+      gap: 12px;
+      min-height: 320px;
+    }
+
+    .donut-legend {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .legend-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 8px 10px;
+      border-radius: 8px;
+      background: rgba(15, 23, 42, 0.65);
+      border: 1px solid transparent;
+      cursor: pointer;
+      transition: all 0.15s;
+    }
+
+    .legend-row:hover, .legend-row.active {
+      border-color: var(--accent-blue);
+      background: rgba(59, 130, 246, 0.12);
+    }
+
+    .legend-left {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 12.5px;
+      font-weight: 600;
+    }
+
+    .legend-swatch {
+      width: 11px;
+      height: 11px;
+      border-radius: 3px;
+    }
+
+    .legend-right {
+      text-align: right;
+      font-size: 12px;
+      font-family: 'JetBrains Mono', monospace;
+    }
+
+    /* D3 Tooltip */
+    .d3-tooltip {
+      position: fixed;
+      pointer-events: none;
+      z-index: 9999;
+      background: rgba(9, 14, 26, 0.96);
+      border: 1px solid var(--border-highlight);
+      border-radius: 10px;
+      padding: 12px 14px;
+      color: var(--text-primary);
+      font-size: 12.5px;
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.65);
+      opacity: 0;
+      transition: opacity 0.12s ease;
+      min-width: 210px;
+    }
+
+    .tt-title {
+      font-weight: 700;
+      font-size: 13.5px;
+      margin-bottom: 6px;
+      padding-bottom: 5px;
+      border-bottom: 1px solid var(--border-color);
+      color: #fff;
+    }
+
+    .tt-row {
+      display: flex;
+      justify-content: space-between;
+      gap: 16px;
+      margin: 4px 0;
+      color: var(--text-secondary);
+    }
+
+    .tt-val {
+      font-weight: 700;
+      color: var(--text-primary);
+      font-family: 'JetBrains Mono', monospace;
+    }
+
+    /* Data Table */
+    .table-wrap {
+      overflow-x: auto;
+      max-height: 410px;
+      border-radius: 10px;
+      border: 1px solid var(--border-color);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 12.5px;
+      text-align: left;
+    }
+
+    thead {
+      position: sticky;
+      top: 0;
+      background: #0b1222;
+      z-index: 5;
+    }
+
+    th {
+      padding: 11px 14px;
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--text-secondary);
+      border-bottom: 1px solid var(--border-color);
+    }
+
+    td {
+      padding: 10px 14px;
+      border-bottom: 1px solid rgba(30, 41, 59, 0.65);
+      color: #e2e8f0;
+    }
+
+    tbody tr:hover {
+      background: rgba(59, 130, 246, 0.08);
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 3px 8px;
+      border-radius: 999px;
+      font-size: 11px;
+      font-weight: 700;
+    }
+
+    .badge-Out { background: rgba(239, 68, 68, 0.2); color: #f87171; border: 1px solid rgba(239,68,68,0.4); }
+    .badge-Critical { background: rgba(249, 115, 22, 0.2); color: #fb923c; border: 1px solid rgba(249,115,22,0.4); }
+    .badge-Below { background: rgba(245, 158, 11, 0.2); color: #fbbf24; border: 1px solid rgba(245,158,11,0.4); }
+    .badge-Optimal { background: rgba(16, 185, 129, 0.18); color: #34d399; border: 1px solid rgba(16,185,129,0.4); }
+    .badge-Overstocked { background: rgba(59, 130, 246, 0.18); color: #60a5fa; border: 1px solid rgba(59,130,246,0.4); }
+
+    .tab-pane {
+      display: none;
+    }
+    .tab-pane.active {
+      display: block;
+    }
+
+    /* Strategy Guide Cards */
+    .strategy-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+      gap: 18px;
+      margin-top: 12px;
+    }
+
+    .strategy-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-lg);
+      padding: 22px;
+    }
+
+    .strategy-card h3 {
+      font-size: 16px;
+      color: #60a5fa;
+      margin-bottom: 10px;
+    }
+
+    .strategy-card ul {
+      padding-left: 18px;
+      color: #cbd5e1;
+      font-size: 13.5px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .axis text {
+      fill: #94a3b8;
+      font-size: 11px;
+      font-family: 'Inter', sans-serif;
+    }
+
+    .axis path, .axis line {
+      stroke: #1e293b;
+    }
+
+    .grid-line line {
+      stroke: #1e293b;
+      stroke-dasharray: 3,3;
+    }
+  </style>
+</head>
+<body>
+
+  <div id="tooltip" class="d3-tooltip"></div>
+
+  <!-- Top Navigation -->
+  <header class="topbar">
+    <div class="brand">
+      <div class="brand-logo">BI</div>
+      <div class="brand-title">
+        <h1>ENTERPRISE SUPPLY CHAIN &amp; CRM REVENUE COMMAND CENTER</h1>
+        <p>Interactive D3.js v7 Decision Intelligence • 1,188 Inventory SKUs • 1,000 CRM Orders • 150 Pipeline Deals</p>
+      </div>
+    </div>
+
+    <nav class="nav-tabs">
+      <button class="nav-tab active" onclick="switchTab('inventory', this)">📦 Supply Chain &amp; Inventory BI</button>
+      <button class="nav-tab" onclick="switchTab('crm', this)">💼 CRM Sales &amp; Pipeline Funnel</button>
+      <button class="nav-tab" onclick="switchTab('strategy', this)">🎯 Senior BI Strategy &amp; Architecture</button>
+    </nav>
+
+    <div class="header-actions">
+      <span class="status-pill"><span class="status-dot"></span>D3.js Cross-Filtering Active</span>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <!-- ================================================================= -->
+    <!-- TAB 1: INVENTORY & SUPPLY CHAIN BI                                -->
+    <!-- ================================================================= -->
+    <section id="tab-inventory" class="tab-pane active">
+      <!-- Interactive Filter Bar -->
+      <div class="filter-bar">
+        <div class="filter-group">
+          <div class="filter-item">
+            <label>Category</label>
+            <select id="f-category" onchange="applyInventoryFilters()">
+              <option value="ALL">All Categories (8)</option>
+            </select>
+          </div>
+          <div class="filter-item">
+            <label>Warehouse Location</label>
+            <select id="f-warehouse" onchange="applyInventoryFilters()">
+              <option value="ALL">All Warehouses (8)</option>
+            </select>
+          </div>
+          <div class="filter-item">
+            <label>Supplier</label>
+            <select id="f-supplier" onchange="applyInventoryFilters()">
+              <option value="ALL">All Suppliers (7)</option>
+            </select>
+          </div>
+          <div class="filter-item">
+            <label>Stock Health Tier</label>
+            <select id="f-status" onchange="applyInventoryFilters()">
+              <option value="ALL">All Health Tiers</option>
+              <option value="Optimal">Optimal Stock</option>
+              <option value="Overstocked">Overstocked</option>
+              <option value="Below Reorder">Below Reorder Point</option>
+              <option value="Critical Low">Critical Low (&le;50% Reorder)</option>
+              <option value="Out of Stock">Out of Stock (0 Units)</option>
+            </select>
+          </div>
+          <div class="filter-item">
+            <label>ABC Pareto Class</label>
+            <select id="f-abc" onchange="applyInventoryFilters()">
+              <option value="ALL">All ABC Classes</option>
+              <option value="A (Top 70% Rev)">Class A (Top 70% Revenue)</option>
+              <option value="B (Next 20% Rev)">Class B (Next 20% Revenue)</option>
+              <option value="C (Bottom 10% Rev)">Class C (Bottom 10% Revenue)</option>
+            </select>
+          </div>
+          <div class="filter-item">
+            <label>Search SKU / Product</label>
+            <input type="text" id="f-search" placeholder="e.g. Hiking Boots, PRD-1676..." oninput="applyInventoryFilters()" />
+          </div>
+        </div>
+
+        <div style="display:flex; gap:8px;">
+          <button class="btn-reset" onclick="resetInventoryFilters()">↺ Reset Filters</button>
+          <button class="btn-export" onclick="exportFilteredReorderCSV()">⬇ Export Reorder PO (CSV)</button>
+        </div>
+      </div>
+
+      <!-- KPI Row -->
+      <div class="kpi-grid">
+        <div class="kpi-card" style="--kpi-accent: #3b82f6;">
+          <div class="kpi-label">Filtered Retail Revenue</div>
+          <div class="kpi-value" id="kpi-rev">$12.81M</div>
+          <div class="kpi-sub" id="kpi-rev-sub">159,710 units sold across 1,188 SKUs</div>
+        </div>
+        <div class="kpi-card" style="--kpi-accent: #10b981;">
+          <div class="kpi-label">Net Gross Profit &amp; Margin</div>
+          <div class="kpi-value" id="kpi-prof">$6.51M</div>
+          <div class="kpi-sub" id="kpi-prof-sub">50.8% Gross Profit Margin</div>
+        </div>
+        <div class="kpi-card" style="--kpi-accent: #06b6d4;">
+          <div class="kpi-label">Inventory Asset Cost Value</div>
+          <div class="kpi-value" id="kpi-stock">$11.85M</div>
+          <div class="kpi-sub" id="kpi-stock-sub">299,366 total units on hand</div>
+        </div>
+        <div class="kpi-card" style="--kpi-accent: #f59e0b;">
+          <div class="kpi-label">Replenishment Risk Alerts</div>
+          <div class="kpi-value" id="kpi-risk">142 SKUs</div>
+          <div class="kpi-sub" id="kpi-risk-sub">Below Reorder Level (5 Out of Stock)</div>
+        </div>
+        <div class="kpi-card" style="--kpi-accent: #8b5cf6;">
+          <div class="kpi-label">Overstocked Capital Tied Up</div>
+          <div class="kpi-value" id="kpi-over">$6.82M</div>
+          <div class="kpi-sub" id="kpi-over-sub">SKUs exceeding 4x reorder threshold</div>
+        </div>
+      </div>
+
+      <!-- Row 1: D3 Interactive Bar Chart + D3 Interactive Donut/Pie Chart -->
+      <div class="grid-2col">
+        <div class="card">
+          <div class="card-header">
+            <div>
+              <div class="card-title">Category Financial &amp; Inventory Performance (Click Bar to Cross-Filter)</div>
+              <div class="card-subtitle">Interactive D3 grouped bar &amp; margin comparison across product lines</div>
+            </div>
+            <div class="chart-controls" id="bar-metric-ctrl">
+              <button class="ctrl-btn active" onclick="setBarMetric('revenue_profit', this)">Revenue vs Profit</button>
+              <button class="ctrl-btn" onclick="setBarMetric('stock_value', this)">Stock Asset Value</button>
+              <button class="ctrl-btn" onclick="setBarMetric('units', this)">Units Sold vs In-Stock</button>
+            </div>
+          </div>
+          <div id="d3-category-bar" class="chart-stage"></div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <div>
+              <div class="card-title">Interactive D3 Donut / Pie Breakdown</div>
+              <div class="card-subtitle">Hover slices to inspect capital impact; click slice to filter dashboard</div>
+            </div>
+            <div class="chart-controls" id="donut-dim-ctrl">
+              <button class="ctrl-btn active" onclick="setDonutDimension('status', this)">Stock Health</button>
+              <button class="ctrl-btn" onclick="setDonutDimension('abc', this)">ABC Pareto</button>
+              <button class="ctrl-btn" onclick="setDonutDimension('category', this)">Category Share</button>
+            </div>
+          </div>
+          <div class="donut-layout">
+            <div id="d3-donut-stage" style="width:100%; height:300px;"></div>
+            <div id="d3-donut-legend" class="donut-legend"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Row 2: D3 Monthly Revenue & Restock Time Series + D3 Warehouse x Category Heatmap -->
+      <div class="grid-equal">
+        <div class="card">
+          <div class="card-header">
+            <div>
+              <div class="card-title">Monthly Revenue, Gross Profit &amp; Inventory Velocity Trend</div>
+              <div class="card-subtitle">D3 area &amp; dual-line time-series showing cohort revenue vs net profit</div>
+            </div>
+          </div>
+          <div id="d3-monthly-trend" class="chart-stage"></div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <div>
+              <div class="card-title">Warehouse &times; Category Capital &amp; Risk Heatmap</div>
+              <div class="card-subtitle">D3 matrix identifying capital concentration &amp; stockout hotspots across 8 warehouses</div>
+            </div>
+            <div class="chart-controls">
+              <button class="ctrl-btn active" onclick="setHeatmapMetric('stock_value', this)">Stock Value ($)</button>
+              <button class="ctrl-btn" onclick="setHeatmapMetric('revenue', this)">Revenue ($)</button>
+              <button class="ctrl-btn" onclick="setHeatmapMetric('low_stock', this)">Low-Stock Alerts</button>
+            </div>
+          </div>
+          <div id="d3-heatmap" class="chart-stage"></div>
+        </div>
+      </div>
+
+      <!-- Row 3: D3 Bubble Scatter Plot (Revenue vs Profit Margin vs Stock Value) + Supplier Performance -->
+      <div class="grid-equal">
+        <div class="card">
+          <div class="card-header">
+            <div>
+              <div class="card-title">SKU Profitability vs. Revenue Quadrant (D3 Bubble Scatter)</div>
+              <div class="card-subtitle">Top 120 Filtered SKUs • X: Revenue • Y: Gross Margin % • Size: Stock Value • Color: Stock Health</div>
+            </div>
+          </div>
+          <div id="d3-scatter" class="chart-stage"></div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <div>
+              <div class="card-title">Supplier Reliability, Revenue &amp; Stockout Risk Rate</div>
+              <div class="card-subtitle">Comparing supplier revenue contribution against low-stock risk percentage</div>
+            </div>
+          </div>
+          <div id="d3-supplier-chart" class="chart-stage"></div>
+        </div>
+      </div>
+
+      <!-- Row 4: Actionable Procurement & Reorder Table -->
+      <div class="card grid-full">
+        <div class="card-header">
+          <div>
+            <div class="card-title">Actionable Procurement &amp; Priority SKU Replenishment Queue</div>
+            <div class="card-subtitle">Automatically prioritizes Out-of-Stock and Critical-Low Class A/B revenue drivers requiring immediate Purchase Orders</div>
+          </div>
+          <div class="chart-controls">
+            <button class="ctrl-btn active" onclick="setTableMode('alerts', this)">⚠ Reorder Alerts Queue</button>
+            <button class="ctrl-btn" onclick="setTableMode('top', this)">🏆 Top Revenue SKUs</button>
+          </div>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>SKU ID</th>
+                <th>Product Name</th>
+                <th>Category</th>
+                <th>Warehouse</th>
+                <th>Supplier</th>
+                <th>ABC Tier</th>
+                <th>Stock / Reorder</th>
+                <th>Health Status</th>
+                <th>Revenue</th>
+                <th>Margin %</th>
+                <th>Est. Restock PO Cost</th>
+              </tr>
+            </thead>
+            <tbody id="sku-table-body"></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================================================================= -->
+    <!-- TAB 2: CRM SALES & PIPELINE FUNNEL                                -->
+    <!-- ================================================================= -->
+    <section id="tab-crm" class="tab-pane">
+      <div class="kpi-grid">
+        <div class="kpi-card" style="--kpi-accent: #6366f1;">
+          <div class="kpi-label">CRM Transaction Revenue</div>
+          <div class="kpi-value" id="crm-kpi-rev">$3.29M</div>
+          <div class="kpi-sub">1,000 B2B Orders • $3,289 Avg Order Value</div>
+        </div>
+        <div class="kpi-card" style="--kpi-accent: #10b981;">
+          <div class="kpi-label">CRM Net Profit</div>
+          <div class="kpi-value" id="crm-kpi-prof">$659.7K</div>
+          <div class="kpi-sub">20.1% Realized Net Margin after Discounts</div>
+        </div>
+        <div class="kpi-card" style="--kpi-accent: #38bdf8;">
+          <div class="kpi-label">Enterprise Customer Base</div>
+          <div class="kpi-value" id="crm-kpi-cust">250 Accounts</div>
+          <div class="kpi-sub">Across 10 Industries &amp; 5 Segments</div>
+        </div>
+        <div class="kpi-card" style="--kpi-accent: #a855f7;">
+          <div class="kpi-label">Gross Pipeline Opportunity</div>
+          <div class="kpi-value" id="crm-kpi-pipe">$7.15M</div>
+          <div class="kpi-sub">150 Active Leads across 6 Funnel Stages</div>
+        </div>
+        <div class="kpi-card" style="--kpi-accent: #f59e0b;">
+          <div class="kpi-label">Expected Weighted Pipeline</div>
+          <div class="kpi-value" id="crm-kpi-exp">$3.05M</div>
+          <div class="kpi-sub">46.9% Closed-Won vs Closed-Lost Win Rate</div>
+        </div>
+      </div>
+
+      <div class="grid-equal">
+        <div class="card">
+          <div class="card-header">
+            <div>
+              <div class="card-title">Sales Representative Revenue &amp; Profit Leaderboard</div>
+              <div class="card-subtitle">D3 horizontal comparison of rep revenue, net profit, and average discount rate</div>
+            </div>
+          </div>
+          <div id="d3-crm-reps" class="chart-stage"></div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <div>
+              <div class="card-title">CRM Pipeline Stage Conversion &amp; Expected Revenue Funnel</div>
+              <div class="card-subtitle">Comparing Gross Opportunity Value vs. Probability-Weighted Revenue by stage</div>
+            </div>
+          </div>
+          <div id="d3-crm-funnel" class="chart-stage"></div>
+        </div>
+      </div>
+
+      <div class="grid-equal">
+        <div class="card">
+          <div class="card-header">
+            <div>
+              <div class="card-title">Customer Segment &amp; Industry Revenue Breakdown (Interactive D3 Donut)</div>
+              <div class="card-subtitle">Switch between B2B Customer Segments and Industry Verticals</div>
+            </div>
+            <div class="chart-controls">
+              <button class="ctrl-btn active" onclick="setCrmDonut('segment', this)">By Segment</button>
+              <button class="ctrl-btn" onclick="setCrmDonut('industry', this)">By Industry</button>
+            </div>
+          </div>
+          <div class="donut-layout">
+            <div id="d3-crm-donut" style="width:100%; height:300px;"></div>
+            <div id="d3-crm-legend" class="donut-legend"></div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <div>
+              <div class="card-title">Quarterly &amp; Monthly B2B Transaction Revenue Trajectory</div>
+              <div class="card-subtitle">Historical order revenue and realized profit progression</div>
+            </div>
+          </div>
+          <div id="d3-crm-trend" class="chart-stage"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================================================================= -->
+    <!-- TAB 3: SENIOR BI STRATEGY & ARCHITECTURE GUIDE                    -->
+    <!-- ================================================================= -->
+    <section id="tab-strategy" class="tab-pane">
+      <div class="card" style="margin-bottom: 18px;">
+        <div class="card-title" style="font-size:18px; margin-bottom:6px;">🎯 Senior Data Analyst &amp; Supervisor Roadmap: How to Stand Out to Technical Recruiters</div>
+        <div class="card-subtitle" style="font-size:13.5px; color:#cbd5e1;">
+          Recruiters and Hiring Managers evaluate data analytics portfolios in under 45 seconds. Static Excel grids with broken headers fail immediately; interactive decision-support applications backed by reproducible Python ETL pipelines put you in the top 5% of candidates.
+        </div>
+      </div>
+
+      <div class="strategy-grid">
+        <div class="strategy-card">
+          <h3>1. The 4-Layer BI Architecture We Implemented</h3>
+          <ul>
+            <li><strong>Layer 1 — Raw Data Lake (CSV Storage):</strong> Immutable source tables (<code>inventory_data.csv</code>, <code>sales_transactions.csv</code>, <code>customers.csv</code>, <code>sales_pipeline.csv</code>).</li>
+            <li><strong>Layer 2 — Python ETL &amp; Feature Engineering (<code>build_bi_analytics.py</code>):</strong> Computes ABC Pareto revenue tiers, safety-stock ratios, reorder deficits, and probability-weighted pipeline metrics.</li>
+            <li><strong>Layer 3 — Analytical JSON/JS Serving Layer:</strong> Pre-aggregated schemas and 1,188 enriched SKU objects exported to <code>dashboard_data.js</code> for zero-latency client cross-filtering.</li>
+            <li><strong>Layer 4 — Interactive D3.js v7 Decision UI (<code>index.html</code>):</strong> Synchronized grouped bar charts, animated donut charts, warehouse heatmaps, and automated PO export.</li>
+          </ul>
+        </div>
+
+        <div class="strategy-card">
+          <h3>2. Why Interactive D3.js Beats Default Static Charts</h3>
+          <ul>
+            <li><strong>Cross-Filtering &amp; Drill-Down:</strong> Clicking any category bar or donut slice filters all 5 KPI cards, the warehouse heatmap, the SKU scatter plot, and the procurement queue simultaneously.</li>
+            <li><strong>Purpose-Built Visual Encodings:</strong> Instead of basic pie charts with 15 unreadable slices, we use an interactive 5-tier Stock Health Donut with center KPI callouts and a 2D Warehouse &times; Category Heatmap.</li>
+            <li><strong>Actionability (From Descriptive to Prescriptive BI):</strong> The dashboard doesn't just show low stock—it calculates the exact restock Purchase Order cost and exports a ready-to-send CSV for procurement teams.</li>
+          </ul>
+        </div>
+
+        <div class="strategy-card">
+          <h3>3. Key Executive Findings from Your Dataset</h3>
+          <ul>
+            <li><strong>Pareto Revenue Concentration:</strong> Out of 1,188 SKUs ($12.81M total revenue), <strong>Electronics ($4.26M)</strong>, <strong>Clothing ($2.02M)</strong>, and <strong>Sports &amp; Outdoors ($1.89M)</strong> drive 63.8% of total top-line sales.</li>
+            <li><strong>Working Capital Optimization:</strong> $11.85M is tied up in inventory cost value across 8 warehouses. While <strong>142 SKUs (12.0%)</strong> are below reorder thresholds (including 5 out-of-stock SKUs), over <strong>$6.82M</strong> is locked in overstocked SKUs (&gt;4&times; reorder level).</li>
+            <li><strong>CRM Pipeline Velocity:</strong> Across 150 B2B pipeline deals ($7.15M gross opportunity), probability-weighted expected revenue stands at <strong>$3.05M</strong> with a <strong>46.9% Closed-Won rate</strong>.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <script>
+    // =========================================================================
+    // STATE & DATA INITIALIZATION
+    // =========================================================================
+    const DATA = window.BI_DASHBOARD_DATA;
+    const tooltip = d3.select("#tooltip");
+
+    let state = {
+      category: "ALL",
+      warehouse: "ALL",
+      supplier: "ALL",
+      status: "ALL",
+      abc: "ALL",
+      search: "",
+      barMetric: "revenue_profit",
+      donutDim: "status",
+      heatmapMetric: "stock_value",
+      tableMode: "alerts",
+      crmDonutDim: "segment"
+    };
+
+    const STATUS_COLORS = {
+      "Optimal": "#10b981",
+      "Overstocked": "#3b82f6",
+      "Below Reorder": "#f59e0b",
+      "Critical Low": "#f97316",
+      "Out of Stock": "#ef4444"
+    };
+
+    const ABC_COLORS = {
+      "A (Top 70% Rev)": "#38bdf8",
+      "B (Next 20% Rev)": "#a855f7",
+      "C (Bottom 10% Rev)": "#64748b"
+    };
+
+    const CAT_PALETTE = ["#3b82f6", "#06b6d4", "#10b981", "#8b5cf6", "#f59e0b", "#ec4899", "#6366f1", "#14b8a6"];
+
+    const fmtCurrency = (v) => {
+      if (Math.abs(v) >= 1e6) return "$" + (v / 1e6).toFixed(2) + "M";
+      if (Math.abs(v) >= 1e3) return "$" + (v / 1e3).toFixed(1) + "K";
+      return "$" + v.toFixed(0);
+    };
+    const fmtFullCurrency = (v) => "$" + d3.format(",.2f")(v);
+    const fmtInt = d3.format(",");
+
+    function showTooltip(html, event) {
+      tooltip.html(html).style("opacity", 1);
+      moveTooltip(event);
+    }
+
+    function moveTooltip(event) {
+      const pad = 16;
+      let x = event.clientX + pad;
+      let y = event.clientY + pad;
+      const node = tooltip.node();
+      if (node) {
+        const rect = node.getBoundingClientRect();
+        if (x + rect.width > window.innerWidth - 12) x = event.clientX - rect.width - pad;
+        if (y + rect.height > window.innerHeight - 12) y = event.clientY - rect.height - pad;
+      }
+      tooltip.style("left", x + "px").style("top", y + "px");
+    }
+
+    function hideTooltip() {
+      tooltip.style("opacity", 0);
+    }
+
+    // Populate filter dropdowns
+    function initFilters() {
+      const cats = Array.from(new Set(DATA.skus.map(d => d.category))).sort();
+      const whs = Array.from(new Set(DATA.skus.map(d => d.warehouse))).sort();
+      const sups = Array.from(new Set(DATA.skus.map(d => d.supplier))).sort();
+
+      const catSel = document.getElementById("f-category");
+      cats.forEach(c => catSel.add(new Option(c, c)));
+
+      const whSel = document.getElementById("f-warehouse");
+      whs.forEach(w => whSel.add(new Option(w, w)));
+
+      const supSel = document.getElementById("f-supplier");
+      sups.forEach(s => supSel.add(new Option(s, s)));
+    }
+
+    function getFilteredSKUs() {
+      return DATA.skus.filter(d => {
+        if (state.category !== "ALL" && d.category !== state.category) return false;
+        if (state.warehouse !== "ALL" && d.warehouse !== state.warehouse) return false;
+        if (state.supplier !== "ALL" && d.supplier !== state.supplier) return false;
+        if (state.status !== "ALL" && d.status !== state.status) return false;
+        if (state.abc !== "ALL" && d.abc !== state.abc) return false;
+        if (state.search) {
+          const q = state.search.toLowerCase();
+          if (!d.name.toLowerCase().includes(q) && !d.id.toLowerCase().includes(q) && !d.category.toLowerCase().includes(q)) {
+            return false;
+          }
+        }
+        return true;
+      });
+    }
+
+    function applyInventoryFilters() {
+      state.category = document.getElementById("f-category").value;
+      state.warehouse = document.getElementById("f-warehouse").value;
+      state.supplier = document.getElementById("f-supplier").value;
+      state.status = document.getElementById("f-status").value;
+      state.abc = document.getElementById("f-abc").value;
+      state.search = document.getElementById("f-search").value.trim();
+      renderInventoryDashboard();
+    }
+
+    function resetInventoryFilters() {
+      document.getElementById("f-category").value = "ALL";
+      document.getElementById("f-warehouse").value = "ALL";
+      document.getElementById("f-supplier").value = "ALL";
+      document.getElementById("f-status").value = "ALL";
+      document.getElementById("f-abc").value = "ALL";
+      document.getElementById("f-search").value = "";
+      applyInventoryFilters();
+    }
+
+    function setBarMetric(metric, btn) {
+      state.barMetric = metric;
+      document.querySelectorAll("#bar-metric-ctrl .ctrl-btn").forEach(b => b.classList.remove("active"));
+      btn.classList.add("active");
+      renderCategoryBarChart(getFilteredSKUs());
+    }
+
+    function setDonutDimension(dim, btn) {
+      state.donutDim = dim;
+      document.querySelectorAll("#donut-dim-ctrl .ctrl-btn").forEach(b => b.classList.remove("active"));
+      btn.classList.add("active");
+      renderInteractiveDonut(getFilteredSKUs());
+    }
+
+    function setHeatmapMetric(metric, btn) {
+      state.heatmapMetric = metric;
+      btn.parentElement.querySelectorAll(".ctrl-btn").forEach(b => b.classList.remove("active"));
+      btn.classList.add("active");
+      renderWarehouseHeatmap(getFilteredSKUs());
+    }
+
+    function setTableMode(mode, btn) {
+      state.tableMode = mode;
+      btn.parentElement.querySelectorAll(".ctrl-btn").forEach(b => b.classList.remove("active"));
+      btn.classList.add("active");
+      renderSkuTable(getFilteredSKUs());
+    }
+
+    // =========================================================================
+    // RENDER KPI CARDS
+    // =========================================================================
+    function updateKpiCards(skus) {
+      const totalRev = d3.sum(skus, d => d.revenue);
+      const totalProf = d3.sum(skus, d => d.profit);
+      const totalStockVal = d3.sum(skus, d => d.stock_value);
+      const totalUnitsSold = d3.sum(skus, d => d.sold);
+      const totalUnitsStock = d3.sum(skus, d => d.stock);
+      const margin = totalRev > 0 ? (totalProf / totalRev * 100) : 0;
+
+      const lowStock = skus.filter(d => d.stock < d.reorder);
+      const oos = skus.filter(d => d.stock === 0);
+      const overstocked = skus.filter(d => d.status === "Overstocked");
+      const overVal = d3.sum(overstocked, d => d.stock_value);
+
+      document.getElementById("kpi-rev").textContent = fmtCurrency(totalRev);
+      document.getElementById("kpi-rev-sub").textContent = `${fmtInt(totalUnitsSold)} units sold across ${fmtInt(skus.length)} SKUs`;
+
+      document.getElementById("kpi-prof").textContent = fmtCurrency(totalProf);
+      document.getElementById("kpi-prof-sub").textContent = `${margin.toFixed(1)}% Gross Profit Margin`;
+
+      document.getElementById("kpi-stock").textContent = fmtCurrency(totalStockVal);
+      document.getElementById("kpi-stock-sub").textContent = `${fmtInt(totalUnitsStock)} total units on hand`;
+
+      document.getElementById("kpi-risk").textContent = `${fmtInt(lowStock.length)} SKUs`;
+      document.getElementById("kpi-risk-sub").textContent = `Below Reorder Level (${oos.length} Out of Stock)`;
+
+      document.getElementById("kpi-over").textContent = fmtCurrency(overVal);
+      document.getElementById("kpi-over-sub").textContent = `${fmtInt(overstocked.length)} SKUs exceeding 4x reorder level`;
+    }
+
+    // =========================================================================
+    // 1. D3 INTERACTIVE CATEGORY BAR CHART
+    // =========================================================================
+    function renderCategoryBarChart(skus) {
+      const container = d3.select("#d3-category-bar");
+      container.selectAll("*").remove();
+
+      const rect = container.node().getBoundingClientRect();
+      const width = Math.max(rect.width || 620, 400);
+      const height = 320;
+      const margin = { top: 20, right: 30, bottom: 52, left: 68 };
+      const innerW = width - margin.left - margin.right;
+      const innerH = height - margin.top - margin.bottom;
+
+      const rolled = Array.from(
+        d3.rollup(
+          skus,
+          v => ({
+            revenue: d3.sum(v, d => d.revenue),
+            profit: d3.sum(v, d => d.profit),
+            stock_value: d3.sum(v, d => d.stock_value),
+            sold: d3.sum(v, d => d.sold),
+            stock: d3.sum(v, d => d.stock),
+            count: v.length
+          }),
+          d => d.category
+        ),
+        ([category, vals]) => ({ category, ...vals })
+      ).sort((a, b) => b.revenue - a.revenue);
+
+      const svg = container.append("svg")
+        .attr("width", width)
+        .attr("height", height);
+
+      const g = svg.append("g")
+        .attr("transform", `translate(${margin.left},${margin.top})`);
+
+      const x0 = d3.scaleBand()
+        .domain(rolled.map(d => d.category))
+        .range([0, innerW])
+        .padding(0.24);
+
+      let keys = ["revenue", "profit"];
+      let colors = { revenue: "#3b82f6", profit: "#10b981" };
+      let labels = { revenue: "Revenue", profit: "Net Profit" };
+      let isCurrency = true;
+
+      if (state.barMetric === "stock_value") {
+        keys = ["stock_value"];
+        colors = { stock_value: "#06b6d4" };
+        labels = { stock_value: "Stock Cost Value" };
+      } else if (state.barMetric === "units") {
+        keys = ["stock", "sold"];
+        colors = { stock: "#6366f1", sold: "#f59e0b" };
+        labels = { stock: "Units In Stock", sold: "Units Sold" };
+        isCurrency = false;
+      }
+
+      const x1 = d3.scaleBand()
+        .domain(keys)
+        .range([0, x0.bandwidth()])
+        .padding(0.08);
+
+      const maxY = d3.max(rolled, d => d3.max(keys, k => d[k])) || 1;
+      const y = d3.scaleLinear()
+        .domain([0, maxY * 1.1])
+        .range([innerH, 0]);
+
+      // Grid lines
+      g.append("g")
+        .attr("class", "grid-line")
+        .call(d3.axisLeft(y).ticks(5).tickSize(-innerW).tickFormat(""));
+
+      // Axes
+      g.append("g")
+        .attr("class", "axis")
+        .attr("transform", `translate(0,${innerH})`)
+        .call(d3.axisBottom(x0))
+        .selectAll("text")
+        .attr("transform", "rotate(-15)")
+        .style("text-anchor", "end");
+
+      g.append("g")
+        .attr("class", "axis")
+        .call(d3.axisLeft(y).ticks(5).tickFormat(d => isCurrency ? fmtCurrency(d) : fmtInt(d)));
+
+      // Bars
+      const catGroups = g.selectAll(".cat-group")
+        .data(rolled)
+        .join("g")
+        .attr("class", "cat-group")
+        .attr("transform", d => `translate(${x0(d.category)},0)`)
+        .style("cursor", "pointer")
+        .on("click", (event, d) => {
+          const sel = document.getElementById("f-category");
+          sel.value = (sel.value === d.category) ? "ALL" : d.category;
+          applyInventoryFilters();
+        });
+
+      catGroups.selectAll("rect")
+        .data(d => keys.map(k => ({ key: k, value: d[k], data: d })))
+        .join("rect")
+        .attr("x", d => x1(d.key))
+        .attr("y", innerH)
+        .attr("width", x1.bandwidth())
+        .attr("height", 0)
+        .attr("rx", 4)
+        .attr("fill", d => colors[d.key])
+        .on("mousemove", (event, d) => {
+          const marginPct = d.data.revenue > 0 ? (d.data.profit / d.data.revenue * 100).toFixed(1) : 0;
+          showTooltip(`
+            <div class="tt-title">${d.data.category} (${d.data.count} SKUs)</div>
+            <div class="tt-row"><span>Revenue:</span><span class="tt-val">${fmtFullCurrency(d.data.revenue)}</span></div>
+            <div class="tt-row"><span>Net Profit:</span><span class="tt-val" style="color:#34d399">${fmtFullCurrency(d.data.profit)} (${marginPct}%)</span></div>
+            <div class="tt-row"><span>Stock Asset Value:</span><span class="tt-val">${fmtFullCurrency(d.data.stock_value)}</span></div>
+            <div class="tt-row"><span>Units Sold / Stock:</span><span class="tt-val">${fmtInt(d.data.sold)} / ${fmtInt(d.data.stock)}</span></div>
+            <div style="margin-top:6px;font-size:11px;color:#60a5fa;">Click bar to toggle category filter</div>
+          `, event);
+        })
+        .on("mouseleave", hideTooltip)
+        .transition()
+        .duration(550)
+        .attr("y", d => y(d.value))
+        .attr("height", d => innerH - y(d.value));
+    }
+
+    // =========================================================================
+    // 2. D3 INTERACTIVE DONUT / PIE CHART
+    // =========================================================================
+    function renderInteractiveDonut(skus) {
+      const stage = d3.select("#d3-donut-stage");
+      const legend = d3.select("#d3-donut-legend");
+      stage.selectAll("*").remove();
+      legend.selectAll("*").remove();
+
+      const rect = stage.node().getBoundingClientRect();
+      const width = Math.max(rect.width || 280, 240);
+      const height = 290;
+      const radius = Math.min(width, height) / 2 - 14;
+
+      let groupKey = d => d.status;
+      let valFunc = v => v.length;
+      let colorScale = k => STATUS_COLORS[k] || "#3b82f6";
+      let unitLabel = "SKUs";
+
+      if (state.donutDim === "abc") {
+        groupKey = d => d.abc;
+        valFunc = v => d3.sum(v, d => d.revenue);
+        colorScale = k => ABC_COLORS[k] || "#38bdf8";
+        unitLabel = "Revenue";
+      } else if (state.donutDim === "category") {
+        groupKey = d => d.category;
+        valFunc = v => d3.sum(v, d => d.revenue);
+        const cats = Array.from(new Set(DATA.skus.map(d => d.category))).sort();
+        const catColor = d3.scaleOrdinal().domain(cats).range(CAT_PALETTE);
+        colorScale = k => catColor(k);
+        unitLabel = "Revenue";
+      }
+
+      const rolled = Array.from(
+        d3.rollup(
+          skus,
+          v => ({
+            value: valFunc(v),
+            count: v.length,
+            revenue: d3.sum(v, d => d.revenue),
+            stock_value: d3.sum(v, d => d.stock_value)
+          }),
+          groupKey
+        ),
+        ([key, stats]) => ({ key, ...stats })
+      ).sort((a, b) => b.value - a.value);
+
+      const totalVal = d3.sum(rolled, d => d.value) || 1;
+
+      const svg = stage.append("svg")
+        .attr("width", width)
+        .attr("height", height);
+
+      const g = svg.append("g")
+        .attr("transform", `translate(${width / 2},${height / 2})`);
+
+      const pie = d3.pie()
+        .value(d => d.value)
+        .sort(null)
+        .padAngle(0.025);
+
+      const arc = d3.arc()
+        .innerRadius(radius * 0.60)
+        .outerRadius(radius)
+        .cornerRadius(5);
+
+      const arcHover = d3.arc()
+        .innerRadius(radius * 0.58)
+        .outerRadius(radius + 8)
+        .cornerRadius(6);
+
+      // Center KPI label inside Donut
+      const centerTitle = g.append("text")
+        .attr("text-anchor", "middle")
+        .attr("y", -8)
+        .attr("fill", "#94a3b8")
+        .attr("font-size", "11px")
+        .attr("font-weight", "600")
+        .text(state.donutDim === "status" ? "TOTAL SKUS" : "TOTAL REVENUE");
+
+      const centerVal = g.append("text")
+        .attr("text-anchor", "middle")
+        .attr("y", 16)
+        .attr("fill", "#f8fafc")
+        .attr("font-size", "20px")
+        .attr("font-weight", "800")
+        .text(state.donutDim === "status" ? fmtInt(skus.length) : fmtCurrency(totalVal));
+
+      const centerSub = g.append("text")
+        .attr("text-anchor", "middle")
+        .attr("y", 34)
+        .attr("fill", "#38bdf8")
+        .attr("font-size", "11px")
+        .attr("font-weight", "600")
+        .text("Click slice to filter");
+
+      const paths = g.selectAll("path")
+        .data(pie(rolled))
+        .join("path")
+        .attr("fill", d => colorScale(d.data.key))
+        .attr("d", arc)
+        .style("cursor", "pointer")
+        .on("mouseenter", function(event, d) {
+          d3.select(this).transition().duration(150).attr("d", arcHover);
+          const pct = (d.data.value / totalVal * 100).toFixed(1);
+          centerTitle.text(d.data.key.toUpperCase());
+          centerVal.text(state.donutDim === "status" ? `${d.data.count} SKUs` : fmtCurrency(d.data.value));
+          centerSub.text(`${pct}% of Total`);
+        })
+        .on("mousemove", function(event, d) {
+          const pct = (d.data.value / totalVal * 100).toFixed(1);
+          showTooltip(`
+            <div class="tt-title">${d.data.key}</div>
+            <div class="tt-row"><span>Share:</span><span class="tt-val">${pct}%</span></div>
+            <div class="tt-row"><span>SKU Count:</span><span class="tt-val">${fmtInt(d.data.count)} SKUs</span></div>
+            <div class="tt-row"><span>Revenue:</span><span class="tt-val">${fmtFullCurrency(d.data.revenue)}</span></div>
+            <div class="tt-row"><span>Stock Asset Value:</span><span class="tt-val">${fmtFullCurrency(d.data.stock_value)}</span></div>
+          `, event);
+        })
+        .on("mouseleave", function() {
+          d3.select(this).transition().duration(150).attr("d", arc);
+          centerTitle.text(state.donutDim === "status" ? "TOTAL SKUS" : "TOTAL REVENUE");
+          centerVal.text(state.donutDim === "status" ? fmtInt(skus.length) : fmtCurrency(totalVal));
+          centerSub.text("Click slice to filter");
+          hideTooltip();
+        })
+        .on("click", (event, d) => {
+          handleDonutSliceClick(d.data.key);
+        });
+
+      // Legend items
+      rolled.slice(0, 6).forEach(item => {
+        const pct = (item.value / totalVal * 100).toFixed(1);
+        const valText = state.donutDim === "status" ? `${item.count}` : fmtCurrency(item.value);
+        const row = legend.append("div")
+          .attr("class", "legend-row")
+          .on("click", () => handleDonutSliceClick(item.key));
+
+        row.html(`
+          <div class="legend-left">
+            <span class="legend-swatch" style="background:${colorScale(item.key)}"></span>
+            <span>${item.key}</span>
+          </div>
+          <div class="legend-right">
+            <span style="color:#f8fafc;font-weight:700;">${valText}</span>
+            <span style="color:#94a3b8;margin-left:4px;">(${pct}%)</span>
+          </div>
+        `);
+      });
+    }
+
+    function handleDonutSliceClick(key) {
+      if (state.donutDim === "status") {
+        const sel = document.getElementById("f-status");
+        sel.value = (sel.value === key) ? "ALL" : key;
+      } else if (state.donutDim === "abc") {
+        const sel = document.getElementById("f-abc");
+        sel.value = (sel.value === key) ? "ALL" : key;
+      } else if (state.donutDim === "category") {
+        const sel = document.getElementById("f-category");
+        sel.value = (sel.value === key) ? "ALL" : key;
+      }
+      applyInventoryFilters();
+    }
+
+    // =========================================================================
+    // 3. D3 MONTHLY REVENUE & PROFIT TIME-SERIES CHART
+    // =========================================================================
+    function renderMonthlyTrend(skus) {
+      const container = d3.select("#d3-monthly-trend");
+      container.selectAll("*").remove();
+
+      const rect = container.node().getBoundingClientRect();
+      const width = Math.max(rect.width || 560, 380);
+      const height = 310;
+      const margin = { top: 20, right: 24, bottom: 45, left: 64 };
+      const innerW = width - margin.left - margin.right;
+      const innerH = height - margin.top - margin.bottom;
+
+      const rolled = Array.from(
+        d3.rollup(
+          skus,
+          v => ({
+            revenue: d3.sum(v, d => d.revenue),
+            profit: d3.sum(v, d => d.profit),
+            stock_value: d3.sum(v, d => d.stock_value),
+            skus: v.length
+          }),
+          d => d.month
+        ),
+        ([month, vals]) => ({ month, ...vals })
+      ).sort((a, b) => a.month.localeCompare(b.month));
+
+      const svg = container.append("svg")
+        .attr("width", width)
+        .attr("height", height);
+
+      const defs = svg.append("defs");
+      const grad = defs.append("linearGradient")
+        .attr("id", "revAreaGrad")
+        .attr("x1", "0").attr("y1", "0").attr("x2", "0").attr("y2", "1");
+      grad.append("stop").attr("offset", "0%").attr("stop-color", "#3b82f6").attr("stop-opacity", 0.42);
+      grad.append("stop").attr("offset", "100%").attr("stop-color", "#3b82f6").attr("stop-opacity", 0.0);
+
+      const g = svg.append("g")
+        .attr("transform", `translate(${margin.left},${margin.top})`);
+
+      const x = d3.scalePoint()
+        .domain(rolled.map(d => d.month))
+        .range([0, innerW])
+        .padding(0.2);
+
+      const maxY = d3.max(rolled, d => d.revenue) || 1;
+      const y = d3.scaleLinear()
+        .domain([0, maxY * 1.12])
+        .range([innerH, 0]);
+
+      g.append("g")
+        .attr("class", "grid-line")
+        .call(d3.axisLeft(y).ticks(5).tickSize(-innerW).tickFormat(""));
+
+      const tickMonths = rolled.map(d => d.month).filter((_, i) => i % 3 === 0);
+      g.append("g")
+        .attr("class", "axis")
+        .attr("transform", `translate(0,${innerH})`)
+        .call(d3.axisBottom(x).tickValues(tickMonths))
+        .selectAll("text")
+        .attr("transform", "rotate(-20)")
+        .style("text-anchor", "end");
+
+      g.append("g")
+        .attr("class", "axis")
+        .call(d3.axisLeft(y).ticks(5).tickFormat(fmtCurrency));
+
+      const area = d3.area()
+        .x(d => x(d.month))
+        .y0(innerH)
+        .y1(d => y(d.revenue))
+        .curve(d3.curveMonotoneX);
+
+      const lineRev = d3.line()
+        .x(d => x(d.month))
+        .y(d => y(d.revenue))
+        .curve(d3.curveMonotoneX);
+
+      const lineProf = d3.line()
+        .x(d => x(d.month))
+        .y(d => y(d.profit))
+        .curve(d3.curveMonotoneX);
+
+      g.append("path")
+        .datum(rolled)
+        .attr("fill", "url(#revAreaGrad)")
+        .attr("d", area);
+
+      g.append("path")
+        .datum(rolled)
+        .attr("fill", "none")
+        .attr("stroke", "#3b82f6")
+        .attr("stroke-width", 2.5)
+        .attr("d", lineRev);
+
+      g.append("path")
+        .datum(rolled)
+        .attr("fill", "none")
+        .attr("stroke", "#10b981")
+        .attr("stroke-width", 2.2)
+        .attr("stroke-dasharray", "5,3")
+        .attr("d", lineProf);
+
+      g.selectAll(".dot-rev")
+        .data(rolled)
+        .join("circle")
+        .attr("cx", d => x(d.month))
+        .attr("cy", d => y(d.revenue))
+        .attr("r", 4)
+        .attr("fill", "#38bdf8")
+        .attr("stroke", "#0f172a")
+        .attr("stroke-width", 1.5)
+        .style("cursor", "pointer")
+        .on("mousemove", (event, d) => {
+          showTooltip(`
+            <div class="tt-title">Cohort Month: ${d.month}</div>
+            <div class="tt-row"><span>Revenue:</span><span class="tt-val">${fmtFullCurrency(d.revenue)}</span></div>
+            <div class="tt-row"><span>Net Profit:</span><span class="tt-val" style="color:#34d399">${fmtFullCurrency(d.profit)}</span></div>
+            <div class="tt-row"><span>Stock Cost Value:</span><span class="tt-val">${fmtFullCurrency(d.stock_value)}</span></div>
+            <div class="tt-row"><span>SKUs Restocked:</span><span class="tt-val">${d.skus} SKUs</span></div>
+          `, event);
+        })
+        .on("mouseleave", hideTooltip);
+    }
+
+    // =========================================================================
+    // 4. D3 WAREHOUSE x CATEGORY HEATMAP
+    // =========================================================================
+    function renderWarehouseHeatmap(skus) {
+      const container = d3.select("#d3-heatmap");
+      container.selectAll("*").remove();
+
+      const rect = container.node().getBoundingClientRect();
+      const width = Math.max(rect.width || 560, 380);
+      const height = 310;
+      const margin = { top: 15, right: 20, bottom: 54, left: 118 };
+      const innerW = width - margin.left - margin.right;
+      const innerH = height - margin.top - margin.bottom;
+
+      const warehouses = Array.from(new Set(DATA.skus.map(d => d.warehouse))).sort();
+      const categories = Array.from(new Set(DATA.skus.map(d => d.category))).sort();
+
+      const cellMap = d3.rollup(
+        skus,
+        v => ({
+          stock_value: d3.sum(v, d => d.stock_value),
+          revenue: d3.sum(v, d => d.revenue),
+          low_stock: v.filter(d => d.stock < d.reorder).length,
+          skus: v.length
+        }),
+        d => d.warehouse,
+        d => d.category
+      );
+
+      const cells = [];
+      warehouses.forEach(w => {
+        categories.forEach(c => {
+          const entry = (cellMap.get(w) && cellMap.get(w).get(c)) || { stock_value: 0, revenue: 0, low_stock: 0, skus: 0 };
+          cells.push({ warehouse: w, category: c, ...entry });
+        });
+      });
+
+      const svg = container.append("svg")
+        .attr("width", width)
+        .attr("height", height);
+
+      const g = svg.append("g")
+        .attr("transform", `translate(${margin.left},${margin.top})`);
+
+      const x = d3.scaleBand().domain(warehouses).range([0, innerW]).padding(0.08);
+      const y = d3.scaleBand().domain(categories).range([0, innerH]).padding(0.08);
+
+      const metric = state.heatmapMetric;
+      const maxVal = d3.max(cells, d => d[metric]) || 1;
+
+      const colorScale = metric === "low_stock"
+        ? d3.scaleSequential(d3.interpolateYlOrRd).domain([0, maxVal])
+        : d3.scaleSequential(d3.interpolateYlGnBu).domain([0, maxVal]);
+
+      g.append("g")
+        .attr("class", "axis")
+        .attr("transform", `translate(0,${innerH})`)
+        .call(d3.axisBottom(x));
+
+      g.append("g")
+        .attr("class", "axis")
+        .call(d3.axisLeft(y));
+
+      g.selectAll(".hm-cell")
+        .data(cells)
+        .join("rect")
+        .attr("x", d => x(d.warehouse))
+        .attr("y", d => y(d.category))
+        .attr("width", x.bandwidth())
+        .attr("height", y.bandwidth())
+        .attr("rx", 4)
+        .attr("fill", d => d[metric] === 0 ? "#0f172a" : colorScale(d[metric]))
+        .attr("stroke", "#1e293b")
+        .style("cursor", "pointer")
+        .on("mousemove", (event, d) => {
+          showTooltip(`
+            <div class="tt-title">${d.warehouse} &times; ${d.category}</div>
+            <div class="tt-row"><span>Stock Asset Value:</span><span class="tt-val">${fmtFullCurrency(d.stock_value)}</span></div>
+            <div class="tt-row"><span>Category Revenue:</span><span class="tt-val">${fmtFullCurrency(d.revenue)}</span></div>
+            <div class="tt-row"><span>Low-Stock Alerts:</span><span class="tt-val" style="color:#fbbf24">${d.low_stock} SKUs</span></div>
+            <div class="tt-row"><span>Total SKUs Stored:</span><span class="tt-val">${d.skus} SKUs</span></div>
+          `, event);
+        })
+        .on("mouseleave", hideTooltip)
+        .on("click", (event, d) => {
+          document.getElementById("f-warehouse").value = d.warehouse;
+          document.getElementById("f-category").value = d.category;
+          applyInventoryFilters();
+        });
+
+      // Cell labels
+      g.selectAll(".hm-label")
+        .data(cells)
+        .join("text")
+        .attr("x", d => x(d.warehouse) + x.bandwidth() / 2)
+        .attr("y", d => y(d.category) + y.bandwidth() / 2 + 4)
+        .attr("text-anchor", "middle")
+        .attr("font-size", "10px")
+        .attr("font-weight", "700")
+        .attr("pointer-events", "none")
+        .attr("fill", d => d[metric] > maxVal * 0.45 ? "#0f172a" : "#e2e8f0")
+        .text(d => {
+          if (d[metric] === 0) return "-";
+          if (metric === "low_stock") return d.low_stock;
+          return "$" + (d[metric] / 1e3).toFixed(0) + "K";
+        });
+    }
+
+    // =========================================================================
+    // 5. D3 SKU PROFITABILITY vs REVENUE BUBBLE SCATTER PLOT
+    // =========================================================================
+    function renderBubbleScatter(skus) {
+      const container = d3.select("#d3-scatter");
+      container.selectAll("*").remove();
+
+      const rect = container.node().getBoundingClientRect();
+      const width = Math.max(rect.width || 560, 380);
+      const height = 310;
+      const margin = { top: 20, right: 24, bottom: 45, left: 56 };
+      const innerW = width - margin.left - margin.right;
+      const innerH = height - margin.top - margin.bottom;
+
+      const topSkus = [...skus].sort((a, b) => b.revenue - a.revenue).slice(0, 120);
+
+      const svg = container.append("svg")
+        .attr("width", width)
+        .attr("height", height);
+
+      const g = svg.append("g")
+        .attr("transform", `translate(${margin.left},${margin.top})`);
+
+      const x = d3.scaleLinear()
+        .domain([0, (d3.max(topSkus, d => d.revenue) || 1000) * 1.08])
+        .range([0, innerW]);
+
+      const y = d3.scaleLinear()
+        .domain([
+          Math.max(0, (d3.min(topSkus, d => d.margin) || 20) - 5),
+          Math.min(100, (d3.max(topSkus, d => d.margin) || 70) + 5)
+        ])
+        .range([innerH, 0]);
+
+      const r = d3.scaleSqrt()
+        .domain([0, d3.max(topSkus, d => d.stock_value) || 1])
+        .range([4, 15]);
+
+      g.append("g")
+        .attr("class", "grid-line")
+        .call(d3.axisLeft(y).ticks(5).tickSize(-innerW).tickFormat(""));
+
+      g.append("g")
+        .attr("class", "axis")
+        .attr("transform", `translate(0,${innerH})`)
+        .call(d3.axisBottom(x).ticks(5).tickFormat(fmtCurrency));
+
+      g.append("g")
+        .attr("class", "axis")
+        .call(d3.axisLeft(y).ticks(5).tickFormat(d => d + "%"));
+
+      g.selectAll("circle")
+        .data(topSkus)
+        .join("circle")
+        .attr("cx", d => x(d.revenue))
+        .attr("cy", d => y(d.margin))
+        .attr("r", d => r(d.stock_value))
+        .attr("fill", d => STATUS_COLORS[d.status] || "#38bdf8")
+        .attr("fill-opacity", 0.78)
+        .attr("stroke", "#0f172a")
+        .attr("stroke-width", 1.2)
+        .style("cursor", "pointer")
+        .on("mousemove", (event, d) => {
+          showTooltip(`
+            <div class="tt-title">${d.name} (${d.id})</div>
+            <div class="tt-row"><span>Category / Warehouse:</span><span class="tt-val">${d.category} • ${d.warehouse}</span></div>
+            <div class="tt-row"><span>Revenue:</span><span class="tt-val">${fmtFullCurrency(d.revenue)}</span></div>
+            <div class="tt-row"><span>Gross Profit Margin:</span><span class="tt-val" style="color:#34d399">${d.margin}% (${fmtFullCurrency(d.profit)})</span></div>
+            <div class="tt-row"><span>Stock / Reorder Level:</span><span class="tt-val">${d.stock} / ${d.reorder} units</span></div>
+            <div class="tt-row"><span>Health Status:</span><span class="tt-val">${d.status}</span></div>
+          `, event);
+        })
+        .on("mouseleave", hideTooltip);
+    }
+
+    // =========================================================================
+    // 6. D3 SUPPLIER PERFORMANCE & RISK RATE CHART
+    // =========================================================================
+    function renderSupplierChart(skus) {
+      const container = d3.select("#d3-supplier-chart");
+      container.selectAll("*").remove();
+
+      const rect = container.node().getBoundingClientRect();
+      const width = Math.max(rect.width || 560, 380);
+      const height = 310;
+      const margin = { top: 15, right: 50, bottom: 35, left: 150 };
+      const innerW = width - margin.left - margin.right;
+      const innerH = height - margin.top - margin.bottom;
+
+      const rolled = Array.from(
+        d3.rollup(
+          skus,
+          v => ({
+            revenue: d3.sum(v, d => d.revenue),
+            profit: d3.sum(v, d => d.profit),
+            low_stock: v.filter(d => d.stock < d.reorder).length,
+            skus: v.length
+          }),
+          d => d.supplier
+        ),
+        ([supplier, stats]) => ({
+          supplier,
+          ...stats,
+          riskPct: stats.skus > 0 ? (stats.low_stock / stats.skus * 100) : 0
+        })
+      ).sort((a, b) => b.revenue - a.revenue);
+
+      const svg = container.append("svg")
+        .attr("width", width)
+        .attr("height", height);
+
+      const g = svg.append("g")
+        .attr("transform", `translate(${margin.left},${margin.top})`);
+
+      const y = d3.scaleBand()
+        .domain(rolled.map(d => d.supplier))
+        .range([0, innerH])
+        .padding(0.28);
+
+      const x = d3.scaleLinear()
+        .domain([0, (d3.max(rolled, d => d.revenue) || 1) * 1.15])
+        .range([0, innerW]);
+
+      g.append("g")
+        .attr("class", "axis")
+        .attr("transform", `translate(0,${innerH})`)
+        .call(d3.axisBottom(x).ticks(5).tickFormat(fmtCurrency));
+
+      g.append("g")
+        .attr("class", "axis")
+        .call(d3.axisLeft(y));
+
+      g.selectAll(".sup-bar")
+        .data(rolled)
+        .join("rect")
+        .attr("x", 0)
+        .attr("y", d => y(d.supplier))
+        .attr("height", y.bandwidth())
+        .attr("width", d => x(d.revenue))
+        .attr("rx", 5)
+        .attr("fill", "#6366f1")
+        .style("cursor", "pointer")
+        .on("mousemove", (event, d) => {
+          showTooltip(`
+            <div class="tt-title">${d.supplier}</div>
+            <div class="tt-row"><span>Revenue:</span><span class="tt-val">${fmtFullCurrency(d.revenue)}</span></div>
+            <div class="tt-row"><span>Net Profit:</span><span class="tt-val">${fmtFullCurrency(d.profit)}</span></div>
+            <div class="tt-row"><span>Active SKUs:</span><span class="tt-val">${d.skus} SKUs</span></div>
+            <div class="tt-row"><span>Low-Stock Risk Rate:</span><span class="tt-val" style="color:#fbbf24">${d.riskPct.toFixed(1)}% (${d.low_stock} SKUs)</span></div>
+          `, event);
+        })
+        .on("mouseleave", hideTooltip)
+        .on("click", (event, d) => {
+          const sel = document.getElementById("f-supplier");
+          sel.value = (sel.value === d.supplier) ? "ALL" : d.supplier;
+          applyInventoryFilters();
+        });
+
+      g.selectAll(".sup-label")
+        .data(rolled)
+        .join("text")
+        .attr("x", d => x(d.revenue) + 8)
+        .attr("y", d => y(d.supplier) + y.bandwidth() / 2 + 4)
+        .attr("fill", "#e2e8f0")
+        .attr("font-size", "11px")
+        .attr("font-weight", "600")
+        .text(d => `${fmtCurrency(d.revenue)} (${d.riskPct.toFixed(0)}% risk)`);
+    }
+
+    // =========================================================================
+    // 7. ACTIONABLE PROCUREMENT TABLE & CSV EXPORT
+    // =========================================================================
+    function renderSkuTable(skus) {
+      const tbody = document.getElementById("sku-table-body");
+      let rows = [];
+
+      if (state.tableMode === "alerts") {
+        rows = skus
+          .filter(d => d.stock < d.reorder)
+          .sort((a, b) => (a.stock - b.stock) || (b.revenue - a.revenue))
+          .slice(0, 40);
+      } else {
+        rows = [...skus]
+          .sort((a, b) => b.revenue - a.revenue)
+          .slice(0, 40);
+      }
+
+      if (rows.length === 0) {
+        tbody.innerHTML = `<tr><td colspan="11" style="text-align:center;padding:24px;color:#94a3b8;">No matching SKUs for current filter selection.</td></tr>`;
+        return;
+      }
+
+      tbody.innerHTML = rows.map(d => {
+        const badgeKey = d.status.split(" ")[0];
+        const poUnits = Math.max(d.reorder * 2 - d.stock, 0);
+        const poCost = poUnits * d.cost;
+        return `
+          <tr>
+            <td style="font-family:'JetBrains Mono',monospace;font-weight:600;color:#60a5fa;">${d.id}</td>
+            <td style="font-weight:600;">${d.name}</td>
+            <td>${d.category}</td>
+            <td>${d.warehouse}</td>
+            <td>${d.supplier}</td>
+            <td>${d.abc.split(" ")[0]}</td>
+            <td style="font-family:'JetBrains Mono',monospace;"><strong>${d.stock}</strong> / ${d.reorder}</td>
+            <td><span class="badge badge-${badgeKey}">${d.status}</span></td>
+            <td style="font-family:'JetBrains Mono',monospace;font-weight:600;">${fmtFullCurrency(d.revenue)}</td>
+            <td style="color:#34d399;font-weight:600;">${d.margin}%</td>
+            <td style="font-family:'JetBrains Mono',monospace;color:#fbbf24;">${poCost > 0 ? fmtFullCurrency(poCost) : "-"}</td>
+          </tr>
+        `;
+      }).join("");
+    }
+
+    function exportFilteredReorderCSV() {
+      const alerts = getFilteredSKUs().filter(d => d.stock < d.reorder);
+      const headers = ["Product ID", "Product Name", "Category", "Warehouse", "Supplier", "Current Stock", "Reorder Level", "Recommended Order Qty", "Unit Cost", "Estimated PO Cost"];
+      const lines = [headers.join(",")];
+      alerts.forEach(d => {
+        const orderQty = Math.max(d.reorder * 2 - d.stock, 0);
+        const poCost = (orderQty * d.cost).toFixed(2);
+        lines.push([d.id, `"${d.name}"`, `"${d.category}"`, d.warehouse, `"${d.supplier}"`, d.stock, d.reorder, orderQty, d.cost, poCost].join(","));
+      });
+      const blob = new Blob([lines.join("\n")], { type: "text/csv;charset=utf-8;" });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = "Automated_Procurement_Purchase_Orders.csv";
+      a.click();
+      URL.revokeObjectURL(url);
+    }
+
+    // =========================================================================
+    // TAB 2: CRM SALES & PIPELINE CHARTS
+    // =========================================================================
+    function renderCrmCharts() {
+      renderCrmRepLeaderboard();
+      renderCrmPipelineFunnel();
+      renderCrmDonut();
+      renderCrmMonthlyTrend();
+    }
+
+    function renderCrmRepLeaderboard() {
+      const container = d3.select("#d3-crm-reps");
+      container.selectAll("*").remove();
+
+      const rect = container.node().getBoundingClientRect();
+      const width = Math.max(rect.width || 560, 380);
+      const height = 310;
+      const margin = { top: 15, right: 65, bottom: 35, left: 135 };
+      const innerW = width - margin.left - margin.right;
+      const innerH = height - margin.top - margin.bottom;
+
+      const reps = DATA.sales_reps;
+      const svg = container.append("svg").attr("width", width).attr("height", height);
+      const g = svg.append("g").attr("transform", `translate(${margin.left},${margin.top})`);
+
+      const y = d3.scaleBand().domain(reps.map(d => d["Sales Representative"])).range([0, innerH]).padding(0.25);
+      const x = d3.scaleLinear().domain([0, (d3.max(reps, d => d.revenue) || 1) * 1.15]).range([0, innerW]);
+
+      g.append("g").attr("class", "axis").attr("transform", `translate(0,${innerH})`).call(d3.axisBottom(x).ticks(5).tickFormat(fmtCurrency));
+      g.append("g").attr("class", "axis").call(d3.axisLeft(y));
+
+      // Revenue bar
+      g.selectAll(".rep-rev")
+        .data(reps)
+        .join("rect")
+        .attr("x", 0)
+        .attr("y", d => y(d["Sales Representative"]))
+        .attr("height", y.bandwidth() * 0.58)
+        .attr("width", d => x(d.revenue))
+        .attr("rx", 4)
+        .attr("fill", "#6366f1")
+        .on("mousemove", (event, d) => {
+          showTooltip(`
+            <div class="tt-title">${d["Sales Representative"]}</div>
+            <div class="tt-row"><span>Total Revenue:</span><span class="tt-val">${fmtFullCurrency(d.revenue)}</span></div>
+            <div class="tt-row"><span>Realized Profit:</span><span class="tt-val" style="color:#34d399">${fmtFullCurrency(d.profit)} (${d.margin_pct}%)</span></div>
+            <div class="tt-row"><span>Orders Closed:</span><span class="tt-val">${d.orders} (${d.completed_orders} Completed)</span></div>
+            <div class="tt-row"><span>Avg Discount Given:</span><span class="tt-val">${d.avg_discount}%</span></div>
+          `, event);
+        })
+        .on("mouseleave", hideTooltip);
+
+      // Profit overlay bar
+      g.selectAll(".rep-prof")
+        .data(reps)
+        .join("rect")
+        .attr("x", 0)
+        .attr("y", d => y(d["Sales Representative"]) + y.bandwidth() * 0.62)
+        .attr("height", y.bandwidth() * 0.36)
+        .attr("width", d => x(d.profit))
+        .attr("rx", 3)
+        .attr("fill", "#10b981");
+
+      g.selectAll(".rep-lbl")
+        .data(reps)
+        .join("text")
+        .attr("x", d => x(d.revenue) + 8)
+        .attr("y", d => y(d["Sales Representative"]) + y.bandwidth() / 2 + 4)
+        .attr("fill", "#e2e8f0")
+        .attr("font-size", "11px")
+        .attr("font-weight", "600")
+        .text(d => fmtCurrency(d.revenue));
+    }
+
+    function renderCrmPipelineFunnel() {
+      const container = d3.select("#d3-crm-funnel");
+      container.selectAll("*").remove();
+
+      const rect = container.node().getBoundingClientRect();
+      const width = Math.max(rect.width || 560, 380);
+      const height = 310;
+      const margin = { top: 15, right: 65, bottom: 35, left: 115 };
+      const innerW = width - margin.left - margin.right;
+      const innerH = height - margin.top - margin.bottom;
+
+      const stages = DATA.pipeline_stages;
+      const svg = container.append("svg").attr("width", width).attr("height", height);
+      const g = svg.append("g").attr("transform", `translate(${margin.left},${margin.top})`);
+
+      const y = d3.scaleBand().domain(stages.map(d => d["Sales Stage"])).range([0, innerH]).padding(0.25);
+      const x = d3.scaleLinear().domain([0, (d3.max(stages, d => d.opportunity_value) || 1) * 1.15]).range([0, innerW]);
+
+      g.append("g").attr("class", "axis").attr("transform", `translate(0,${innerH})`).call(d3.axisBottom(x).ticks(5).tickFormat(fmtCurrency));
+      g.append("g").attr("class", "axis").call(d3.axisLeft(y));
+
+      // Gross opportunity
+      g.selectAll(".st-opp")
+        .data(stages)
+        .join("rect")
+        .attr("x", 0)
+        .attr("y", d => y(d["Sales Stage"]))
+        .attr("height", y.bandwidth())
+        .attr("width", d => x(d.opportunity_value))
+        .attr("rx", 5)
+        .attr("fill", "#334155")
+        .on("mousemove", (event, d) => {
+          showTooltip(`
+            <div class="tt-title">Stage: ${d["Sales Stage"]}</div>
+            <div class="tt-row"><span>Lead Count:</span><span class="tt-val">${d.leads} Deals</span></div>
+            <div class="tt-row"><span>Gross Opportunity:</span><span class="tt-val">${fmtFullCurrency(d.opportunity_value)}</span></div>
+            <div class="tt-row"><span>Weighted Expected Rev:</span><span class="tt-val" style="color:#38bdf8">${fmtFullCurrency(d.expected_revenue)}</span></div>
+          `, event);
+        })
+        .on("mouseleave", hideTooltip);
+
+      // Expected weighted revenue overlay
+      g.selectAll(".st-exp")
+        .data(stages)
+        .join("rect")
+        .attr("x", 0)
+        .attr("y", d => y(d["Sales Stage"]) + 4)
+        .attr("height", y.bandwidth() - 8)
+        .attr("width", d => x(d.expected_revenue))
+        .attr("rx", 4)
+        .attr("fill", d => d["Sales Stage"] === "Closed Won" ? "#10b981" : "#38bdf8");
+
+      g.selectAll(".st-lbl")
+        .data(stages)
+        .join("text")
+        .attr("x", d => x(d.opportunity_value) + 8)
+        .attr("y", d => y(d["Sales Stage"]) + y.bandwidth() / 2 + 4)
+        .attr("fill", "#e2e8f0")
+        .attr("font-size", "11px")
+        .attr("font-weight", "600")
+        .text(d => `${fmtCurrency(d.opportunity_value)} (${d.leads})`);
+    }
+
+    function setCrmDonut(dim, btn) {
+      state.crmDonutDim = dim;
+      btn.parentElement.querySelectorAll(".ctrl-btn").forEach(b => b.classList.remove("active"));
+      btn.classList.add("active");
+      renderCrmDonut();
+    }
+
+    function renderCrmDonut() {
+      const stage = d3.select("#d3-crm-donut");
+      const legend = d3.select("#d3-crm-legend");
+      stage.selectAll("*").remove();
+      legend.selectAll("*").remove();
+
+      const rect = stage.node().getBoundingClientRect();
+      const width = Math.max(rect.width || 260, 230);
+      const height = 290;
+      const radius = Math.min(width, height) / 2 - 14;
+
+      const raw = state.crmDonutDim === "segment" ? DATA.customer_segments : DATA.industries;
+      const keyField = state.crmDonutDim === "segment" ? "Customer Segment" : "Industry";
+
+      const totalRev = d3.sum(raw, d => d.revenue) || 1;
+      const color = d3.scaleOrdinal().domain(raw.map(d => d[keyField])).range(CAT_PALETTE);
+
+      const svg = stage.append("svg").attr("width", width).attr("height", height);
+      const g = svg.append("g").attr("transform", `translate(${width / 2},${height / 2})`);
+
+      const pie = d3.pie().value(d => d.revenue).sort(null).padAngle(0.02);
+      const arc = d3.arc().innerRadius(radius * 0.6).outerRadius(radius).cornerRadius(5);
+
+      g.append("text").attr("text-anchor", "middle").attr("y", -6).attr("fill", "#94a3b8").attr("font-size", "11px").text("CRM REVENUE");
+      g.append("text").attr("text-anchor", "middle").attr("y", 18).attr("fill", "#f8fafc").attr("font-size", "19px").attr("font-weight", "800").text(fmtCurrency(totalRev));
+
+      g.selectAll("path")
+        .data(pie(raw))
+        .join("path")
+        .attr("fill", d => color(d.data[keyField]))
+        .attr("d", arc)
+        .on("mousemove", (event, d) => {
+          const pct = (d.data.revenue / totalRev * 100).toFixed(1);
+          showTooltip(`
+            <div class="tt-title">${d.data[keyField]}</div>
+            <div class="tt-row"><span>Revenue:</span><span class="tt-val">${fmtFullCurrency(d.data.revenue)} (${pct}%)</span></div>
+            <div class="tt-row"><span>Profit:</span><span class="tt-val">${fmtFullCurrency(d.data.profit)}</span></div>
+            <div class="tt-row"><span>Orders / Accounts:</span><span class="tt-val">${d.data.orders} / ${d.data.customers}</span></div>
+          `, event);
+        })
+        .on("mouseleave", hideTooltip);
+
+      raw.slice(0, 6).forEach(item => {
+        const pct = (item.revenue / totalRev * 100).toFixed(1);
+        legend.append("div")
+          .attr("class", "legend-row")
+          .html(`
+            <div class="legend-left">
+              <span class="legend-swatch" style="background:${color(item[keyField])}"></span>
+              <span>${item[keyField]}</span>
+            </div>
+            <div class="legend-right">
+              <span style="color:#f8fafc;font-weight:700;">${fmtCurrency(item.revenue)}</span>
+              <span style="color:#94a3b8;margin-left:4px;">(${pct}%)</span>
+            </div>
+          `);
+      });
+    }
+
+    function renderCrmMonthlyTrend() {
+      const container = d3.select("#d3-crm-trend");
+      container.selectAll("*").remove();
+
+      const rect = container.node().getBoundingClientRect();
+      const width = Math.max(rect.width || 560, 380);
+      const height = 290;
+      const margin = { top: 20, right: 24, bottom: 45, left: 60 };
+      const innerW = width - margin.left - margin.right;
+      const innerH = height - margin.top - margin.bottom;
+
+      const trend = DATA.crm_monthly_trend;
+      const svg = container.append("svg").attr("width", width).attr("height", height);
+      const g = svg.append("g").attr("transform", `translate(${margin.left},${margin.top})`);
+
+      const x = d3.scalePoint().domain(trend.map(d => d["Order Month"])).range([0, innerW]).padding(0.2);
+      const y = d3.scaleLinear().domain([0, (d3.max(trend, d => d.revenue) || 1) * 1.12]).range([innerH, 0]);
+
+      g.append("g").attr("class", "grid-line").call(d3.axisLeft(y).ticks(5).tickSize(-innerW).tickFormat(""));
+      const tickM = trend.map(d => d["Order Month"]).filter((_, i) => i % 4 === 0);
+      g.append("g").attr("class", "axis").attr("transform", `translate(0,${innerH})`).call(d3.axisBottom(x).tickValues(tickM));
+      g.append("g").attr("class", "axis").call(d3.axisLeft(y).ticks(5).tickFormat(fmtCurrency));
+
+      const line = d3.line().x(d => x(d["Order Month"])).y(d => y(d.revenue)).curve(d3.curveMonotoneX);
+      g.append("path").datum(trend).attr("fill", "none").attr("stroke", "#a855f7").attr("stroke-width", 2.4).attr("d", line);
+
+      g.selectAll("circle")
+        .data(trend)
+        .join("circle")
+        .attr("cx", d => x(d["Order Month"]))
+        .attr("cy", d => y(d.revenue))
+        .attr("r", 3.5)
+        .attr("fill", "#c084fc")
+        .on("mousemove", (event, d) => {
+          showTooltip(`
+            <div class="tt-title">Order Month: ${d["Order Month"]}</div>
+            <div class="tt-row"><span>Revenue:</span><span class="tt-val">${fmtFullCurrency(d.revenue)}</span></div>
+            <div class="tt-row"><span>Profit:</span><span class="tt-val">${fmtFullCurrency(d.profit)}</span></div>
+            <div class="tt-row"><span>Orders:</span><span class="tt-val">${d.orders} Orders (${d.units} units)</span></div>
+          `, event);
+        })
+        .on("mouseleave", hideTooltip);
+    }
+
+    // =========================================================================
+    // TAB SWITCHING & MAIN RENDER LOOP
+    // =========================================================================
+    function switchTab(tabId, btn) {
+      document.querySelectorAll(".tab-pane").forEach(p => p.classList.remove("active"));
+      document.querySelectorAll(".nav-tab").forEach(b => b.classList.remove("active"));
+      document.getElementById("tab-" + tabId).classList.add("active");
+      btn.classList.add("active");
+
+      if (tabId === "inventory") {
+        renderInventoryDashboard();
+      } else if (tabId === "crm") {
+        renderCrmCharts();
+      }
+    }
+
+    function renderInventoryDashboard() {
+      const skus = getFilteredSKUs();
+      updateKpiCards(skus);
+      renderCategoryBarChart(skus);
+      renderInteractiveDonut(skus);
+      renderMonthlyTrend(skus);
+      renderWarehouseHeatmap(skus);
+      renderBubbleScatter(skus);
+      renderSupplierChart(skus);
+      renderSkuTable(skus);
+    }
+
+    window.addEventListener("DOMContentLoaded", () => {
+      initFilters();
+      renderInventoryDashboard();
+    });
+
+    window.addEventListener("resize", () => {
+      if (document.getElementById("tab-inventory").classList.contains("active")) {
+        renderInventoryDashboard();
+      } else if (document.getElementById("tab-crm").classList.contains("active")) {
+        renderCrmCharts();
+      }
+    });
+  </script>
+</body>
+</html>
