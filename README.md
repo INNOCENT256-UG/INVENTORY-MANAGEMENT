@@ -1,6 +1,6 @@
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&duration=3500&pause=1000&color=38BDF8&vCenter=true&width=820&height=55&lines=📦+Enterprise+Supply+Chain+%26+CRM+Revenue+BI+Suite;📊+Interactive+D3.js+v7+Analytics+%7C+Python+ETL+%7C+ABC-Pareto+Modeling)](https://github.com/INNOCENT256-UG)
 
-🔗 **[GitHub Profile](https://github.com/INNOCENT256-UG)** | 📊 **[Portfolio Repositories](https://github.com/INNOCENT256-UG?tab=repositories)**
+🔗 **[GitHub Profile](https://github.com/INNOCENT256-UG)** | 📊 **[Portfolio Repositories](https://github.com/INNOCENT256-UG?tab=repositories)** | 🚀 **[Live Interactive D3.js Dashboard](https://innocent256-ug.github.io/INVENTORY-MANAGEMENT/)**
 
 ![D3.js](https://img.shields.io/badge/D3.js_v7-F9A03C?style=for-the-badge&logo=d3.js&logoColor=white)
 ![Python](https://img.shields.io/badge/Python_3.x-3776AB?style=for-the-badge&logo=python&logoColor=white)
